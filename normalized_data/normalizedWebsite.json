@@ -1,0 +1,1360 @@
+{
+  "cleanDom": {
+    "section": {
+      "tag": "body",
+      "width": 1440,
+      "height": 1899.703125
+    },
+    "nodes": [
+      {
+        "id": "dom-node-0",
+        "name": "body#dom-node-0",
+        "type": "container",
+        "domTag": "body",
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 1899.703125,
+        "text": "",
+        "typography": null,
+        "layout": null,
+        "fill": {
+          "hex": "#ffffff",
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 0,
+        "parentId": null,
+        "source": "dom"
+      },
+      {
+        "id": "dom-node-1",
+        "name": "header#dom-node-1",
+        "type": "container",
+        "domTag": "header",
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 68,
+        "text": "",
+        "typography": null,
+        "layout": null,
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 1,
+        "parentId": "dom-node-0",
+        "source": "dom"
+      },
+      {
+        "id": "dom-node-2",
+        "name": "nav#dom-node-2",
+        "type": "container",
+        "domTag": "nav",
+        "x": 96,
+        "y": 20,
+        "w": 1248,
+        "h": 28,
+        "text": "",
+        "typography": null,
+        "layout": {
+          "direction": "row",
+          "gap": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "alignment": "flex-end",
+          "crossAlignment": "center"
+        },
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 2,
+        "parentId": "dom-node-1",
+        "source": "dom"
+      },
+      {
+        "id": "dom-node-3",
+        "name": "ul#dom-node-3",
+        "type": "container",
+        "domTag": "ul",
+        "x": 797.9375,
+        "y": 20,
+        "w": 546.0625,
+        "h": 28,
+        "text": "",
+        "typography": null,
+        "layout": {
+          "direction": "row",
+          "gap": 40,
+          "paddingTop": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "alignment": "normal",
+          "crossAlignment": "normal"
+        },
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 3,
+        "parentId": "dom-node-2",
+        "source": "dom"
+      },
+      {
+        "id": "dom-node-4",
+        "name": "li#dom-node-4",
+        "type": "text",
+        "domTag": "li",
+        "x": 797.9375,
+        "y": 20,
+        "w": 63.75,
+        "h": 28,
+        "text": "Home",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "lineHeight": null,
+          "letterSpacing": null,
+          "textAlign": "right",
+          "color": {
+            "hex": "#000000",
+            "opacity": 1
+          }
+        },
+        "layout": null,
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 4,
+        "parentId": "dom-node-3",
+        "source": "dom"
+      },
+      {
+        "id": "dom-node-5",
+        "name": "li#dom-node-5",
+        "type": "text",
+        "domTag": "li",
+        "x": 901.6875,
+        "y": 20,
+        "w": 89.578125,
+        "h": 28,
+        "text": "Services",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "lineHeight": null,
+          "letterSpacing": null,
+          "textAlign": "right",
+          "color": {
+            "hex": "#000000",
+            "opacity": 1
+          }
+        },
+        "layout": null,
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 4,
+        "parentId": "dom-node-3",
+        "source": "dom"
+      },
+      {
+        "id": "dom-node-6",
+        "name": "li#dom-node-6",
+        "type": "text",
+        "domTag": "li",
+        "x": 1031.265625,
+        "y": 20,
+        "w": 88.28125,
+        "h": 28,
+        "text": "Reviews",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "lineHeight": null,
+          "letterSpacing": null,
+          "textAlign": "right",
+          "color": {
+            "hex": "#000000",
+            "opacity": 1
+          }
+        },
+        "layout": null,
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 4,
+        "parentId": "dom-node-3",
+        "source": "dom"
+      },
+      {
+        "id": "dom-node-7",
+        "name": "li#dom-node-7",
+        "type": "text",
+        "domTag": "li",
+        "x": 1159.546875,
+        "y": 20,
+        "w": 60.5625,
+        "h": 28,
+        "text": "Menu",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "lineHeight": null,
+          "letterSpacing": null,
+          "textAlign": "right",
+          "color": {
+            "hex": "#000000",
+            "opacity": 1
+          }
+        },
+        "layout": null,
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 4,
+        "parentId": "dom-node-3",
+        "source": "dom"
+      },
+      {
+        "id": "dom-node-8",
+        "name": "li#dom-node-8",
+        "type": "text",
+        "domTag": "li",
+        "x": 1260.109375,
+        "y": 20,
+        "w": 83.890625,
+        "h": 28,
+        "text": "Contact",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "lineHeight": null,
+          "letterSpacing": null,
+          "textAlign": "right",
+          "color": {
+            "hex": "#000000",
+            "opacity": 1
+          }
+        },
+        "layout": null,
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 4,
+        "parentId": "dom-node-3",
+        "source": "dom"
+      },
+      {
+        "id": "dom-node-9",
+        "name": "section#dom-node-9",
+        "type": "container",
+        "domTag": "section",
+        "x": 96,
+        "y": 111,
+        "w": 1248,
+        "h": 749,
+        "text": "",
+        "typography": null,
+        "layout": {
+          "direction": "row",
+          "gap": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "alignment": "space-between",
+          "crossAlignment": "flex-start"
+        },
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 1,
+        "parentId": "dom-node-0",
+        "source": "dom"
+      },
+      {
+        "id": "dom-node-10",
+        "name": "div#dom-node-10",
+        "type": "container",
+        "domTag": "div",
+        "x": 96,
+        "y": 111,
+        "w": 601,
+        "h": 606,
+        "text": "",
+        "typography": null,
+        "layout": {
+          "direction": "column",
+          "gap": 67,
+          "paddingTop": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "alignment": "center",
+          "crossAlignment": "flex-start"
+        },
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 2,
+        "parentId": "dom-node-9",
+        "source": "dom"
+      },
+      {
+        "id": "dom-node-11",
+        "name": "div#dom-node-11",
+        "type": "container",
+        "domTag": "div",
+        "x": 96,
+        "y": 111,
+        "w": 64.796875,
+        "h": 30,
+        "text": "",
+        "typography": null,
+        "layout": null,
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 3,
+        "parentId": "dom-node-10",
+        "source": "dom"
+      },
+      {
+        "id": "dom-node-12",
+        "name": "span#dom-node-12",
+        "type": "text",
+        "domTag": "span",
+        "x": 96,
+        "y": 115,
+        "w": 18.328125,
+        "h": 25,
+        "text": "★",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 22,
+          "fontWeight": 400,
+          "lineHeight": null,
+          "letterSpacing": null,
+          "textAlign": "start",
+          "color": {
+            "hex": "#13c1f8",
+            "opacity": 1
+          }
+        },
+        "layout": null,
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 4,
+        "parentId": "dom-node-11",
+        "source": "dom"
+      },
+      {
+        "id": "dom-node-13",
+        "name": "span#dom-node-13",
+        "type": "text",
+        "domTag": "span",
+        "x": 119.234375,
+        "y": 115,
+        "w": 18.328125,
+        "h": 25,
+        "text": "★",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 22,
+          "fontWeight": 400,
+          "lineHeight": null,
+          "letterSpacing": null,
+          "textAlign": "start",
+          "color": {
+            "hex": "#f87700",
+            "opacity": 1
+          }
+        },
+        "layout": null,
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 4,
+        "parentId": "dom-node-11",
+        "source": "dom"
+      },
+      {
+        "id": "dom-node-14",
+        "name": "span#dom-node-14",
+        "type": "text",
+        "domTag": "span",
+        "x": 142.46875,
+        "y": 115,
+        "w": 18.328125,
+        "h": 25,
+        "text": "★",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 22,
+          "fontWeight": 400,
+          "lineHeight": null,
+          "letterSpacing": null,
+          "textAlign": "start",
+          "color": {
+            "hex": "#7553d7",
+            "opacity": 1
+          }
+        },
+        "layout": null,
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 4,
+        "parentId": "dom-node-11",
+        "source": "dom"
+      },
+      {
+        "id": "dom-node-15",
+        "name": "p#dom-node-15",
+        "type": "text",
+        "domTag": "p",
+        "x": 96,
+        "y": 208,
+        "w": 601,
+        "h": 204,
+        "text": "We are not just a bakery, we are not just bakers. In fact, we are just like you, a bunch\n      of food lovers fascinated with sweet indulgence, who dreamt of creating an appetizing\n      fairy land of divine delicacies that relishes the utmost desires.",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 30,
+          "fontWeight": 400,
+          "lineHeight": null,
+          "letterSpacing": null,
+          "textAlign": "start",
+          "color": {
+            "hex": "#000000",
+            "opacity": 1
+          }
+        },
+        "layout": null,
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 3,
+        "parentId": "dom-node-10",
+        "source": "dom"
+      },
+      {
+        "id": "dom-node-16",
+        "name": "p#dom-node-16",
+        "type": "text",
+        "domTag": "p",
+        "x": 96,
+        "y": 479,
+        "w": 494,
+        "h": 115,
+        "text": "Kindling it in the oven with our warmth and finally crafting the intricate creations in the\n      form of some lip-smacking, soul-satisfying desserts. Without any additives you'll find in\n      our products are an extra pitch of love, care and devotion!",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 20,
+          "fontWeight": 400,
+          "lineHeight": null,
+          "letterSpacing": null,
+          "textAlign": "start",
+          "color": {
+            "hex": "#000000",
+            "opacity": 1
+          }
+        },
+        "layout": null,
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 3,
+        "parentId": "dom-node-10",
+        "source": "dom"
+      },
+      {
+        "id": "dom-node-17",
+        "name": "button#dom-node-17",
+        "type": "text",
+        "domTag": "button",
+        "x": 96,
+        "y": 661,
+        "w": 212,
+        "h": 56,
+        "text": "Learn More",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 20,
+          "fontWeight": 400,
+          "lineHeight": null,
+          "letterSpacing": null,
+          "textAlign": "center",
+          "color": {
+            "hex": "#ffffff",
+            "opacity": 1
+          }
+        },
+        "layout": {
+          "direction": "row",
+          "gap": 0,
+          "paddingTop": 23,
+          "paddingBottom": 23,
+          "paddingLeft": 23,
+          "paddingRight": 23,
+          "alignment": "center",
+          "crossAlignment": "center"
+        },
+        "fill": {
+          "hex": "#f87700",
+          "opacity": 1
+        },
+        "borderRadius": 10,
+        "opacity": 1,
+        "depth": 3,
+        "parentId": "dom-node-10",
+        "source": "dom"
+      },
+      {
+        "id": "dom-node-18",
+        "name": "div#dom-node-18",
+        "type": "container",
+        "domTag": "div",
+        "x": 697,
+        "y": 111,
+        "w": 647,
+        "h": 749,
+        "text": "",
+        "typography": null,
+        "layout": null,
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 2,
+        "parentId": "dom-node-9",
+        "source": "dom"
+      },
+      {
+        "id": "dom-node-19",
+        "name": "div#dom-node-19",
+        "type": "container",
+        "domTag": "div",
+        "x": 714,
+        "y": 111,
+        "w": 630,
+        "h": 749,
+        "text": "",
+        "typography": null,
+        "layout": {
+          "direction": "column",
+          "gap": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "alignment": "normal",
+          "crossAlignment": "normal"
+        },
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 3,
+        "parentId": "dom-node-18",
+        "source": "dom"
+      },
+      {
+        "id": "dom-node-20",
+        "name": "div#dom-node-20",
+        "type": "container",
+        "domTag": "div",
+        "x": 714,
+        "y": 111,
+        "w": 630,
+        "h": 372,
+        "text": "",
+        "typography": null,
+        "layout": null,
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 4,
+        "parentId": "dom-node-19",
+        "source": "dom"
+      },
+      {
+        "id": "dom-node-21",
+        "name": "img#dom-node-21",
+        "type": "image",
+        "domTag": "img",
+        "x": 714,
+        "y": 111,
+        "w": 630,
+        "h": 372,
+        "text": "Cake Shop",
+        "typography": null,
+        "layout": null,
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 5,
+        "parentId": "dom-node-20",
+        "source": "dom"
+      },
+      {
+        "id": "dom-node-22",
+        "name": "div#dom-node-22",
+        "type": "container",
+        "domTag": "div",
+        "x": 714,
+        "y": 483,
+        "w": 630,
+        "h": 303,
+        "text": "",
+        "typography": null,
+        "layout": null,
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 4,
+        "parentId": "dom-node-19",
+        "source": "dom"
+      },
+      {
+        "id": "dom-node-23",
+        "name": "img#dom-node-23",
+        "type": "image",
+        "domTag": "img",
+        "x": 714,
+        "y": 483,
+        "w": 218,
+        "h": 303,
+        "text": "Shop",
+        "typography": null,
+        "layout": null,
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 5,
+        "parentId": "dom-node-22",
+        "source": "dom"
+      },
+      {
+        "id": "dom-node-24",
+        "name": "section#dom-node-24",
+        "type": "container",
+        "domTag": "section",
+        "x": 0,
+        "y": 900,
+        "w": 1440,
+        "h": 139.703125,
+        "text": "",
+        "typography": null,
+        "layout": null,
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 1,
+        "parentId": "dom-node-0",
+        "source": "dom"
+      },
+      {
+        "id": "dom-node-25",
+        "name": "img#dom-node-25",
+        "type": "image",
+        "domTag": "img",
+        "x": 0,
+        "y": 900,
+        "w": 1440,
+        "h": 139.703125,
+        "text": "Cake Banner",
+        "typography": null,
+        "layout": null,
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 2,
+        "parentId": "dom-node-24",
+        "source": "dom"
+      },
+      {
+        "id": "dom-node-26",
+        "name": "section#dom-node-26",
+        "type": "container",
+        "domTag": "section",
+        "x": 96,
+        "y": 1039.703125,
+        "w": 1248,
+        "h": 860,
+        "text": "",
+        "typography": null,
+        "layout": null,
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 1,
+        "parentId": "dom-node-0",
+        "source": "dom"
+      },
+      {
+        "id": "dom-node-27",
+        "name": "div#dom-node-27",
+        "type": "container",
+        "domTag": "div",
+        "x": 96,
+        "y": 1092.703125,
+        "w": 1248,
+        "h": 588,
+        "text": "",
+        "typography": null,
+        "layout": {
+          "direction": "row",
+          "gap": 40,
+          "paddingTop": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "alignment": "normal",
+          "crossAlignment": "normal"
+        },
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 2,
+        "parentId": "dom-node-26",
+        "source": "dom"
+      },
+      {
+        "id": "dom-node-28",
+        "name": "div#dom-node-28",
+        "type": "container",
+        "domTag": "div",
+        "x": 191.5,
+        "y": 1092.703125,
+        "w": 225,
+        "h": 274,
+        "text": "",
+        "typography": null,
+        "layout": {
+          "direction": "column",
+          "gap": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "alignment": "normal",
+          "crossAlignment": "center"
+        },
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 3,
+        "parentId": "dom-node-27",
+        "source": "dom"
+      },
+      {
+        "id": "dom-node-29",
+        "name": "img#dom-node-29",
+        "type": "image",
+        "domTag": "img",
+        "x": 191.5,
+        "y": 1092.703125,
+        "w": 225,
+        "h": 241,
+        "text": "Chocolate Cake",
+        "typography": null,
+        "layout": null,
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 4,
+        "parentId": "dom-node-28",
+        "source": "dom"
+      },
+      {
+        "id": "dom-node-30",
+        "name": "p#dom-node-30",
+        "type": "text",
+        "domTag": "p",
+        "x": 235.640625,
+        "y": 1343.703125,
+        "w": 136.703125,
+        "h": 23,
+        "text": "Chocolate Cake",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 20,
+          "fontWeight": 400,
+          "lineHeight": null,
+          "letterSpacing": null,
+          "textAlign": "center",
+          "color": {
+            "hex": "#000000",
+            "opacity": 1
+          }
+        },
+        "layout": null,
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 4,
+        "parentId": "dom-node-28",
+        "source": "dom"
+      },
+      {
+        "id": "dom-node-31",
+        "name": "div#dom-node-31",
+        "type": "container",
+        "domTag": "div",
+        "x": 612.5,
+        "y": 1092.703125,
+        "w": 215,
+        "h": 274,
+        "text": "",
+        "typography": null,
+        "layout": {
+          "direction": "column",
+          "gap": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "alignment": "normal",
+          "crossAlignment": "center"
+        },
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 3,
+        "parentId": "dom-node-27",
+        "source": "dom"
+      },
+      {
+        "id": "dom-node-32",
+        "name": "img#dom-node-32",
+        "type": "image",
+        "domTag": "img",
+        "x": 612.5,
+        "y": 1092.703125,
+        "w": 215,
+        "h": 241,
+        "text": "Oreo Cake",
+        "typography": null,
+        "layout": null,
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 4,
+        "parentId": "dom-node-31",
+        "source": "dom"
+      },
+      {
+        "id": "dom-node-33",
+        "name": "p#dom-node-33",
+        "type": "text",
+        "domTag": "p",
+        "x": 674.0625,
+        "y": 1343.703125,
+        "w": 91.875,
+        "h": 23,
+        "text": "Oreo Cake",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 20,
+          "fontWeight": 400,
+          "lineHeight": null,
+          "letterSpacing": null,
+          "textAlign": "center",
+          "color": {
+            "hex": "#000000",
+            "opacity": 1
+          }
+        },
+        "layout": null,
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 4,
+        "parentId": "dom-node-31",
+        "source": "dom"
+      },
+      {
+        "id": "dom-node-34",
+        "name": "div#dom-node-34",
+        "type": "container",
+        "domTag": "div",
+        "x": 1028.5,
+        "y": 1092.703125,
+        "w": 215,
+        "h": 274,
+        "text": "",
+        "typography": null,
+        "layout": {
+          "direction": "column",
+          "gap": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "alignment": "normal",
+          "crossAlignment": "center"
+        },
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 3,
+        "parentId": "dom-node-27",
+        "source": "dom"
+      },
+      {
+        "id": "dom-node-35",
+        "name": "img#dom-node-35",
+        "type": "image",
+        "domTag": "img",
+        "x": 1028.5,
+        "y": 1092.703125,
+        "w": 215,
+        "h": 241,
+        "text": "Pinata Cake",
+        "typography": null,
+        "layout": null,
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 4,
+        "parentId": "dom-node-34",
+        "source": "dom"
+      },
+      {
+        "id": "dom-node-36",
+        "name": "p#dom-node-36",
+        "type": "text",
+        "domTag": "p",
+        "x": 1083.390625,
+        "y": 1343.703125,
+        "w": 105.203125,
+        "h": 23,
+        "text": "Pinata Cake",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 20,
+          "fontWeight": 400,
+          "lineHeight": null,
+          "letterSpacing": null,
+          "textAlign": "center",
+          "color": {
+            "hex": "#000000",
+            "opacity": 1
+          }
+        },
+        "layout": null,
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 4,
+        "parentId": "dom-node-34",
+        "source": "dom"
+      },
+      {
+        "id": "dom-node-37",
+        "name": "div#dom-node-37",
+        "type": "container",
+        "domTag": "div",
+        "x": 191,
+        "y": 1406.703125,
+        "w": 226,
+        "h": 274,
+        "text": "",
+        "typography": null,
+        "layout": {
+          "direction": "column",
+          "gap": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "alignment": "normal",
+          "crossAlignment": "center"
+        },
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 3,
+        "parentId": "dom-node-27",
+        "source": "dom"
+      },
+      {
+        "id": "dom-node-38",
+        "name": "img#dom-node-38",
+        "type": "image",
+        "domTag": "img",
+        "x": 191,
+        "y": 1406.703125,
+        "w": 226,
+        "h": 241,
+        "text": "Black Forest",
+        "typography": null,
+        "layout": null,
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 4,
+        "parentId": "dom-node-37",
+        "source": "dom"
+      },
+      {
+        "id": "dom-node-39",
+        "name": "p#dom-node-39",
+        "type": "text",
+        "domTag": "p",
+        "x": 249.75,
+        "y": 1657.703125,
+        "w": 108.484375,
+        "h": 23,
+        "text": "Black Forest",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 20,
+          "fontWeight": 400,
+          "lineHeight": null,
+          "letterSpacing": null,
+          "textAlign": "center",
+          "color": {
+            "hex": "#000000",
+            "opacity": 1
+          }
+        },
+        "layout": null,
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 4,
+        "parentId": "dom-node-37",
+        "source": "dom"
+      },
+      {
+        "id": "dom-node-40",
+        "name": "div#dom-node-40",
+        "type": "container",
+        "domTag": "div",
+        "x": 612.5,
+        "y": 1406.703125,
+        "w": 215,
+        "h": 274,
+        "text": "",
+        "typography": null,
+        "layout": {
+          "direction": "column",
+          "gap": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "alignment": "normal",
+          "crossAlignment": "center"
+        },
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 3,
+        "parentId": "dom-node-27",
+        "source": "dom"
+      },
+      {
+        "id": "dom-node-41",
+        "name": "img#dom-node-41",
+        "type": "image",
+        "domTag": "img",
+        "x": 612.5,
+        "y": 1406.703125,
+        "w": 215,
+        "h": 241,
+        "text": "Vanilla Strawberry",
+        "typography": null,
+        "layout": null,
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 4,
+        "parentId": "dom-node-40",
+        "source": "dom"
+      },
+      {
+        "id": "dom-node-42",
+        "name": "p#dom-node-42",
+        "type": "text",
+        "domTag": "p",
+        "x": 637.03125,
+        "y": 1657.703125,
+        "w": 165.921875,
+        "h": 23,
+        "text": "Vanilla Strawberry",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 20,
+          "fontWeight": 400,
+          "lineHeight": null,
+          "letterSpacing": null,
+          "textAlign": "center",
+          "color": {
+            "hex": "#000000",
+            "opacity": 1
+          }
+        },
+        "layout": null,
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 4,
+        "parentId": "dom-node-40",
+        "source": "dom"
+      },
+      {
+        "id": "dom-node-43",
+        "name": "div#dom-node-43",
+        "type": "container",
+        "domTag": "div",
+        "x": 1028.5,
+        "y": 1406.703125,
+        "w": 215,
+        "h": 274,
+        "text": "",
+        "typography": null,
+        "layout": {
+          "direction": "column",
+          "gap": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "alignment": "normal",
+          "crossAlignment": "center"
+        },
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 3,
+        "parentId": "dom-node-27",
+        "source": "dom"
+      },
+      {
+        "id": "dom-node-44",
+        "name": "img#dom-node-44",
+        "type": "image",
+        "domTag": "img",
+        "x": 1028.5,
+        "y": 1406.703125,
+        "w": 215,
+        "h": 241,
+        "text": "Red Velvet",
+        "typography": null,
+        "layout": null,
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 4,
+        "parentId": "dom-node-43",
+        "source": "dom"
+      },
+      {
+        "id": "dom-node-45",
+        "name": "p#dom-node-45",
+        "type": "text",
+        "domTag": "p",
+        "x": 1089.328125,
+        "y": 1657.703125,
+        "w": 93.328125,
+        "h": 23,
+        "text": "Red Velvet",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 20,
+          "fontWeight": 400,
+          "lineHeight": null,
+          "letterSpacing": null,
+          "textAlign": "center",
+          "color": {
+            "hex": "#000000",
+            "opacity": 1
+          }
+        },
+        "layout": null,
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 4,
+        "parentId": "dom-node-43",
+        "source": "dom"
+      },
+      {
+        "id": "dom-node-46",
+        "name": "button#dom-node-46",
+        "type": "text",
+        "domTag": "button",
+        "x": 630,
+        "y": 1720.703125,
+        "w": 180,
+        "h": 50,
+        "text": "Back",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 18,
+          "fontWeight": 400,
+          "lineHeight": null,
+          "letterSpacing": null,
+          "textAlign": "center",
+          "color": {
+            "hex": "#ffffff",
+            "opacity": 1
+          }
+        },
+        "layout": null,
+        "fill": {
+          "hex": "#f87700",
+          "opacity": 1
+        },
+        "borderRadius": 10,
+        "opacity": 1,
+        "depth": 2,
+        "parentId": "dom-node-26",
+        "source": "dom"
+      }
+    ]
+  }
+}

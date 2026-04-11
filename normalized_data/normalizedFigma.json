@@ -1,0 +1,892 @@
+{
+  "cleanFigma": {
+    "frame": {
+      "id": "112:57",
+      "name": "Frame 4",
+      "width": 1440,
+      "height": 2048
+    },
+    "nodes": [
+      {
+        "id": "112:57",
+        "name": "Frame 4",
+        "type": "container",
+        "figmaType": "FRAME",
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 2048,
+        "text": "",
+        "typography": null,
+        "layout": null,
+        "fill": {
+          "hex": "#ffffff",
+          "opacity": 1
+        },
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 0,
+        "parentId": null,
+        "source": "figma"
+      },
+      {
+        "id": "102:2",
+        "name": "Desktop - 2",
+        "type": "container",
+        "figmaType": "FRAME",
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 1024,
+        "text": "",
+        "typography": null,
+        "layout": null,
+        "fill": {
+          "hex": "#ffffff",
+          "opacity": 1
+        },
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 1,
+        "parentId": "112:57",
+        "source": "figma"
+      },
+      {
+        "id": "102:3",
+        "name": "Frame 2",
+        "type": "container",
+        "figmaType": "FRAME",
+        "x": 653,
+        "y": 53,
+        "w": 738,
+        "h": 749,
+        "text": "",
+        "typography": null,
+        "layout": null,
+        "fill": null,
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 2,
+        "parentId": "102:2",
+        "source": "figma"
+      },
+      {
+        "id": "102:4",
+        "name": "cake shop 1",
+        "type": "container",
+        "figmaType": "RECTANGLE",
+        "x": 761,
+        "y": 127,
+        "w": 630,
+        "h": 372,
+        "text": "",
+        "typography": null,
+        "layout": null,
+        "fill": null,
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 3,
+        "parentId": "102:3",
+        "source": "figma"
+      },
+      {
+        "id": "102:5",
+        "name": "shop 1",
+        "type": "container",
+        "figmaType": "RECTANGLE",
+        "x": 761,
+        "y": 499,
+        "w": 218,
+        "h": 303,
+        "text": "",
+        "typography": null,
+        "layout": null,
+        "fill": null,
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 3,
+        "parentId": "102:3",
+        "source": "figma"
+      },
+      {
+        "id": "102:6",
+        "name": "Group 2",
+        "type": "container",
+        "figmaType": "GROUP",
+        "x": 761,
+        "y": 53,
+        "w": 629,
+        "h": 29,
+        "text": "",
+        "typography": null,
+        "layout": null,
+        "fill": null,
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 3,
+        "parentId": "102:3",
+        "source": "figma"
+      },
+      {
+        "id": "102:7",
+        "name": "Home",
+        "type": "text",
+        "figmaType": "TEXT",
+        "x": 761,
+        "y": 53,
+        "w": 77,
+        "h": 29,
+        "text": "Home",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "lineHeight": 27.43199920654297,
+          "letterSpacing": 0,
+          "textAlign": "right",
+          "color": {
+            "hex": "#000000",
+            "opacity": 1
+          }
+        },
+        "layout": null,
+        "fill": {
+          "hex": "#000000",
+          "opacity": 1
+        },
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 4,
+        "parentId": "102:6",
+        "source": "figma"
+      },
+      {
+        "id": "102:8",
+        "name": "Services",
+        "type": "text",
+        "figmaType": "TEXT",
+        "x": 878,
+        "y": 53,
+        "w": 109,
+        "h": 29,
+        "text": "Services",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "lineHeight": 27.43199920654297,
+          "letterSpacing": 0,
+          "textAlign": "right",
+          "color": {
+            "hex": "#000000",
+            "opacity": 1
+          }
+        },
+        "layout": null,
+        "fill": {
+          "hex": "#000000",
+          "opacity": 1
+        },
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 4,
+        "parentId": "102:6",
+        "source": "figma"
+      },
+      {
+        "id": "102:9",
+        "name": "Reviews",
+        "type": "text",
+        "figmaType": "TEXT",
+        "x": 1027,
+        "y": 53,
+        "w": 107,
+        "h": 29,
+        "text": "Reviews",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "lineHeight": 27.43199920654297,
+          "letterSpacing": 0,
+          "textAlign": "right",
+          "color": {
+            "hex": "#000000",
+            "opacity": 1
+          }
+        },
+        "layout": null,
+        "fill": {
+          "hex": "#000000",
+          "opacity": 1
+        },
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 4,
+        "parentId": "102:6",
+        "source": "figma"
+      },
+      {
+        "id": "102:10",
+        "name": "Menu",
+        "type": "text",
+        "figmaType": "TEXT",
+        "x": 1174,
+        "y": 53,
+        "w": 74,
+        "h": 29,
+        "text": "Menu",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "lineHeight": 27.43199920654297,
+          "letterSpacing": 0,
+          "textAlign": "right",
+          "color": {
+            "hex": "#000000",
+            "opacity": 1
+          }
+        },
+        "layout": null,
+        "fill": {
+          "hex": "#000000",
+          "opacity": 1
+        },
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 4,
+        "parentId": "102:6",
+        "source": "figma"
+      },
+      {
+        "id": "102:11",
+        "name": "Contact",
+        "type": "text",
+        "figmaType": "TEXT",
+        "x": 1288,
+        "y": 53,
+        "w": 102,
+        "h": 29,
+        "text": "Contact",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "lineHeight": 27.43199920654297,
+          "letterSpacing": 0,
+          "textAlign": "right",
+          "color": {
+            "hex": "#000000",
+            "opacity": 1
+          }
+        },
+        "layout": null,
+        "fill": {
+          "hex": "#000000",
+          "opacity": 1
+        },
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 4,
+        "parentId": "102:6",
+        "source": "figma"
+      },
+      {
+        "id": "4:28",
+        "name": "Frame 1",
+        "type": "container",
+        "figmaType": "FRAME",
+        "x": 52,
+        "y": 43,
+        "w": 601,
+        "h": 645,
+        "text": "",
+        "typography": null,
+        "layout": null,
+        "fill": null,
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 2,
+        "parentId": "102:2",
+        "source": "figma"
+      },
+      {
+        "id": "2:11",
+        "name": "Group 1",
+        "type": "container",
+        "figmaType": "GROUP",
+        "x": 52,
+        "y": 43,
+        "w": 180,
+        "h": 69.00000762939453,
+        "text": "",
+        "typography": null,
+        "layout": null,
+        "fill": null,
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 3,
+        "parentId": "4:28",
+        "source": "figma"
+      },
+      {
+        "id": "4:29",
+        "name": "button",
+        "type": "container",
+        "figmaType": "COMPONENT",
+        "x": 52,
+        "y": 632,
+        "w": 212,
+        "h": 56,
+        "text": "",
+        "typography": null,
+        "layout": {
+          "direction": "row",
+          "gap": 15,
+          "paddingTop": 23,
+          "paddingBottom": 23,
+          "paddingLeft": 23,
+          "paddingRight": 23,
+          "alignment": "CENTER",
+          "crossAlignment": "CENTER"
+        },
+        "fill": {
+          "hex": "#f87700",
+          "opacity": 1
+        },
+        "borderRadius": 10,
+        "opacity": 1,
+        "depth": 3,
+        "parentId": "4:28",
+        "source": "figma"
+      },
+      {
+        "id": "4:27",
+        "name": "Learn More",
+        "type": "text",
+        "figmaType": "TEXT",
+        "x": 81,
+        "y": 643,
+        "w": 154,
+        "h": 34,
+        "text": "Learn More",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 30,
+          "fontWeight": 400,
+          "lineHeight": 34.290000915527344,
+          "letterSpacing": 0,
+          "textAlign": "left",
+          "color": {
+            "hex": "#000000",
+            "opacity": 1
+          }
+        },
+        "layout": null,
+        "fill": {
+          "hex": "#000000",
+          "opacity": 1
+        },
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 4,
+        "parentId": "4:29",
+        "source": "figma"
+      },
+      {
+        "id": "4:25",
+        "name": "Kindling it in the oven with our warmth and finally crafting the intricate creations in the form of some lip-smacking cakes, which are out of this world! The only additives you’ll find in our products are an extra pinch of love, care and devotion!",
+        "type": "text",
+        "figmaType": "TEXT",
+        "x": 52,
+        "y": 450,
+        "w": 494,
+        "h": 115,
+        "text": "Kindling it in the oven with our warmth and finally crafting the intricate creations in the form of some lip-smacking cakes, which are out of this world! The only additives you’ll find in our products are an extra pinch of love, care and devotion!",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 20,
+          "fontWeight": 400,
+          "lineHeight": 22.860000610351562,
+          "letterSpacing": 0,
+          "textAlign": "left",
+          "color": {
+            "hex": "#000000",
+            "opacity": 1
+          }
+        },
+        "layout": null,
+        "fill": {
+          "hex": "#000000",
+          "opacity": 1
+        },
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 3,
+        "parentId": "4:28",
+        "source": "figma"
+      },
+      {
+        "id": "3:14",
+        "name": "We are not just a bakery, we are not just bakers. In fact, we are just like you, a bunch of food lovers fascinated with sweet indulgence, who dreamt of creating an appetizing fairy land of divine delicacies that relishes the utmost desires.",
+        "type": "text",
+        "figmaType": "TEXT",
+        "x": 52,
+        "y": 179,
+        "w": 601,
+        "h": 204,
+        "text": "We are not just a bakery, we are not just bakers. In fact, we are just like you, a bunch of food lovers fascinated with sweet indulgence, who dreamt of creating an appetizing fairy land of divine delicacies that relishes the utmost desires.",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 30,
+          "fontWeight": 400,
+          "lineHeight": 34.290000915527344,
+          "letterSpacing": 0,
+          "textAlign": "left",
+          "color": {
+            "hex": "#000000",
+            "opacity": 1
+          }
+        },
+        "layout": null,
+        "fill": {
+          "hex": "#000000",
+          "opacity": 1
+        },
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 3,
+        "parentId": "4:28",
+        "source": "figma"
+      },
+      {
+        "id": "4:30",
+        "name": "Desktop - 2",
+        "type": "container",
+        "figmaType": "FRAME",
+        "x": 0,
+        "y": 895,
+        "w": 1440,
+        "h": 1024,
+        "text": "",
+        "typography": null,
+        "layout": null,
+        "fill": {
+          "hex": "#ffffff",
+          "opacity": 1
+        },
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 1,
+        "parentId": "112:57",
+        "source": "figma"
+      },
+      {
+        "id": "4:51",
+        "name": "Cake-banner 1",
+        "type": "container",
+        "figmaType": "RECTANGLE",
+        "x": 0,
+        "y": 895,
+        "w": 1440,
+        "h": 243,
+        "text": "",
+        "typography": null,
+        "layout": null,
+        "fill": null,
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 2,
+        "parentId": "4:30",
+        "source": "figma"
+      },
+      {
+        "id": "4:52",
+        "name": "chocolate-cake 1",
+        "type": "container",
+        "figmaType": "RECTANGLE",
+        "x": 131,
+        "y": 1166,
+        "w": 225,
+        "h": 241,
+        "text": "",
+        "typography": null,
+        "layout": null,
+        "fill": null,
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 2,
+        "parentId": "4:30",
+        "source": "figma"
+      },
+      {
+        "id": "4:53",
+        "name": "New_Oreo-Cake-1 1",
+        "type": "container",
+        "figmaType": "RECTANGLE",
+        "x": 623,
+        "y": 1166,
+        "w": 215,
+        "h": 241,
+        "text": "",
+        "typography": null,
+        "layout": null,
+        "fill": null,
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 2,
+        "parentId": "4:30",
+        "source": "figma"
+      },
+      {
+        "id": "4:54",
+        "name": "WhatsAppImage2022-05-18at2.13 1",
+        "type": "container",
+        "figmaType": "RECTANGLE",
+        "x": 1083,
+        "y": 1166,
+        "w": 215,
+        "h": 241,
+        "text": "",
+        "typography": null,
+        "layout": null,
+        "fill": null,
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 2,
+        "parentId": "4:30",
+        "source": "figma"
+      },
+      {
+        "id": "4:55",
+        "name": "Chocolate Cake",
+        "type": "text",
+        "figmaType": "TEXT",
+        "x": 141,
+        "y": 1407,
+        "w": 206,
+        "h": 31,
+        "text": "Chocolate Cake",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 27,
+          "fontWeight": 400,
+          "lineHeight": 30.861000061035156,
+          "letterSpacing": 0,
+          "textAlign": "center",
+          "color": {
+            "hex": "#000000",
+            "opacity": 1
+          }
+        },
+        "layout": null,
+        "fill": {
+          "hex": "#000000",
+          "opacity": 1
+        },
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 2,
+        "parentId": "4:30",
+        "source": "figma"
+      },
+      {
+        "id": "4:56",
+        "name": "Oreo Cake",
+        "type": "text",
+        "figmaType": "TEXT",
+        "x": 662,
+        "y": 1407,
+        "w": 138,
+        "h": 31,
+        "text": "Oreo Cake",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 27,
+          "fontWeight": 400,
+          "lineHeight": 30.861000061035156,
+          "letterSpacing": 0,
+          "textAlign": "center",
+          "color": {
+            "hex": "#000000",
+            "opacity": 1
+          }
+        },
+        "layout": null,
+        "fill": {
+          "hex": "#000000",
+          "opacity": 1
+        },
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 2,
+        "parentId": "4:30",
+        "source": "figma"
+      },
+      {
+        "id": "4:57",
+        "name": "Pinata Cake",
+        "type": "text",
+        "figmaType": "TEXT",
+        "x": 1112,
+        "y": 1407,
+        "w": 158,
+        "h": 31,
+        "text": "Pinata Cake",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 27,
+          "fontWeight": 400,
+          "lineHeight": 30.861000061035156,
+          "letterSpacing": 0,
+          "textAlign": "center",
+          "color": {
+            "hex": "#000000",
+            "opacity": 1
+          }
+        },
+        "layout": null,
+        "fill": {
+          "hex": "#000000",
+          "opacity": 1
+        },
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 2,
+        "parentId": "4:30",
+        "source": "figma"
+      },
+      {
+        "id": "5:58",
+        "name": "black-forest-cake-thumb 1",
+        "type": "container",
+        "figmaType": "RECTANGLE",
+        "x": 131,
+        "y": 1526,
+        "w": 226,
+        "h": 241,
+        "text": "",
+        "typography": null,
+        "layout": null,
+        "fill": null,
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 2,
+        "parentId": "4:30",
+        "source": "figma"
+      },
+      {
+        "id": "5:59",
+        "name": "Funfetti-cake-recipe-new-500x500 1",
+        "type": "container",
+        "figmaType": "RECTANGLE",
+        "x": 628,
+        "y": 1526,
+        "w": 215,
+        "h": 241,
+        "text": "",
+        "typography": null,
+        "layout": null,
+        "fill": null,
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 2,
+        "parentId": "4:30",
+        "source": "figma"
+      },
+      {
+        "id": "5:60",
+        "name": "valentine-s-heart-red-velvet-cake-1-kg_1 1",
+        "type": "container",
+        "figmaType": "RECTANGLE",
+        "x": 1083,
+        "y": 1526,
+        "w": 215,
+        "h": 241,
+        "text": "",
+        "typography": null,
+        "layout": null,
+        "fill": null,
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 2,
+        "parentId": "4:30",
+        "source": "figma"
+      },
+      {
+        "id": "5:61",
+        "name": "Black Forest",
+        "type": "text",
+        "figmaType": "TEXT",
+        "x": 170,
+        "y": 1787,
+        "w": 147,
+        "h": 31,
+        "text": "Black Forest",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 27,
+          "fontWeight": 400,
+          "lineHeight": 30.861000061035156,
+          "letterSpacing": 0,
+          "textAlign": "center",
+          "color": {
+            "hex": "#000000",
+            "opacity": 1
+          }
+        },
+        "layout": null,
+        "fill": {
+          "hex": "#000000",
+          "opacity": 1
+        },
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 2,
+        "parentId": "4:30",
+        "source": "figma"
+      },
+      {
+        "id": "5:62",
+        "name": "Vanilla Strawberry",
+        "type": "text",
+        "figmaType": "TEXT",
+        "x": 623,
+        "y": 1787,
+        "w": 224,
+        "h": 31,
+        "text": "Vanilla Strawberry",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 27,
+          "fontWeight": 400,
+          "lineHeight": 30.861000061035156,
+          "letterSpacing": 0,
+          "textAlign": "center",
+          "color": {
+            "hex": "#000000",
+            "opacity": 1
+          }
+        },
+        "layout": null,
+        "fill": {
+          "hex": "#000000",
+          "opacity": 1
+        },
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 2,
+        "parentId": "4:30",
+        "source": "figma"
+      },
+      {
+        "id": "5:63",
+        "name": "Red Velvet",
+        "type": "text",
+        "figmaType": "TEXT",
+        "x": 1128,
+        "y": 1787,
+        "w": 126,
+        "h": 31,
+        "text": "Red Velvet",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 27,
+          "fontWeight": 400,
+          "lineHeight": 30.861000061035156,
+          "letterSpacing": 0,
+          "textAlign": "center",
+          "color": {
+            "hex": "#000000",
+            "opacity": 1
+          }
+        },
+        "layout": null,
+        "fill": {
+          "hex": "#000000",
+          "opacity": 1
+        },
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 2,
+        "parentId": "4:30",
+        "source": "figma"
+      },
+      {
+        "id": "5:90",
+        "name": "Group 3",
+        "type": "container",
+        "figmaType": "GROUP",
+        "x": 656,
+        "y": 1838,
+        "w": 180,
+        "h": 50,
+        "text": "",
+        "typography": null,
+        "layout": null,
+        "fill": null,
+        "borderRadius": 10,
+        "opacity": 1,
+        "depth": 2,
+        "parentId": "4:30",
+        "source": "figma"
+      },
+      {
+        "id": "5:76",
+        "name": "back button",
+        "type": "container",
+        "figmaType": "RECTANGLE",
+        "x": 656,
+        "y": 1838,
+        "w": 180,
+        "h": 50,
+        "text": "",
+        "typography": null,
+        "layout": null,
+        "fill": {
+          "hex": "#f87700",
+          "opacity": 1
+        },
+        "borderRadius": 10,
+        "opacity": 1,
+        "depth": 3,
+        "parentId": "5:90",
+        "source": "figma"
+      },
+      {
+        "id": "5:77",
+        "name": "Back",
+        "type": "text",
+        "figmaType": "TEXT",
+        "x": 716,
+        "y": 1851,
+        "w": 59,
+        "h": 31,
+        "text": "Back",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 27,
+          "fontWeight": 400,
+          "lineHeight": 30.861000061035156,
+          "letterSpacing": 0,
+          "textAlign": "center",
+          "color": {
+            "hex": "#000000",
+            "opacity": 1
+          }
+        },
+        "layout": null,
+        "fill": {
+          "hex": "#000000",
+          "opacity": 1
+        },
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 3,
+        "parentId": "5:90",
+        "source": "figma"
+      }
+    ]
+  }
+}
