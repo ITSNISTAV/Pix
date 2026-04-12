@@ -13,7 +13,7 @@ app.get('/normalizeFigma', async (req, res) => {
     try {
         const cleanFigma = await normalizeFigmaFrame(figmaData);
         // const cleanDom=await normalizeDomTree(domData);
-       await fs.writeFileSync('./normalized_data/normalizedFigma.json', JSON.stringify({ cleanFigma }, null, 2));
+        await fs.writeFileSync('./normalized_data/normalizedFigma.json', JSON.stringify({ cleanFigma }, null, 2));
         // await fs.writeFileSync('./normalized_data/normalizedWebsite.json', JSON.stringify({ cleanDom}, null, 2));
         res.status(200).json({ "message": "process went smooD" });
     } catch (error) {
