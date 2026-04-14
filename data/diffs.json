@@ -1,0 +1,1205 @@
+{
+  "diffs": [
+    {
+      "figmaId": "4:27",
+      "domId": "dom-node-17",
+      "figmaName": "Learn More",
+      "domTag": "button",
+      "matchedBy": "iou",
+      "isComposite": false,
+      "scores": {
+        "overall": 0.4687,
+        "geometry": 0.4882,
+        "typography": 0.5833,
+        "color": 0.15,
+        "spacing": 0.7
+      },
+      "issues": [
+        {
+          "property": "width",
+          "figmaVal": 154,
+          "domVal": 212,
+          "delta": -58,
+          "severity": "critical"
+        },
+        {
+          "property": "height",
+          "figmaVal": 34,
+          "domVal": 56,
+          "delta": -22,
+          "severity": "critical"
+        },
+        {
+          "property": "fontSize",
+          "figmaVal": "30px",
+          "domVal": "20px",
+          "delta": 10,
+          "severity": "critical"
+        },
+        {
+          "property": "textColor",
+          "figmaVal": "#000000",
+          "domVal": "#ffffff",
+          "delta": null,
+          "severity": "critical"
+        },
+        {
+          "property": "backgroundColor",
+          "figmaVal": "#000000",
+          "domVal": "#f87700",
+          "delta": null,
+          "severity": "critical"
+        },
+        {
+          "property": "borderRadius",
+          "figmaVal": "0px",
+          "domVal": "10px",
+          "delta": -10,
+          "severity": "critical"
+        },
+        {
+          "property": "textAlign",
+          "figmaVal": "left",
+          "domVal": "center",
+          "delta": null,
+          "severity": "minor"
+        },
+        {
+          "property": "layout",
+          "figmaVal": "block",
+          "domVal": "flex",
+          "delta": null,
+          "severity": "minor"
+        },
+        {
+          "property": "position",
+          "figmaVal": "x:81 y:643",
+          "domVal": "x:96.0 y:661.0",
+          "delta": "dx:-15.0 dy:-18.0",
+          "severity": "info"
+        }
+      ],
+      "issueCount": 8
+    },
+    {
+      "figmaId": "5:63",
+      "domId": "dom-node-44",
+      "figmaName": "Red Velvet",
+      "domTag": "img",
+      "matchedBy": "text-anchor",
+      "isComposite": false,
+      "scores": {
+        "overall": 0.5367,
+        "geometry": 0.1468,
+        "typography": 0.5,
+        "color": 0.7,
+        "spacing": 0
+      },
+      "issues": [
+        {
+          "property": "width",
+          "figmaVal": 126,
+          "domVal": 215,
+          "delta": -89,
+          "severity": "critical"
+        },
+        {
+          "property": "height",
+          "figmaVal": 31,
+          "domVal": 241,
+          "delta": -210,
+          "severity": "critical"
+        },
+        {
+          "property": "typography",
+          "figmaVal": "present",
+          "domVal": "missing",
+          "delta": null,
+          "severity": "moderate"
+        },
+        {
+          "property": "backgroundColor",
+          "figmaVal": "#000000",
+          "domVal": "none",
+          "delta": null,
+          "severity": "moderate"
+        },
+        {
+          "property": "position",
+          "figmaVal": "x:1128 y:1787",
+          "domVal": "x:1028.5 y:1406.7",
+          "delta": "dx:99.5 dy:380.3",
+          "severity": "info"
+        }
+      ],
+      "issueCount": 4
+    },
+    {
+      "figmaId": "4:57",
+      "domId": "dom-node-35",
+      "figmaName": "Pinata Cake",
+      "domTag": "img",
+      "matchedBy": "text-anchor",
+      "isComposite": false,
+      "scores": {
+        "overall": 0.5799,
+        "geometry": 0.3196,
+        "typography": 0.5,
+        "color": 0.7,
+        "spacing": 0
+      },
+      "issues": [
+        {
+          "property": "width",
+          "figmaVal": 158,
+          "domVal": 215,
+          "delta": -57,
+          "severity": "critical"
+        },
+        {
+          "property": "height",
+          "figmaVal": 31,
+          "domVal": 241,
+          "delta": -210,
+          "severity": "critical"
+        },
+        {
+          "property": "typography",
+          "figmaVal": "present",
+          "domVal": "missing",
+          "delta": null,
+          "severity": "moderate"
+        },
+        {
+          "property": "backgroundColor",
+          "figmaVal": "#000000",
+          "domVal": "none",
+          "delta": null,
+          "severity": "moderate"
+        },
+        {
+          "property": "position",
+          "figmaVal": "x:1112 y:1407",
+          "domVal": "x:1028.5 y:1092.7",
+          "delta": "dx:83.5 dy:314.3",
+          "severity": "info"
+        }
+      ],
+      "issueCount": 4
+    },
+    {
+      "figmaId": "4:55",
+      "domId": "dom-node-30",
+      "figmaName": "Chocolate Cake",
+      "domTag": "p",
+      "matchedBy": "text-anchor",
+      "isComposite": false,
+      "scores": {
+        "overall": 0.8189,
+        "geometry": 0.7028,
+        "typography": 0.9093,
+        "color": 0.7,
+        "spacing": 0
+      },
+      "issues": [
+        {
+          "property": "width",
+          "figmaVal": 206,
+          "domVal": 136.703125,
+          "delta": 69.296875,
+          "severity": "critical"
+        },
+        {
+          "property": "height",
+          "figmaVal": 31,
+          "domVal": 23,
+          "delta": 8,
+          "severity": "moderate"
+        },
+        {
+          "property": "fontSize",
+          "figmaVal": "27px",
+          "domVal": "20px",
+          "delta": 7,
+          "severity": "moderate"
+        },
+        {
+          "property": "backgroundColor",
+          "figmaVal": "#000000",
+          "domVal": "none",
+          "delta": null,
+          "severity": "moderate"
+        },
+        {
+          "property": "position",
+          "figmaVal": "x:141 y:1407",
+          "domVal": "x:235.6 y:1343.7",
+          "delta": "dx:-94.6 dy:63.3",
+          "severity": "info"
+        }
+      ],
+      "issueCount": 4
+    },
+    {
+      "figmaId": "4:56",
+      "domId": "dom-node-33",
+      "figmaName": "Oreo Cake",
+      "domTag": "p",
+      "matchedBy": "text-anchor",
+      "isComposite": false,
+      "scores": {
+        "overall": 0.8192,
+        "geometry": 0.7038,
+        "typography": 0.9093,
+        "color": 0.7,
+        "spacing": 0
+      },
+      "issues": [
+        {
+          "property": "width",
+          "figmaVal": 138,
+          "domVal": 91.875,
+          "delta": 46.125,
+          "severity": "critical"
+        },
+        {
+          "property": "height",
+          "figmaVal": 31,
+          "domVal": 23,
+          "delta": 8,
+          "severity": "moderate"
+        },
+        {
+          "property": "fontSize",
+          "figmaVal": "27px",
+          "domVal": "20px",
+          "delta": 7,
+          "severity": "moderate"
+        },
+        {
+          "property": "backgroundColor",
+          "figmaVal": "#000000",
+          "domVal": "none",
+          "delta": null,
+          "severity": "moderate"
+        },
+        {
+          "property": "position",
+          "figmaVal": "x:662 y:1407",
+          "domVal": "x:674.1 y:1343.7",
+          "delta": "dx:-12.1 dy:63.3",
+          "severity": "info"
+        }
+      ],
+      "issueCount": 4
+    },
+    {
+      "figmaId": "5:61",
+      "domId": "dom-node-39",
+      "figmaName": "Black Forest",
+      "domTag": "p",
+      "matchedBy": "text-anchor",
+      "isComposite": false,
+      "scores": {
+        "overall": 0.8282,
+        "geometry": 0.74,
+        "typography": 0.9093,
+        "color": 0.7,
+        "spacing": 0
+      },
+      "issues": [
+        {
+          "property": "width",
+          "figmaVal": 147,
+          "domVal": 108.484375,
+          "delta": 38.515625,
+          "severity": "moderate"
+        },
+        {
+          "property": "height",
+          "figmaVal": 31,
+          "domVal": 23,
+          "delta": 8,
+          "severity": "moderate"
+        },
+        {
+          "property": "fontSize",
+          "figmaVal": "27px",
+          "domVal": "20px",
+          "delta": 7,
+          "severity": "moderate"
+        },
+        {
+          "property": "backgroundColor",
+          "figmaVal": "#000000",
+          "domVal": "none",
+          "delta": null,
+          "severity": "moderate"
+        },
+        {
+          "property": "position",
+          "figmaVal": "x:170 y:1787",
+          "domVal": "x:249.8 y:1657.7",
+          "delta": "dx:-79.8 dy:129.3",
+          "severity": "info"
+        }
+      ],
+      "issueCount": 4
+    },
+    {
+      "figmaId": "5:62",
+      "domId": "dom-node-42",
+      "figmaName": "Vanilla Strawberry",
+      "domTag": "p",
+      "matchedBy": "text-anchor",
+      "isComposite": false,
+      "scores": {
+        "overall": 0.8286,
+        "geometry": 0.7413,
+        "typography": 0.9093,
+        "color": 0.7,
+        "spacing": 0
+      },
+      "issues": [
+        {
+          "property": "width",
+          "figmaVal": 224,
+          "domVal": 165.921875,
+          "delta": 58.078125,
+          "severity": "moderate"
+        },
+        {
+          "property": "height",
+          "figmaVal": 31,
+          "domVal": 23,
+          "delta": 8,
+          "severity": "moderate"
+        },
+        {
+          "property": "fontSize",
+          "figmaVal": "27px",
+          "domVal": "20px",
+          "delta": 7,
+          "severity": "moderate"
+        },
+        {
+          "property": "backgroundColor",
+          "figmaVal": "#000000",
+          "domVal": "none",
+          "delta": null,
+          "severity": "moderate"
+        },
+        {
+          "property": "position",
+          "figmaVal": "x:623 y:1787",
+          "domVal": "x:637.0 y:1657.7",
+          "delta": "dx:-14.0 dy:129.3",
+          "severity": "info"
+        }
+      ],
+      "issueCount": 4
+    },
+    {
+      "figmaId": "102:5",
+      "domId": "dom-node-22",
+      "figmaName": "shop 1",
+      "domTag": "div",
+      "matchedBy": "iou",
+      "isComposite": false,
+      "scores": {
+        "overall": 0.875,
+        "geometry": 0.5,
+        "typography": 0,
+        "color": 1,
+        "spacing": 0
+      },
+      "issues": [
+        {
+          "property": "width",
+          "figmaVal": 218,
+          "domVal": 630,
+          "delta": -412,
+          "severity": "critical"
+        },
+        {
+          "property": "position",
+          "figmaVal": "x:761 y:499",
+          "domVal": "x:714.0 y:483.0",
+          "delta": "dx:47.0 dy:16.0",
+          "severity": "info"
+        }
+      ],
+      "issueCount": 1
+    },
+    {
+      "figmaId": "composite:5:76",
+      "domId": "dom-node-46",
+      "figmaName": "back button",
+      "domTag": "button",
+      "matchedBy": "text-anchor",
+      "isComposite": true,
+      "scores": {
+        "overall": 0.8892,
+        "geometry": 1,
+        "typography": 0.6833,
+        "color": 1,
+        "spacing": 0
+      },
+      "issues": [
+        {
+          "property": "fontSize",
+          "figmaVal": "27px",
+          "domVal": "18px",
+          "delta": 9,
+          "severity": "critical"
+        },
+        {
+          "property": "textColor",
+          "figmaVal": "#000000",
+          "domVal": "#ffffff",
+          "delta": null,
+          "severity": "critical"
+        },
+        {
+          "property": "position",
+          "figmaVal": "x:656 y:1838",
+          "domVal": "x:630.0 y:1720.7",
+          "delta": "dx:26.0 dy:117.3",
+          "severity": "info"
+        }
+      ],
+      "issueCount": 2
+    },
+    {
+      "figmaId": "102:10",
+      "domId": "dom-node-7",
+      "figmaName": "Menu",
+      "domTag": "li",
+      "matchedBy": "text-anchor",
+      "isComposite": false,
+      "scores": {
+        "overall": 0.9023,
+        "geometry": 0.9092,
+        "typography": 1,
+        "color": 0.7,
+        "spacing": 0
+      },
+      "issues": [
+        {
+          "property": "width",
+          "figmaVal": 74,
+          "domVal": 60.5625,
+          "delta": 13.4375,
+          "severity": "moderate"
+        },
+        {
+          "property": "backgroundColor",
+          "figmaVal": "#000000",
+          "domVal": "none",
+          "delta": null,
+          "severity": "moderate"
+        },
+        {
+          "property": "position",
+          "figmaVal": "x:1174 y:53",
+          "domVal": "x:1159.5 y:20.0",
+          "delta": "dx:14.5 dy:33.0",
+          "severity": "info"
+        }
+      ],
+      "issueCount": 2
+    },
+    {
+      "figmaId": "102:8",
+      "domId": "dom-node-5",
+      "figmaName": "Services",
+      "domTag": "li",
+      "matchedBy": "text-anchor",
+      "isComposite": false,
+      "scores": {
+        "overall": 0.9027,
+        "geometry": 0.9109,
+        "typography": 1,
+        "color": 0.7,
+        "spacing": 0
+      },
+      "issues": [
+        {
+          "property": "width",
+          "figmaVal": 109,
+          "domVal": 89.578125,
+          "delta": 19.421875,
+          "severity": "moderate"
+        },
+        {
+          "property": "backgroundColor",
+          "figmaVal": "#000000",
+          "domVal": "none",
+          "delta": null,
+          "severity": "moderate"
+        },
+        {
+          "property": "position",
+          "figmaVal": "x:878 y:53",
+          "domVal": "x:901.7 y:20.0",
+          "delta": "dx:-23.7 dy:33.0",
+          "severity": "info"
+        }
+      ],
+      "issueCount": 2
+    },
+    {
+      "figmaId": "102:11",
+      "domId": "dom-node-8",
+      "figmaName": "Contact",
+      "domTag": "li",
+      "matchedBy": "text-anchor",
+      "isComposite": false,
+      "scores": {
+        "overall": 0.9028,
+        "geometry": 0.9112,
+        "typography": 1,
+        "color": 0.7,
+        "spacing": 0
+      },
+      "issues": [
+        {
+          "property": "width",
+          "figmaVal": 102,
+          "domVal": 83.890625,
+          "delta": 18.109375,
+          "severity": "moderate"
+        },
+        {
+          "property": "backgroundColor",
+          "figmaVal": "#000000",
+          "domVal": "none",
+          "delta": null,
+          "severity": "moderate"
+        },
+        {
+          "property": "position",
+          "figmaVal": "x:1288 y:53",
+          "domVal": "x:1260.1 y:20.0",
+          "delta": "dx:27.9 dy:33.0",
+          "severity": "info"
+        }
+      ],
+      "issueCount": 2
+    },
+    {
+      "figmaId": "102:9",
+      "domId": "dom-node-6",
+      "figmaName": "Reviews",
+      "domTag": "li",
+      "matchedBy": "text-anchor",
+      "isComposite": false,
+      "scores": {
+        "overall": 0.9031,
+        "geometry": 0.9125,
+        "typography": 1,
+        "color": 0.7,
+        "spacing": 0
+      },
+      "issues": [
+        {
+          "property": "width",
+          "figmaVal": 107,
+          "domVal": 88.28125,
+          "delta": 18.71875,
+          "severity": "moderate"
+        },
+        {
+          "property": "backgroundColor",
+          "figmaVal": "#000000",
+          "domVal": "none",
+          "delta": null,
+          "severity": "moderate"
+        },
+        {
+          "property": "position",
+          "figmaVal": "x:1027 y:53",
+          "domVal": "x:1031.3 y:20.0",
+          "delta": "dx:-4.3 dy:33.0",
+          "severity": "info"
+        }
+      ],
+      "issueCount": 2
+    },
+    {
+      "figmaId": "102:7",
+      "domId": "dom-node-4",
+      "figmaName": "Home",
+      "domTag": "li",
+      "matchedBy": "text-anchor",
+      "isComposite": false,
+      "scores": {
+        "overall": 0.9035,
+        "geometry": 0.914,
+        "typography": 1,
+        "color": 0.7,
+        "spacing": 0
+      },
+      "issues": [
+        {
+          "property": "width",
+          "figmaVal": 77,
+          "domVal": 63.75,
+          "delta": 13.25,
+          "severity": "moderate"
+        },
+        {
+          "property": "backgroundColor",
+          "figmaVal": "#000000",
+          "domVal": "none",
+          "delta": null,
+          "severity": "moderate"
+        },
+        {
+          "property": "position",
+          "figmaVal": "x:761 y:53",
+          "domVal": "x:797.9 y:20.0",
+          "delta": "dx:-36.9 dy:33.0",
+          "severity": "info"
+        }
+      ],
+      "issueCount": 2
+    },
+    {
+      "figmaId": "102:2",
+      "domId": "dom-node-9",
+      "figmaName": "Desktop - 2",
+      "domTag": "section",
+      "matchedBy": "iou",
+      "isComposite": false,
+      "scores": {
+        "overall": 0.9048,
+        "geometry": 0.7991,
+        "typography": 0,
+        "color": 1,
+        "spacing": 0.7
+      },
+      "issues": [
+        {
+          "property": "width",
+          "figmaVal": 1440,
+          "domVal": 1248,
+          "delta": 192,
+          "severity": "moderate"
+        },
+        {
+          "property": "height",
+          "figmaVal": 1024,
+          "domVal": 749,
+          "delta": 275,
+          "severity": "moderate"
+        },
+        {
+          "property": "layout",
+          "figmaVal": "block",
+          "domVal": "flex",
+          "delta": null,
+          "severity": "minor"
+        },
+        {
+          "property": "position",
+          "figmaVal": "x:0 y:0",
+          "domVal": "x:96.0 y:111.0",
+          "delta": "dx:-96.0 dy:-111.0",
+          "severity": "info"
+        }
+      ],
+      "issueCount": 3
+    },
+    {
+      "figmaId": "3:14",
+      "domId": "dom-node-15",
+      "figmaName": "We are not just a bakery, we are not just bakers. In fact, we are just like you, a bunch of food lovers fascinated with sweet indulgence, who dreamt of creating an appetizing fairy land of divine delicacies that relishes the utmost desires.",
+      "domTag": "p",
+      "matchedBy": "iou",
+      "isComposite": false,
+      "scores": {
+        "overall": 0.925,
+        "geometry": 1,
+        "typography": 1,
+        "color": 0.7,
+        "spacing": 0
+      },
+      "issues": [
+        {
+          "property": "backgroundColor",
+          "figmaVal": "#000000",
+          "domVal": "none",
+          "delta": null,
+          "severity": "moderate"
+        },
+        {
+          "property": "position",
+          "figmaVal": "x:52 y:179",
+          "domVal": "x:96.0 y:208.0",
+          "delta": "dx:-44.0 dy:-29.0",
+          "severity": "info"
+        }
+      ],
+      "issueCount": 1
+    },
+    {
+      "figmaId": "4:25",
+      "domId": "dom-node-16",
+      "figmaName": "Kindling it in the oven with our warmth and finally crafting the intricate creations in the form of some lip-smacking cakes, which are out of this world! The only additives you’ll find in our products are an extra pinch of love, care and devotion!",
+      "domTag": "p",
+      "matchedBy": "iou",
+      "isComposite": false,
+      "scores": {
+        "overall": 0.925,
+        "geometry": 1,
+        "typography": 1,
+        "color": 0.7,
+        "spacing": 0
+      },
+      "issues": [
+        {
+          "property": "backgroundColor",
+          "figmaVal": "#000000",
+          "domVal": "none",
+          "delta": null,
+          "severity": "moderate"
+        },
+        {
+          "property": "position",
+          "figmaVal": "x:52 y:450",
+          "domVal": "x:96.0 y:479.0",
+          "delta": "dx:-44.0 dy:-29.0",
+          "severity": "info"
+        }
+      ],
+      "issueCount": 1
+    },
+    {
+      "figmaId": "4:53",
+      "domId": "dom-node-31",
+      "figmaName": "New_Oreo-Cake-1 1",
+      "domTag": "div",
+      "matchedBy": "iou",
+      "isComposite": false,
+      "scores": {
+        "overall": 0.9379,
+        "geometry": 0.9315,
+        "typography": 0,
+        "color": 1,
+        "spacing": 0.7
+      },
+      "issues": [
+        {
+          "property": "height",
+          "figmaVal": 241,
+          "domVal": 274,
+          "delta": -33,
+          "severity": "moderate"
+        },
+        {
+          "property": "layout",
+          "figmaVal": "block",
+          "domVal": "flex",
+          "delta": null,
+          "severity": "minor"
+        },
+        {
+          "property": "position",
+          "figmaVal": "x:623 y:1166",
+          "domVal": "x:612.5 y:1092.7",
+          "delta": "dx:10.5 dy:73.3",
+          "severity": "info"
+        }
+      ],
+      "issueCount": 2
+    },
+    {
+      "figmaId": "4:52",
+      "domId": "dom-node-28",
+      "figmaName": "chocolate-cake 1",
+      "domTag": "div",
+      "matchedBy": "iou",
+      "isComposite": false,
+      "scores": {
+        "overall": 0.9379,
+        "geometry": 0.9315,
+        "typography": 0,
+        "color": 1,
+        "spacing": 0.7
+      },
+      "issues": [
+        {
+          "property": "height",
+          "figmaVal": 241,
+          "domVal": 274,
+          "delta": -33,
+          "severity": "moderate"
+        },
+        {
+          "property": "layout",
+          "figmaVal": "block",
+          "domVal": "flex",
+          "delta": null,
+          "severity": "minor"
+        },
+        {
+          "property": "position",
+          "figmaVal": "x:131 y:1166",
+          "domVal": "x:191.5 y:1092.7",
+          "delta": "dx:-60.5 dy:73.3",
+          "severity": "info"
+        }
+      ],
+      "issueCount": 2
+    },
+    {
+      "figmaId": "4:54",
+      "domId": "dom-node-34",
+      "figmaName": "WhatsAppImage2022-05-18at2.13 1",
+      "domTag": "div",
+      "matchedBy": "iou",
+      "isComposite": false,
+      "scores": {
+        "overall": 0.9379,
+        "geometry": 0.9315,
+        "typography": 0,
+        "color": 1,
+        "spacing": 0.7
+      },
+      "issues": [
+        {
+          "property": "height",
+          "figmaVal": 241,
+          "domVal": 274,
+          "delta": -33,
+          "severity": "moderate"
+        },
+        {
+          "property": "layout",
+          "figmaVal": "block",
+          "domVal": "flex",
+          "delta": null,
+          "severity": "minor"
+        },
+        {
+          "property": "position",
+          "figmaVal": "x:1083 y:1166",
+          "domVal": "x:1028.5 y:1092.7",
+          "delta": "dx:54.5 dy:73.3",
+          "severity": "info"
+        }
+      ],
+      "issueCount": 2
+    },
+    {
+      "figmaId": "5:59",
+      "domId": "dom-node-40",
+      "figmaName": "Funfetti-cake-recipe-new-500x500 1",
+      "domTag": "div",
+      "matchedBy": "iou",
+      "isComposite": false,
+      "scores": {
+        "overall": 0.9379,
+        "geometry": 0.9315,
+        "typography": 0,
+        "color": 1,
+        "spacing": 0.7
+      },
+      "issues": [
+        {
+          "property": "height",
+          "figmaVal": 241,
+          "domVal": 274,
+          "delta": -33,
+          "severity": "moderate"
+        },
+        {
+          "property": "layout",
+          "figmaVal": "block",
+          "domVal": "flex",
+          "delta": null,
+          "severity": "minor"
+        },
+        {
+          "property": "position",
+          "figmaVal": "x:628 y:1526",
+          "domVal": "x:612.5 y:1406.7",
+          "delta": "dx:15.5 dy:119.3",
+          "severity": "info"
+        }
+      ],
+      "issueCount": 2
+    },
+    {
+      "figmaId": "5:58",
+      "domId": "dom-node-37",
+      "figmaName": "black-forest-cake-thumb 1",
+      "domTag": "div",
+      "matchedBy": "iou",
+      "isComposite": false,
+      "scores": {
+        "overall": 0.9379,
+        "geometry": 0.9315,
+        "typography": 0,
+        "color": 1,
+        "spacing": 0.7
+      },
+      "issues": [
+        {
+          "property": "height",
+          "figmaVal": 241,
+          "domVal": 274,
+          "delta": -33,
+          "severity": "moderate"
+        },
+        {
+          "property": "layout",
+          "figmaVal": "block",
+          "domVal": "flex",
+          "delta": null,
+          "severity": "minor"
+        },
+        {
+          "property": "position",
+          "figmaVal": "x:131 y:1526",
+          "domVal": "x:191.0 y:1406.7",
+          "delta": "dx:-60.0 dy:119.3",
+          "severity": "info"
+        }
+      ],
+      "issueCount": 2
+    },
+    {
+      "figmaId": "5:60",
+      "domId": "dom-node-43",
+      "figmaName": "valentine-s-heart-red-velvet-cake-1-kg_1 1",
+      "domTag": "div",
+      "matchedBy": "iou",
+      "isComposite": false,
+      "scores": {
+        "overall": 0.9379,
+        "geometry": 0.9315,
+        "typography": 0,
+        "color": 1,
+        "spacing": 0.7
+      },
+      "issues": [
+        {
+          "property": "height",
+          "figmaVal": 241,
+          "domVal": 274,
+          "delta": -33,
+          "severity": "moderate"
+        },
+        {
+          "property": "layout",
+          "figmaVal": "block",
+          "domVal": "flex",
+          "delta": null,
+          "severity": "minor"
+        },
+        {
+          "property": "position",
+          "figmaVal": "x:1083 y:1526",
+          "domVal": "x:1028.5 y:1406.7",
+          "delta": "dx:54.5 dy:119.3",
+          "severity": "info"
+        }
+      ],
+      "issueCount": 2
+    },
+    {
+      "figmaId": "4:51",
+      "domId": "dom-node-24",
+      "figmaName": "Cake-banner 1",
+      "domTag": "section",
+      "matchedBy": "iou",
+      "isComposite": false,
+      "scores": {
+        "overall": 0.9469,
+        "geometry": 0.7875,
+        "typography": 0,
+        "color": 1,
+        "spacing": 0
+      },
+      "issues": [
+        {
+          "property": "height",
+          "figmaVal": 243,
+          "domVal": 139.703125,
+          "delta": 103.296875,
+          "severity": "critical"
+        },
+        {
+          "property": "position",
+          "figmaVal": "x:0 y:895",
+          "domVal": "x:0.0 y:900.0",
+          "delta": "dx:0.0 dy:-5.0",
+          "severity": "info"
+        }
+      ],
+      "issueCount": 1
+    },
+    {
+      "figmaId": "4:28",
+      "domId": "dom-node-10",
+      "figmaName": "Frame 1",
+      "domTag": "div",
+      "matchedBy": "iou",
+      "isComposite": false,
+      "scores": {
+        "overall": 0.9474,
+        "geometry": 0.9698,
+        "typography": 0,
+        "color": 1,
+        "spacing": 0.7
+      },
+      "issues": [
+        {
+          "property": "height",
+          "figmaVal": 645,
+          "domVal": 606,
+          "delta": 39,
+          "severity": "minor"
+        },
+        {
+          "property": "layout",
+          "figmaVal": "block",
+          "domVal": "flex",
+          "delta": null,
+          "severity": "minor"
+        },
+        {
+          "property": "position",
+          "figmaVal": "x:52 y:43",
+          "domVal": "x:96.0 y:111.0",
+          "delta": "dx:-44.0 dy:-68.0",
+          "severity": "info"
+        }
+      ],
+      "issueCount": 2
+    },
+    {
+      "figmaId": "4:30",
+      "domId": "dom-node-26",
+      "figmaName": "Desktop - 2",
+      "domTag": "section",
+      "matchedBy": "iou",
+      "isComposite": false,
+      "scores": {
+        "overall": 0.9633,
+        "geometry": 0.8533,
+        "typography": 0,
+        "color": 1,
+        "spacing": 0
+      },
+      "issues": [
+        {
+          "property": "width",
+          "figmaVal": 1440,
+          "domVal": 1248,
+          "delta": 192,
+          "severity": "moderate"
+        },
+        {
+          "property": "height",
+          "figmaVal": 1024,
+          "domVal": 860,
+          "delta": 164,
+          "severity": "moderate"
+        },
+        {
+          "property": "position",
+          "figmaVal": "x:0 y:895",
+          "domVal": "x:96.0 y:1039.7",
+          "delta": "dx:-96.0 dy:-144.7",
+          "severity": "info"
+        }
+      ],
+      "issueCount": 2
+    },
+    {
+      "figmaId": "102:3",
+      "domId": "dom-node-18",
+      "figmaName": "Frame 2",
+      "domTag": "div",
+      "matchedBy": "iou",
+      "isComposite": false,
+      "scores": {
+        "overall": 0.9846,
+        "geometry": 0.9383,
+        "typography": 0,
+        "color": 1,
+        "spacing": 0
+      },
+      "issues": [
+        {
+          "property": "width",
+          "figmaVal": 738,
+          "domVal": 647,
+          "delta": 91,
+          "severity": "moderate"
+        },
+        {
+          "property": "position",
+          "figmaVal": "x:653 y:53",
+          "domVal": "x:697.0 y:111.0",
+          "delta": "dx:-44.0 dy:-58.0",
+          "severity": "info"
+        }
+      ],
+      "issueCount": 1
+    },
+    {
+      "figmaId": "112:57",
+      "domId": "dom-node-0",
+      "figmaName": "Frame 4",
+      "domTag": "body",
+      "matchedBy": "iou",
+      "isComposite": false,
+      "scores": {
+        "overall": 0.9909,
+        "geometry": 0.9638,
+        "typography": 0,
+        "color": 1,
+        "spacing": 0
+      },
+      "issues": [
+        {
+          "property": "height",
+          "figmaVal": 2048,
+          "domVal": 1899.703125,
+          "delta": 148.296875,
+          "severity": "minor"
+        }
+      ],
+      "issueCount": 1
+    },
+    {
+      "figmaId": "102:4",
+      "domId": "dom-node-20",
+      "figmaName": "cake shop 1",
+      "domTag": "div",
+      "matchedBy": "iou",
+      "isComposite": false,
+      "scores": {
+        "overall": 1,
+        "geometry": 1,
+        "typography": 0,
+        "color": 1,
+        "spacing": 0
+      },
+      "issues": [
+        {
+          "property": "position",
+          "figmaVal": "x:761 y:127",
+          "domVal": "x:714.0 y:111.0",
+          "delta": "dx:47.0 dy:16.0",
+          "severity": "info"
+        }
+      ],
+      "issueCount": 0
+    }
+  ]
+}

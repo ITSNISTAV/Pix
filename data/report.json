@@ -1,0 +1,908 @@
+{
+  "ag": {
+    "grade": "B",
+    "label": "Good — minor drift, easily fixable",
+    "scores": {
+      "pageFidelity": 0.8788,
+      "coverage": 0.8788,
+      "matchedQuality": 0.8787,
+      "byBucket": {
+        "geometry": 0.8207,
+        "typography": 0.445,
+        "color": 0.8362,
+        "spacing": 0.2172
+      }
+    },
+    "coverage": {
+      "figmaTotal": 34,
+      "domTotal": 47,
+      "matched": 29,
+      "unmatchedFigma": 3,
+      "unmatchedDom": 18,
+      "wrappersSkipped": 1,
+      "coveragePct": 87.9
+    },
+    "issues": {
+      "total": 69,
+      "critical": 16,
+      "moderate": 41,
+      "minor": 12,
+      "systemic": [
+        {
+          "property": "height",
+          "count": 18,
+          "severity": "critical",
+          "affectedNodes": [
+            "Learn More",
+            "Red Velvet",
+            "Pinata Cake",
+            "Chocolate Cake",
+            "Oreo Cake",
+            "Black Forest",
+            "Vanilla Strawberry",
+            "Desktop - 2",
+            "New_Oreo-Cake-1 1",
+            "chocolate-cake 1",
+            "WhatsAppImage2022-05-18at2.13 1",
+            "Funfetti-cake-recipe-new-500x500 1",
+            "black-forest-cake-thumb 1",
+            "valentine-s-heart-red-velvet-cake-1-kg_1 1",
+            "Cake-banner 1",
+            "Frame 1",
+            "Desktop - 2",
+            "Frame 4"
+          ]
+        },
+        {
+          "property": "width",
+          "count": 16,
+          "severity": "critical",
+          "affectedNodes": [
+            "Learn More",
+            "Red Velvet",
+            "Pinata Cake",
+            "Chocolate Cake",
+            "Oreo Cake",
+            "Black Forest",
+            "Vanilla Strawberry",
+            "shop 1",
+            "Menu",
+            "Services",
+            "Contact",
+            "Reviews",
+            "Home",
+            "Desktop - 2",
+            "Desktop - 2",
+            "Frame 2"
+          ]
+        },
+        {
+          "property": "backgroundColor",
+          "count": 14,
+          "severity": "critical",
+          "affectedNodes": [
+            "Learn More",
+            "Red Velvet",
+            "Pinata Cake",
+            "Chocolate Cake",
+            "Oreo Cake",
+            "Black Forest",
+            "Vanilla Strawberry",
+            "Menu",
+            "Services",
+            "Contact",
+            "Reviews",
+            "Home",
+            "We are not just a bakery, we are not just bakers. In fact, we are just like you, a bunch of food lovers fascinated with sweet indulgence, who dreamt of creating an appetizing fairy land of divine delicacies that relishes the utmost desires.",
+            "Kindling it in the oven with our warmth and finally crafting the intricate creations in the form of some lip-smacking cakes, which are out of this world! The only additives you’ll find in our products are an extra pinch of love, care and devotion!"
+          ]
+        },
+        {
+          "property": "layout",
+          "count": 9,
+          "severity": "minor",
+          "affectedNodes": [
+            "Learn More",
+            "Desktop - 2",
+            "New_Oreo-Cake-1 1",
+            "chocolate-cake 1",
+            "WhatsAppImage2022-05-18at2.13 1",
+            "Funfetti-cake-recipe-new-500x500 1",
+            "black-forest-cake-thumb 1",
+            "valentine-s-heart-red-velvet-cake-1-kg_1 1",
+            "Frame 1"
+          ]
+        },
+        {
+          "property": "fontSize",
+          "count": 6,
+          "severity": "critical",
+          "affectedNodes": [
+            "Learn More",
+            "Chocolate Cake",
+            "Oreo Cake",
+            "Black Forest",
+            "Vanilla Strawberry",
+            "back button"
+          ]
+        }
+      ]
+    },
+    "worstOffenders": [
+      {
+        "figmaName": "Learn More",
+        "domTag": "button",
+        "overallScore": 0.4687,
+        "issueCount": 8,
+        "topIssue": {
+          "property": "width",
+          "figmaVal": 154,
+          "domVal": 212,
+          "delta": -58,
+          "severity": "critical"
+        }
+      },
+      {
+        "figmaName": "Red Velvet",
+        "domTag": "img",
+        "overallScore": 0.5367,
+        "issueCount": 4,
+        "topIssue": {
+          "property": "width",
+          "figmaVal": 126,
+          "domVal": 215,
+          "delta": -89,
+          "severity": "critical"
+        }
+      },
+      {
+        "figmaName": "Pinata Cake",
+        "domTag": "img",
+        "overallScore": 0.5799,
+        "issueCount": 4,
+        "topIssue": {
+          "property": "width",
+          "figmaVal": 158,
+          "domVal": 215,
+          "delta": -57,
+          "severity": "critical"
+        }
+      },
+      {
+        "figmaName": "Chocolate Cake",
+        "domTag": "p",
+        "overallScore": 0.8189,
+        "issueCount": 4,
+        "topIssue": {
+          "property": "width",
+          "figmaVal": 206,
+          "domVal": 136.703125,
+          "delta": 69.296875,
+          "severity": "critical"
+        }
+      },
+      {
+        "figmaName": "Oreo Cake",
+        "domTag": "p",
+        "overallScore": 0.8192,
+        "issueCount": 4,
+        "topIssue": {
+          "property": "width",
+          "figmaVal": 138,
+          "domVal": 91.875,
+          "delta": 46.125,
+          "severity": "critical"
+        }
+      }
+    ],
+    "diffsForAI": [
+      {
+        "figmaName": "Learn More",
+        "domTag": "button",
+        "isComposite": false,
+        "overallScore": 0.4687,
+        "issues": [
+          {
+            "property": "width",
+            "figmaVal": 154,
+            "domVal": 212,
+            "delta": -58,
+            "severity": "critical"
+          },
+          {
+            "property": "height",
+            "figmaVal": 34,
+            "domVal": 56,
+            "delta": -22,
+            "severity": "critical"
+          },
+          {
+            "property": "fontSize",
+            "figmaVal": "30px",
+            "domVal": "20px",
+            "delta": 10,
+            "severity": "critical"
+          },
+          {
+            "property": "textColor",
+            "figmaVal": "#000000",
+            "domVal": "#ffffff",
+            "delta": null,
+            "severity": "critical"
+          },
+          {
+            "property": "backgroundColor",
+            "figmaVal": "#000000",
+            "domVal": "#f87700",
+            "delta": null,
+            "severity": "critical"
+          },
+          {
+            "property": "borderRadius",
+            "figmaVal": "0px",
+            "domVal": "10px",
+            "delta": -10,
+            "severity": "critical"
+          },
+          {
+            "property": "textAlign",
+            "figmaVal": "left",
+            "domVal": "center",
+            "delta": null,
+            "severity": "minor"
+          },
+          {
+            "property": "layout",
+            "figmaVal": "block",
+            "domVal": "flex",
+            "delta": null,
+            "severity": "minor"
+          }
+        ]
+      },
+      {
+        "figmaName": "Red Velvet",
+        "domTag": "img",
+        "isComposite": false,
+        "overallScore": 0.5367,
+        "issues": [
+          {
+            "property": "width",
+            "figmaVal": 126,
+            "domVal": 215,
+            "delta": -89,
+            "severity": "critical"
+          },
+          {
+            "property": "height",
+            "figmaVal": 31,
+            "domVal": 241,
+            "delta": -210,
+            "severity": "critical"
+          },
+          {
+            "property": "typography",
+            "figmaVal": "present",
+            "domVal": "missing",
+            "delta": null,
+            "severity": "moderate"
+          },
+          {
+            "property": "backgroundColor",
+            "figmaVal": "#000000",
+            "domVal": "none",
+            "delta": null,
+            "severity": "moderate"
+          }
+        ]
+      },
+      {
+        "figmaName": "Pinata Cake",
+        "domTag": "img",
+        "isComposite": false,
+        "overallScore": 0.5799,
+        "issues": [
+          {
+            "property": "width",
+            "figmaVal": 158,
+            "domVal": 215,
+            "delta": -57,
+            "severity": "critical"
+          },
+          {
+            "property": "height",
+            "figmaVal": 31,
+            "domVal": 241,
+            "delta": -210,
+            "severity": "critical"
+          },
+          {
+            "property": "typography",
+            "figmaVal": "present",
+            "domVal": "missing",
+            "delta": null,
+            "severity": "moderate"
+          },
+          {
+            "property": "backgroundColor",
+            "figmaVal": "#000000",
+            "domVal": "none",
+            "delta": null,
+            "severity": "moderate"
+          }
+        ]
+      },
+      {
+        "figmaName": "Chocolate Cake",
+        "domTag": "p",
+        "isComposite": false,
+        "overallScore": 0.8189,
+        "issues": [
+          {
+            "property": "width",
+            "figmaVal": 206,
+            "domVal": 136.703125,
+            "delta": 69.296875,
+            "severity": "critical"
+          },
+          {
+            "property": "height",
+            "figmaVal": 31,
+            "domVal": 23,
+            "delta": 8,
+            "severity": "moderate"
+          },
+          {
+            "property": "fontSize",
+            "figmaVal": "27px",
+            "domVal": "20px",
+            "delta": 7,
+            "severity": "moderate"
+          },
+          {
+            "property": "backgroundColor",
+            "figmaVal": "#000000",
+            "domVal": "none",
+            "delta": null,
+            "severity": "moderate"
+          }
+        ]
+      },
+      {
+        "figmaName": "Oreo Cake",
+        "domTag": "p",
+        "isComposite": false,
+        "overallScore": 0.8192,
+        "issues": [
+          {
+            "property": "width",
+            "figmaVal": 138,
+            "domVal": 91.875,
+            "delta": 46.125,
+            "severity": "critical"
+          },
+          {
+            "property": "height",
+            "figmaVal": 31,
+            "domVal": 23,
+            "delta": 8,
+            "severity": "moderate"
+          },
+          {
+            "property": "fontSize",
+            "figmaVal": "27px",
+            "domVal": "20px",
+            "delta": 7,
+            "severity": "moderate"
+          },
+          {
+            "property": "backgroundColor",
+            "figmaVal": "#000000",
+            "domVal": "none",
+            "delta": null,
+            "severity": "moderate"
+          }
+        ]
+      },
+      {
+        "figmaName": "Black Forest",
+        "domTag": "p",
+        "isComposite": false,
+        "overallScore": 0.8282,
+        "issues": [
+          {
+            "property": "width",
+            "figmaVal": 147,
+            "domVal": 108.484375,
+            "delta": 38.515625,
+            "severity": "moderate"
+          },
+          {
+            "property": "height",
+            "figmaVal": 31,
+            "domVal": 23,
+            "delta": 8,
+            "severity": "moderate"
+          },
+          {
+            "property": "fontSize",
+            "figmaVal": "27px",
+            "domVal": "20px",
+            "delta": 7,
+            "severity": "moderate"
+          },
+          {
+            "property": "backgroundColor",
+            "figmaVal": "#000000",
+            "domVal": "none",
+            "delta": null,
+            "severity": "moderate"
+          }
+        ]
+      },
+      {
+        "figmaName": "Vanilla Strawberry",
+        "domTag": "p",
+        "isComposite": false,
+        "overallScore": 0.8286,
+        "issues": [
+          {
+            "property": "width",
+            "figmaVal": 224,
+            "domVal": 165.921875,
+            "delta": 58.078125,
+            "severity": "moderate"
+          },
+          {
+            "property": "height",
+            "figmaVal": 31,
+            "domVal": 23,
+            "delta": 8,
+            "severity": "moderate"
+          },
+          {
+            "property": "fontSize",
+            "figmaVal": "27px",
+            "domVal": "20px",
+            "delta": 7,
+            "severity": "moderate"
+          },
+          {
+            "property": "backgroundColor",
+            "figmaVal": "#000000",
+            "domVal": "none",
+            "delta": null,
+            "severity": "moderate"
+          }
+        ]
+      },
+      {
+        "figmaName": "shop 1",
+        "domTag": "div",
+        "isComposite": false,
+        "overallScore": 0.875,
+        "issues": [
+          {
+            "property": "width",
+            "figmaVal": 218,
+            "domVal": 630,
+            "delta": -412,
+            "severity": "critical"
+          }
+        ]
+      },
+      {
+        "figmaName": "back button",
+        "domTag": "button",
+        "isComposite": true,
+        "overallScore": 0.8892,
+        "issues": [
+          {
+            "property": "fontSize",
+            "figmaVal": "27px",
+            "domVal": "18px",
+            "delta": 9,
+            "severity": "critical"
+          },
+          {
+            "property": "textColor",
+            "figmaVal": "#000000",
+            "domVal": "#ffffff",
+            "delta": null,
+            "severity": "critical"
+          }
+        ]
+      },
+      {
+        "figmaName": "Menu",
+        "domTag": "li",
+        "isComposite": false,
+        "overallScore": 0.9023,
+        "issues": [
+          {
+            "property": "width",
+            "figmaVal": 74,
+            "domVal": 60.5625,
+            "delta": 13.4375,
+            "severity": "moderate"
+          },
+          {
+            "property": "backgroundColor",
+            "figmaVal": "#000000",
+            "domVal": "none",
+            "delta": null,
+            "severity": "moderate"
+          }
+        ]
+      },
+      {
+        "figmaName": "Services",
+        "domTag": "li",
+        "isComposite": false,
+        "overallScore": 0.9027,
+        "issues": [
+          {
+            "property": "width",
+            "figmaVal": 109,
+            "domVal": 89.578125,
+            "delta": 19.421875,
+            "severity": "moderate"
+          },
+          {
+            "property": "backgroundColor",
+            "figmaVal": "#000000",
+            "domVal": "none",
+            "delta": null,
+            "severity": "moderate"
+          }
+        ]
+      },
+      {
+        "figmaName": "Contact",
+        "domTag": "li",
+        "isComposite": false,
+        "overallScore": 0.9028,
+        "issues": [
+          {
+            "property": "width",
+            "figmaVal": 102,
+            "domVal": 83.890625,
+            "delta": 18.109375,
+            "severity": "moderate"
+          },
+          {
+            "property": "backgroundColor",
+            "figmaVal": "#000000",
+            "domVal": "none",
+            "delta": null,
+            "severity": "moderate"
+          }
+        ]
+      },
+      {
+        "figmaName": "Reviews",
+        "domTag": "li",
+        "isComposite": false,
+        "overallScore": 0.9031,
+        "issues": [
+          {
+            "property": "width",
+            "figmaVal": 107,
+            "domVal": 88.28125,
+            "delta": 18.71875,
+            "severity": "moderate"
+          },
+          {
+            "property": "backgroundColor",
+            "figmaVal": "#000000",
+            "domVal": "none",
+            "delta": null,
+            "severity": "moderate"
+          }
+        ]
+      },
+      {
+        "figmaName": "Home",
+        "domTag": "li",
+        "isComposite": false,
+        "overallScore": 0.9035,
+        "issues": [
+          {
+            "property": "width",
+            "figmaVal": 77,
+            "domVal": 63.75,
+            "delta": 13.25,
+            "severity": "moderate"
+          },
+          {
+            "property": "backgroundColor",
+            "figmaVal": "#000000",
+            "domVal": "none",
+            "delta": null,
+            "severity": "moderate"
+          }
+        ]
+      },
+      {
+        "figmaName": "Desktop - 2",
+        "domTag": "section",
+        "isComposite": false,
+        "overallScore": 0.9048,
+        "issues": [
+          {
+            "property": "width",
+            "figmaVal": 1440,
+            "domVal": 1248,
+            "delta": 192,
+            "severity": "moderate"
+          },
+          {
+            "property": "height",
+            "figmaVal": 1024,
+            "domVal": 749,
+            "delta": 275,
+            "severity": "moderate"
+          },
+          {
+            "property": "layout",
+            "figmaVal": "block",
+            "domVal": "flex",
+            "delta": null,
+            "severity": "minor"
+          }
+        ]
+      },
+      {
+        "figmaName": "We are not just a bakery, we are not just bakers. In fact, we are just like you, a bunch of food lovers fascinated with sweet indulgence, who dreamt of creating an appetizing fairy land of divine delicacies that relishes the utmost desires.",
+        "domTag": "p",
+        "isComposite": false,
+        "overallScore": 0.925,
+        "issues": [
+          {
+            "property": "backgroundColor",
+            "figmaVal": "#000000",
+            "domVal": "none",
+            "delta": null,
+            "severity": "moderate"
+          }
+        ]
+      },
+      {
+        "figmaName": "Kindling it in the oven with our warmth and finally crafting the intricate creations in the form of some lip-smacking cakes, which are out of this world! The only additives you’ll find in our products are an extra pinch of love, care and devotion!",
+        "domTag": "p",
+        "isComposite": false,
+        "overallScore": 0.925,
+        "issues": [
+          {
+            "property": "backgroundColor",
+            "figmaVal": "#000000",
+            "domVal": "none",
+            "delta": null,
+            "severity": "moderate"
+          }
+        ]
+      },
+      {
+        "figmaName": "New_Oreo-Cake-1 1",
+        "domTag": "div",
+        "isComposite": false,
+        "overallScore": 0.9379,
+        "issues": [
+          {
+            "property": "height",
+            "figmaVal": 241,
+            "domVal": 274,
+            "delta": -33,
+            "severity": "moderate"
+          },
+          {
+            "property": "layout",
+            "figmaVal": "block",
+            "domVal": "flex",
+            "delta": null,
+            "severity": "minor"
+          }
+        ]
+      },
+      {
+        "figmaName": "chocolate-cake 1",
+        "domTag": "div",
+        "isComposite": false,
+        "overallScore": 0.9379,
+        "issues": [
+          {
+            "property": "height",
+            "figmaVal": 241,
+            "domVal": 274,
+            "delta": -33,
+            "severity": "moderate"
+          },
+          {
+            "property": "layout",
+            "figmaVal": "block",
+            "domVal": "flex",
+            "delta": null,
+            "severity": "minor"
+          }
+        ]
+      },
+      {
+        "figmaName": "WhatsAppImage2022-05-18at2.13 1",
+        "domTag": "div",
+        "isComposite": false,
+        "overallScore": 0.9379,
+        "issues": [
+          {
+            "property": "height",
+            "figmaVal": 241,
+            "domVal": 274,
+            "delta": -33,
+            "severity": "moderate"
+          },
+          {
+            "property": "layout",
+            "figmaVal": "block",
+            "domVal": "flex",
+            "delta": null,
+            "severity": "minor"
+          }
+        ]
+      },
+      {
+        "figmaName": "Funfetti-cake-recipe-new-500x500 1",
+        "domTag": "div",
+        "isComposite": false,
+        "overallScore": 0.9379,
+        "issues": [
+          {
+            "property": "height",
+            "figmaVal": 241,
+            "domVal": 274,
+            "delta": -33,
+            "severity": "moderate"
+          },
+          {
+            "property": "layout",
+            "figmaVal": "block",
+            "domVal": "flex",
+            "delta": null,
+            "severity": "minor"
+          }
+        ]
+      },
+      {
+        "figmaName": "black-forest-cake-thumb 1",
+        "domTag": "div",
+        "isComposite": false,
+        "overallScore": 0.9379,
+        "issues": [
+          {
+            "property": "height",
+            "figmaVal": 241,
+            "domVal": 274,
+            "delta": -33,
+            "severity": "moderate"
+          },
+          {
+            "property": "layout",
+            "figmaVal": "block",
+            "domVal": "flex",
+            "delta": null,
+            "severity": "minor"
+          }
+        ]
+      },
+      {
+        "figmaName": "valentine-s-heart-red-velvet-cake-1-kg_1 1",
+        "domTag": "div",
+        "isComposite": false,
+        "overallScore": 0.9379,
+        "issues": [
+          {
+            "property": "height",
+            "figmaVal": 241,
+            "domVal": 274,
+            "delta": -33,
+            "severity": "moderate"
+          },
+          {
+            "property": "layout",
+            "figmaVal": "block",
+            "domVal": "flex",
+            "delta": null,
+            "severity": "minor"
+          }
+        ]
+      },
+      {
+        "figmaName": "Cake-banner 1",
+        "domTag": "section",
+        "isComposite": false,
+        "overallScore": 0.9469,
+        "issues": [
+          {
+            "property": "height",
+            "figmaVal": 243,
+            "domVal": 139.703125,
+            "delta": 103.296875,
+            "severity": "critical"
+          }
+        ]
+      },
+      {
+        "figmaName": "Frame 1",
+        "domTag": "div",
+        "isComposite": false,
+        "overallScore": 0.9474,
+        "issues": [
+          {
+            "property": "height",
+            "figmaVal": 645,
+            "domVal": 606,
+            "delta": 39,
+            "severity": "minor"
+          },
+          {
+            "property": "layout",
+            "figmaVal": "block",
+            "domVal": "flex",
+            "delta": null,
+            "severity": "minor"
+          }
+        ]
+      },
+      {
+        "figmaName": "Desktop - 2",
+        "domTag": "section",
+        "isComposite": false,
+        "overallScore": 0.9633,
+        "issues": [
+          {
+            "property": "width",
+            "figmaVal": 1440,
+            "domVal": 1248,
+            "delta": 192,
+            "severity": "moderate"
+          },
+          {
+            "property": "height",
+            "figmaVal": 1024,
+            "domVal": 860,
+            "delta": 164,
+            "severity": "moderate"
+          }
+        ]
+      },
+      {
+        "figmaName": "Frame 2",
+        "domTag": "div",
+        "isComposite": false,
+        "overallScore": 0.9846,
+        "issues": [
+          {
+            "property": "width",
+            "figmaVal": 738,
+            "domVal": 647,
+            "delta": 91,
+            "severity": "moderate"
+          }
+        ]
+      },
+      {
+        "figmaName": "Frame 4",
+        "domTag": "body",
+        "isComposite": false,
+        "overallScore": 0.9909,
+        "issues": [
+          {
+            "property": "height",
+            "figmaVal": 2048,
+            "domVal": 1899.703125,
+            "delta": 148.296875,
+            "severity": "minor"
+          }
+        ]
+      }
+    ]
+  }
+}

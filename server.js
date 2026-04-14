@@ -1,9 +1,13 @@
 const express = require('express');
 const fs = require('fs');
+require('dotenv').config();
 const { extractDomData } = require("./extraction/playwright");
 const { normalizeFigmaFrame } = require("./normalizer/figma-normalizer");
 const { normalizeDomTree } = require("./normalizer/website-normalizer");
 const { matchTrees, computeIoU, computeMatchScore } = require("./pairing/matchingPairs");
+const { diffAll, diffPair } = require("./property_differ/propertyDIffer");
+const { aggregate} = require("./score/scoreAggregator");
+const { reasonAboutDiffs }= require("./ai-reasoning/aiReasoning");
 const { match } = require('assert');
 const app = express();
 
@@ -68,25 +72,39 @@ app.get("/pairs", async (req, res) => {
         const matched=pairing.matched;
         const unmatchedfigma=pairing.unmatchedFigma;
         const unmatchedDom=pairing.unmatchedDom
-        await fs.writeFileSync('./data/matched.json', JSON.stringify({matched}, null, 2));
-        await fs.writeFileSync('./data/unmatchedfigma.json', JSON.stringify({unmatchedfigma}, null, 2));
-        await fs.writeFileSync('./data/unmatchedDom.json', JSON.stringify({unmatchedDom}, null, 2));
-        // Add this temporarily after matchTrees() in your code
-        // console.log('\n--- Unmatched Figma nodes ---');
-        // pairing.unmatchedFigma.forEach(n => {
-        //     console.log(`  [${n.type}] "${n.name}" x:${n.x} y:${n.y} w:${n.w} h:${n.h}`);
-        // });
+        // await fs.writeFileSync('./data/matched.json', JSON.stringify({matched}, null, 2));
+        // await fs.writeFileSync('./data/unmatchedfigma.json', JSON.stringify({unmatchedfigma}, null, 2));
+        // await fs.writeFileSync('./data/unmatchedDom.json', JSON.stringify({unmatchedDom}, null, 2));
+        
+        const diffs= diffAll(matched);
+        const ag= aggregate(diffs,pairing.stats,pairing.wrapperIds.size);
 
-        // console.log('\n--- Unmatched DOM nodes ---');
-        // pairing.unmatchedDom.forEach(n => {
-        //     console.log(`  [${n.type}] <${n.domTag}> x:${n.x} y:${n.y} w:${n.w} h:${n.h} "${n.text}"`);
-        // });
-        console.log(pairing.stats)
-        res.json(pairing);
+        // await fs.writeFileSync('./data/report.json',JSON.stringify({ag},null,2))
+        const aiReason= await reasonAboutDiffs(ag);
+        await fs.writeFileSync('./data/aiReasoning.json',JSON.stringify({aiReason}, null, 2));
+        // console.log(pairing.stats)
+        res.json(aiReason);
     } catch (error) {
         res.status(500).json({ error: error.message });
     }
 
 })
+
+app.get("/propertyDiffer",async(req,res)=>{
+    try{
+        const match=await JSON.parse(fs.readFileSync('./data/matched.json', 'utf8'));
+        const diffs = diffAll(match.matched);
+        if(!diffs){
+            console.log("matched.matched not found");
+        }
+        await fs.writeFileSync('./data/diffs.json', JSON.stringify({diffs}, null, 2));
+        res.json(diffs);
+    }catch(error){
+        res.status(500).json({error:error.message});
+    }
+
+})
+
+
 
 app.listen(4000, () => console.log("Server running on http://localhost:4000"));
