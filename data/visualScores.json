@@ -1,0 +1,2016 @@
+{
+  "visualScoresMap": {
+    "112:57": {
+      "visualScore": 0.7339,
+      "pixelChangePct": 0.2661
+    },
+    "4:28": {
+      "visualScore": 0.8949,
+      "pixelChangePct": 0.1051
+    },
+    "3:14": {
+      "visualScore": 0.9827,
+      "pixelChangePct": 0.0173
+    },
+    "102:3": {
+      "visualScore": 0.3855,
+      "pixelChangePct": 0.6145
+    },
+    "4:30": {
+      "visualScore": 0.5645,
+      "pixelChangePct": 0.4355
+    },
+    "102:4": {
+      "visualScore": 0.9863,
+      "pixelChangePct": 0.0137
+    },
+    "102:2": {
+      "visualScore": 0.6203,
+      "pixelChangePct": 0.3797
+    },
+    "4:25": {
+      "visualScore": 0.929,
+      "pixelChangePct": 0.071
+    },
+    "4:51": {
+      "visualScore": 0.7257,
+      "pixelChangePct": 0.2743
+    },
+    "4:53": {
+      "visualScore": 0.4089,
+      "pixelChangePct": 0.5911
+    },
+    "4:27": {
+      "visualScore": 0.7908,
+      "pixelChangePct": 0.2092
+    },
+    "4:52": {
+      "visualScore": 0.4134,
+      "pixelChangePct": 0.5866
+    },
+    "4:54": {
+      "visualScore": 0.2285,
+      "pixelChangePct": 0.7715
+    },
+    "102:5": {
+      "visualScore": 0.0783,
+      "pixelChangePct": 0.9217
+    },
+    "5:59": {
+      "visualScore": 0.4804,
+      "pixelChangePct": 0.5196
+    },
+    "5:58": {
+      "visualScore": 0.3716,
+      "pixelChangePct": 0.6284
+    },
+    "5:60": {
+      "visualScore": 0.444,
+      "pixelChangePct": 0.556
+    },
+    "102:8": {
+      "visualScore": 0.8067,
+      "pixelChangePct": 0.1933
+    },
+    "102:9": {
+      "visualScore": 0.7815,
+      "pixelChangePct": 0.2185
+    },
+    "102:7": {
+      "visualScore": 0.7967,
+      "pixelChangePct": 0.2033
+    },
+    "5:62": {
+      "visualScore": 0.8331,
+      "pixelChangePct": 0.1669
+    },
+    "4:56": {
+      "visualScore": 0.759,
+      "pixelChangePct": 0.241
+    },
+    "composite:5:76": {
+      "visualScore": 0.964,
+      "pixelChangePct": 0.036
+    },
+    "4:55": {
+      "visualScore": 0.7811,
+      "pixelChangePct": 0.2189
+    },
+    "5:61": {
+      "visualScore": 0.8409,
+      "pixelChangePct": 0.1591
+    },
+    "4:57": {
+      "visualScore": 0.0176,
+      "pixelChangePct": 0.9824
+    },
+    "5:63": {
+      "visualScore": 0.0722,
+      "pixelChangePct": 0.9278
+    },
+    "102:10": {
+      "visualScore": 0.7512,
+      "pixelChangePct": 0.2488
+    },
+    "102:11": {
+      "visualScore": 0.7948,
+      "pixelChangePct": 0.2052
+    }
+  },
+  "scoredPairs": [
+    {
+      "figmaNode": {
+        "id": "112:57",
+        "name": "Frame 4",
+        "type": "container",
+        "figmaType": "FRAME",
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 2048,
+        "text": "",
+        "typography": null,
+        "layout": null,
+        "fill": {
+          "hex": "#ffffff",
+          "opacity": 1
+        },
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 0,
+        "parentId": null,
+        "source": "figma"
+      },
+      "domNode": {
+        "id": "dom-node-0",
+        "name": "body#dom-node-0",
+        "type": "container",
+        "domTag": "body",
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 1899.703125,
+        "text": "",
+        "typography": null,
+        "layout": null,
+        "fill": {
+          "hex": "#ffffff",
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 0,
+        "parentId": null,
+        "source": "dom"
+      },
+      "iou": 0.8928371172223235,
+      "score": 0.9464185586111616,
+      "matchedBy": "iou",
+      "visualScore": 0.7339,
+      "pixelChangePct": 0.2661
+    },
+    {
+      "figmaNode": {
+        "id": "4:28",
+        "name": "Frame 1",
+        "type": "container",
+        "figmaType": "FRAME",
+        "x": 52,
+        "y": 43,
+        "w": 601,
+        "h": 645,
+        "text": "",
+        "typography": null,
+        "layout": null,
+        "fill": null,
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 2,
+        "parentId": "102:2",
+        "source": "figma"
+      },
+      "domNode": {
+        "id": "dom-node-10",
+        "name": "div#dom-node-10",
+        "type": "container",
+        "domTag": "div",
+        "x": 96,
+        "y": 111,
+        "w": 601,
+        "h": 606,
+        "text": "",
+        "typography": null,
+        "layout": {
+          "direction": "column",
+          "gap": 67,
+          "paddingTop": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "alignment": "center",
+          "crossAlignment": "flex-start"
+        },
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 2,
+        "parentId": "dom-node-9",
+        "source": "dom"
+      },
+      "iou": 0.8270495806916461,
+      "score": 0.9135247903458231,
+      "matchedBy": "iou",
+      "visualScore": 0.8949,
+      "pixelChangePct": 0.1051
+    },
+    {
+      "figmaNode": {
+        "id": "3:14",
+        "name": "We are not just a bakery, we are not just bakers. In fact, we are just like you, a bunch of food lovers fascinated with sweet indulgence, who dreamt of creating an appetizing fairy land of divine delicacies that relishes the utmost desires.",
+        "type": "text",
+        "figmaType": "TEXT",
+        "x": 52,
+        "y": 179,
+        "w": 601,
+        "h": 204,
+        "text": "We are not just a bakery, we are not just bakers. In fact, we are just like you, a bunch of food lovers fascinated with sweet indulgence, who dreamt of creating an appetizing fairy land of divine delicacies that relishes the utmost desires.",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 30,
+          "fontWeight": 400,
+          "lineHeight": 34.290000915527344,
+          "letterSpacing": 0,
+          "textAlign": "left",
+          "color": {
+            "hex": "#000000",
+            "opacity": 1
+          }
+        },
+        "layout": null,
+        "fill": {
+          "hex": "#000000",
+          "opacity": 1
+        },
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 3,
+        "parentId": "4:28",
+        "source": "figma"
+      },
+      "domNode": {
+        "id": "dom-node-15",
+        "name": "p#dom-node-15",
+        "type": "text",
+        "domTag": "p",
+        "x": 96,
+        "y": 208,
+        "w": 601,
+        "h": 204,
+        "text": "We are not just a bakery, we are not just bakers. In fact, we are just like you, a bunch\n      of food lovers fascinated with sweet indulgence, who dreamt of creating an appetizing\n      fairy land of divine delicacies that relishes the utmost desires.",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 30,
+          "fontWeight": 400,
+          "lineHeight": null,
+          "letterSpacing": null,
+          "textAlign": "start",
+          "color": {
+            "hex": "#000000",
+            "opacity": 1
+          }
+        },
+        "layout": null,
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 3,
+        "parentId": "dom-node-10",
+        "source": "dom"
+      },
+      "iou": 0.8188885262439546,
+      "score": 0.9094442631219773,
+      "matchedBy": "iou",
+      "visualScore": 0.9827,
+      "pixelChangePct": 0.0173
+    },
+    {
+      "figmaNode": {
+        "id": "102:3",
+        "name": "Frame 2",
+        "type": "container",
+        "figmaType": "FRAME",
+        "x": 653,
+        "y": 53,
+        "w": 738,
+        "h": 749,
+        "text": "",
+        "typography": null,
+        "layout": null,
+        "fill": null,
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 2,
+        "parentId": "102:2",
+        "source": "figma"
+      },
+      "domNode": {
+        "id": "dom-node-18",
+        "name": "div#dom-node-18",
+        "type": "container",
+        "domTag": "div",
+        "x": 697,
+        "y": 111,
+        "w": 647,
+        "h": 749,
+        "text": "",
+        "typography": null,
+        "layout": null,
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 2,
+        "parentId": "dom-node-9",
+        "source": "dom"
+      },
+      "iou": 0.7927578710152391,
+      "score": 0.8963789355076196,
+      "matchedBy": "iou",
+      "visualScore": 0.3855,
+      "pixelChangePct": 0.6145
+    },
+    {
+      "figmaNode": {
+        "id": "4:30",
+        "name": "Desktop - 2",
+        "type": "container",
+        "figmaType": "FRAME",
+        "x": 0,
+        "y": 895,
+        "w": 1440,
+        "h": 1024,
+        "text": "",
+        "typography": null,
+        "layout": null,
+        "fill": {
+          "hex": "#ffffff",
+          "opacity": 1
+        },
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 1,
+        "parentId": "112:57",
+        "source": "figma"
+      },
+      "domNode": {
+        "id": "dom-node-26",
+        "name": "section#dom-node-26",
+        "type": "container",
+        "domTag": "section",
+        "x": 96,
+        "y": 1039.703125,
+        "w": 1248,
+        "h": 860,
+        "text": "",
+        "typography": null,
+        "layout": null,
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 1,
+        "parentId": "dom-node-0",
+        "source": "dom"
+      },
+      "iou": 0.7278645833333334,
+      "score": 0.8639322916666666,
+      "matchedBy": "iou",
+      "visualScore": 0.5645,
+      "pixelChangePct": 0.4355
+    },
+    {
+      "figmaNode": {
+        "id": "102:4",
+        "name": "cake shop 1",
+        "type": "container",
+        "figmaType": "RECTANGLE",
+        "x": 761,
+        "y": 127,
+        "w": 630,
+        "h": 372,
+        "text": "",
+        "typography": null,
+        "layout": null,
+        "fill": null,
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 3,
+        "parentId": "102:3",
+        "source": "figma"
+      },
+      "domNode": {
+        "id": "dom-node-20",
+        "name": "div#dom-node-20",
+        "type": "container",
+        "domTag": "div",
+        "x": 714,
+        "y": 111,
+        "w": 630,
+        "h": 372,
+        "text": "",
+        "typography": null,
+        "layout": null,
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 4,
+        "parentId": "dom-node-19",
+        "source": "dom"
+      },
+      "iou": 0.6937442183163737,
+      "score": 0.8218721091581869,
+      "matchedBy": "iou",
+      "visualScore": 0.9863,
+      "pixelChangePct": 0.0137
+    },
+    {
+      "figmaNode": {
+        "id": "102:2",
+        "name": "Desktop - 2",
+        "type": "container",
+        "figmaType": "FRAME",
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 1024,
+        "text": "",
+        "typography": null,
+        "layout": null,
+        "fill": {
+          "hex": "#ffffff",
+          "opacity": 1
+        },
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 1,
+        "parentId": "112:57",
+        "source": "figma"
+      },
+      "domNode": {
+        "id": "dom-node-9",
+        "name": "section#dom-node-9",
+        "type": "container",
+        "domTag": "section",
+        "x": 96,
+        "y": 111,
+        "w": 1248,
+        "h": 749,
+        "text": "",
+        "typography": null,
+        "layout": {
+          "direction": "row",
+          "gap": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "alignment": "space-between",
+          "crossAlignment": "flex-start"
+        },
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 1,
+        "parentId": "dom-node-0",
+        "source": "dom"
+      },
+      "iou": 0.6339192708333333,
+      "score": 0.8169596354166667,
+      "matchedBy": "iou",
+      "visualScore": 0.6203,
+      "pixelChangePct": 0.3797
+    },
+    {
+      "figmaNode": {
+        "id": "4:25",
+        "name": "Kindling it in the oven with our warmth and finally crafting the intricate creations in the form of some lip-smacking cakes, which are out of this world! The only additives you’ll find in our products are an extra pinch of love, care and devotion!",
+        "type": "text",
+        "figmaType": "TEXT",
+        "x": 52,
+        "y": 450,
+        "w": 494,
+        "h": 115,
+        "text": "Kindling it in the oven with our warmth and finally crafting the intricate creations in the form of some lip-smacking cakes, which are out of this world! The only additives you’ll find in our products are an extra pinch of love, care and devotion!",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 20,
+          "fontWeight": 400,
+          "lineHeight": 22.860000610351562,
+          "letterSpacing": 0,
+          "textAlign": "left",
+          "color": {
+            "hex": "#000000",
+            "opacity": 1
+          }
+        },
+        "layout": null,
+        "fill": {
+          "hex": "#000000",
+          "opacity": 1
+        },
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 3,
+        "parentId": "4:28",
+        "source": "figma"
+      },
+      "domNode": {
+        "id": "dom-node-16",
+        "name": "p#dom-node-16",
+        "type": "text",
+        "domTag": "p",
+        "x": 96,
+        "y": 479,
+        "w": 494,
+        "h": 115,
+        "text": "Kindling it in the oven with our warmth and finally crafting the intricate creations in the\n      form of some lip-smacking, soul-satisfying desserts. Without any additives you'll find in\n      our products are an extra pitch of love, care and devotion!",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 20,
+          "fontWeight": 400,
+          "lineHeight": null,
+          "letterSpacing": null,
+          "textAlign": "start",
+          "color": {
+            "hex": "#000000",
+            "opacity": 1
+          }
+        },
+        "layout": null,
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 3,
+        "parentId": "dom-node-10",
+        "source": "dom"
+      },
+      "iou": 0.7410358565737052,
+      "score": 0.7924691477990478,
+      "matchedBy": "iou",
+      "visualScore": 0.929,
+      "pixelChangePct": 0.071
+    },
+    {
+      "figmaNode": {
+        "id": "4:51",
+        "name": "Cake-banner 1",
+        "type": "container",
+        "figmaType": "RECTANGLE",
+        "x": 0,
+        "y": 895,
+        "w": 1440,
+        "h": 243,
+        "text": "",
+        "typography": null,
+        "layout": null,
+        "fill": null,
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 2,
+        "parentId": "4:30",
+        "source": "figma"
+      },
+      "domNode": {
+        "id": "dom-node-24",
+        "name": "section#dom-node-24",
+        "type": "container",
+        "domTag": "section",
+        "x": 0,
+        "y": 900,
+        "w": 1440,
+        "h": 139.703125,
+        "text": "",
+        "typography": null,
+        "layout": null,
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 1,
+        "parentId": "dom-node-0",
+        "source": "dom"
+      },
+      "iou": 0.4872663859534603,
+      "score": 0.7186331929767302,
+      "matchedBy": "iou",
+      "visualScore": 0.7257,
+      "pixelChangePct": 0.2743
+    },
+    {
+      "figmaNode": {
+        "id": "4:53",
+        "name": "New_Oreo-Cake-1 1",
+        "type": "container",
+        "figmaType": "RECTANGLE",
+        "x": 623,
+        "y": 1166,
+        "w": 215,
+        "h": 241,
+        "text": "",
+        "typography": null,
+        "layout": null,
+        "fill": null,
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 2,
+        "parentId": "4:30",
+        "source": "figma"
+      },
+      "domNode": {
+        "id": "dom-node-31",
+        "name": "div#dom-node-31",
+        "type": "container",
+        "domTag": "div",
+        "x": 612.5,
+        "y": 1092.703125,
+        "w": 215,
+        "h": 274,
+        "text": "",
+        "typography": null,
+        "layout": {
+          "direction": "column",
+          "gap": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "alignment": "normal",
+          "crossAlignment": "center"
+        },
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 3,
+        "parentId": "dom-node-27",
+        "source": "dom"
+      },
+      "iou": 0.4549407036312847,
+      "score": 0.7024703518156423,
+      "matchedBy": "iou",
+      "visualScore": 0.4089,
+      "pixelChangePct": 0.5911
+    },
+    {
+      "figmaNode": {
+        "id": "4:27",
+        "name": "Learn More",
+        "type": "text",
+        "figmaType": "TEXT",
+        "x": 81,
+        "y": 643,
+        "w": 154,
+        "h": 34,
+        "text": "Learn More",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 30,
+          "fontWeight": 400,
+          "lineHeight": 34.290000915527344,
+          "letterSpacing": 0,
+          "textAlign": "left",
+          "color": {
+            "hex": "#000000",
+            "opacity": 1
+          }
+        },
+        "layout": null,
+        "fill": {
+          "hex": "#000000",
+          "opacity": 1
+        },
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 4,
+        "parentId": "4:29",
+        "source": "figma"
+      },
+      "domNode": {
+        "id": "dom-node-17",
+        "name": "button#dom-node-17",
+        "type": "text",
+        "domTag": "button",
+        "x": 96,
+        "y": 661,
+        "w": 212,
+        "h": 56,
+        "text": "Learn More",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 20,
+          "fontWeight": 400,
+          "lineHeight": null,
+          "letterSpacing": null,
+          "textAlign": "center",
+          "color": {
+            "hex": "#ffffff",
+            "opacity": 1
+          }
+        },
+        "layout": {
+          "direction": "row",
+          "gap": 0,
+          "paddingTop": 23,
+          "paddingBottom": 23,
+          "paddingLeft": 23,
+          "paddingRight": 23,
+          "alignment": "center",
+          "crossAlignment": "center"
+        },
+        "fill": {
+          "hex": "#f87700",
+          "opacity": 1
+        },
+        "borderRadius": 10,
+        "opacity": 1,
+        "depth": 3,
+        "parentId": "dom-node-10",
+        "source": "dom"
+      },
+      "iou": 0.4410377358490566,
+      "score": 0.6955188679245283,
+      "matchedBy": "iou",
+      "visualScore": 0.7908,
+      "pixelChangePct": 0.2092
+    },
+    {
+      "figmaNode": {
+        "id": "4:52",
+        "name": "chocolate-cake 1",
+        "type": "container",
+        "figmaType": "RECTANGLE",
+        "x": 131,
+        "y": 1166,
+        "w": 225,
+        "h": 241,
+        "text": "",
+        "typography": null,
+        "layout": null,
+        "fill": null,
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 2,
+        "parentId": "4:30",
+        "source": "figma"
+      },
+      "domNode": {
+        "id": "dom-node-28",
+        "name": "div#dom-node-28",
+        "type": "container",
+        "domTag": "div",
+        "x": 191.5,
+        "y": 1092.703125,
+        "w": 225,
+        "h": 274,
+        "text": "",
+        "typography": null,
+        "layout": {
+          "direction": "column",
+          "gap": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "alignment": "normal",
+          "crossAlignment": "center"
+        },
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 3,
+        "parentId": "dom-node-27",
+        "source": "dom"
+      },
+      "iou": 0.3947435508391641,
+      "score": 0.6723717754195822,
+      "matchedBy": "iou",
+      "visualScore": 0.4134,
+      "pixelChangePct": 0.5866
+    },
+    {
+      "figmaNode": {
+        "id": "4:54",
+        "name": "WhatsAppImage2022-05-18at2.13 1",
+        "type": "container",
+        "figmaType": "RECTANGLE",
+        "x": 1083,
+        "y": 1166,
+        "w": 215,
+        "h": 241,
+        "text": "",
+        "typography": null,
+        "layout": null,
+        "fill": null,
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 2,
+        "parentId": "4:30",
+        "source": "figma"
+      },
+      "domNode": {
+        "id": "dom-node-34",
+        "name": "div#dom-node-34",
+        "type": "container",
+        "domTag": "div",
+        "x": 1028.5,
+        "y": 1092.703125,
+        "w": 215,
+        "h": 274,
+        "text": "",
+        "typography": null,
+        "layout": {
+          "direction": "column",
+          "gap": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "alignment": "normal",
+          "crossAlignment": "center"
+        },
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 3,
+        "parentId": "dom-node-27",
+        "source": "dom"
+      },
+      "iou": 0.3159349783572855,
+      "score": 0.6329674891786428,
+      "matchedBy": "iou",
+      "visualScore": 0.2285,
+      "pixelChangePct": 0.7715
+    },
+    {
+      "figmaNode": {
+        "id": "102:5",
+        "name": "shop 1",
+        "type": "container",
+        "figmaType": "RECTANGLE",
+        "x": 761,
+        "y": 499,
+        "w": 218,
+        "h": 303,
+        "text": "",
+        "typography": null,
+        "layout": null,
+        "fill": null,
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 3,
+        "parentId": "102:3",
+        "source": "figma"
+      },
+      "domNode": {
+        "id": "dom-node-22",
+        "name": "div#dom-node-22",
+        "type": "container",
+        "domTag": "div",
+        "x": 714,
+        "y": 483,
+        "w": 630,
+        "h": 303,
+        "text": "",
+        "typography": null,
+        "layout": null,
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 4,
+        "parentId": "dom-node-19",
+        "source": "dom"
+      },
+      "iou": 0.2957206684753558,
+      "score": 0.622860334237678,
+      "matchedBy": "iou",
+      "visualScore": 0.0783,
+      "pixelChangePct": 0.9217
+    },
+    {
+      "figmaNode": {
+        "id": "5:59",
+        "name": "Funfetti-cake-recipe-new-500x500 1",
+        "type": "container",
+        "figmaType": "RECTANGLE",
+        "x": 628,
+        "y": 1526,
+        "w": 215,
+        "h": 241,
+        "text": "",
+        "typography": null,
+        "layout": null,
+        "fill": null,
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 2,
+        "parentId": "4:30",
+        "source": "figma"
+      },
+      "domNode": {
+        "id": "dom-node-40",
+        "name": "div#dom-node-40",
+        "type": "container",
+        "domTag": "div",
+        "x": 612.5,
+        "y": 1406.703125,
+        "w": 215,
+        "h": 274,
+        "text": "",
+        "typography": null,
+        "layout": {
+          "direction": "column",
+          "gap": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "alignment": "normal",
+          "crossAlignment": "center"
+        },
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 3,
+        "parentId": "dom-node-27",
+        "source": "dom"
+      },
+      "iou": 0.2949796604095658,
+      "score": 0.622489830204783,
+      "matchedBy": "iou",
+      "visualScore": 0.4804,
+      "pixelChangePct": 0.5196
+    },
+    {
+      "figmaNode": {
+        "id": "5:58",
+        "name": "black-forest-cake-thumb 1",
+        "type": "container",
+        "figmaType": "RECTANGLE",
+        "x": 131,
+        "y": 1526,
+        "w": 226,
+        "h": 241,
+        "text": "",
+        "typography": null,
+        "layout": null,
+        "fill": null,
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 2,
+        "parentId": "4:30",
+        "source": "figma"
+      },
+      "domNode": {
+        "id": "dom-node-37",
+        "name": "div#dom-node-37",
+        "type": "container",
+        "domTag": "div",
+        "x": 191,
+        "y": 1406.703125,
+        "w": 226,
+        "h": 274,
+        "text": "",
+        "typography": null,
+        "layout": {
+          "direction": "column",
+          "gap": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "alignment": "normal",
+          "crossAlignment": "center"
+        },
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 3,
+        "parentId": "dom-node-27",
+        "source": "dom"
+      },
+      "iou": 0.2699852405406562,
+      "score": 0.6099926202703281,
+      "matchedBy": "iou",
+      "visualScore": 0.3716,
+      "pixelChangePct": 0.6284
+    },
+    {
+      "figmaNode": {
+        "id": "5:60",
+        "name": "valentine-s-heart-red-velvet-cake-1-kg_1 1",
+        "type": "container",
+        "figmaType": "RECTANGLE",
+        "x": 1083,
+        "y": 1526,
+        "w": 215,
+        "h": 241,
+        "text": "",
+        "typography": null,
+        "layout": null,
+        "fill": null,
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 2,
+        "parentId": "4:30",
+        "source": "figma"
+      },
+      "domNode": {
+        "id": "dom-node-43",
+        "name": "div#dom-node-43",
+        "type": "container",
+        "domTag": "div",
+        "x": 1028.5,
+        "y": 1406.703125,
+        "w": 215,
+        "h": 274,
+        "text": "",
+        "typography": null,
+        "layout": {
+          "direction": "column",
+          "gap": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "alignment": "normal",
+          "crossAlignment": "center"
+        },
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 3,
+        "parentId": "dom-node-27",
+        "source": "dom"
+      },
+      "iou": 0.21897254808937355,
+      "score": 0.5844862740446868,
+      "matchedBy": "iou",
+      "visualScore": 0.444,
+      "pixelChangePct": 0.556
+    },
+    {
+      "figmaNode": {
+        "id": "102:8",
+        "name": "Services",
+        "type": "text",
+        "figmaType": "TEXT",
+        "x": 878,
+        "y": 53,
+        "w": 109,
+        "h": 29,
+        "text": "Services",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "lineHeight": 27.43199920654297,
+          "letterSpacing": 0,
+          "textAlign": "right",
+          "color": {
+            "hex": "#000000",
+            "opacity": 1
+          }
+        },
+        "layout": null,
+        "fill": {
+          "hex": "#000000",
+          "opacity": 1
+        },
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 4,
+        "parentId": "102:6",
+        "source": "figma"
+      },
+      "domNode": {
+        "id": "dom-node-5",
+        "name": "li#dom-node-5",
+        "type": "text",
+        "domTag": "li",
+        "x": 901.6875,
+        "y": 20,
+        "w": 89.578125,
+        "h": 28,
+        "text": "Services",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "lineHeight": null,
+          "letterSpacing": null,
+          "textAlign": "right",
+          "color": {
+            "hex": "#000000",
+            "opacity": 1
+          }
+        },
+        "layout": null,
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 4,
+        "parentId": "dom-node-3",
+        "source": "dom"
+      },
+      "iou": 0,
+      "score": 0.9376361811926605,
+      "matchedBy": "text-anchor",
+      "visualScore": 0.8067,
+      "pixelChangePct": 0.1933
+    },
+    {
+      "figmaNode": {
+        "id": "102:9",
+        "name": "Reviews",
+        "type": "text",
+        "figmaType": "TEXT",
+        "x": 1027,
+        "y": 53,
+        "w": 107,
+        "h": 29,
+        "text": "Reviews",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "lineHeight": 27.43199920654297,
+          "letterSpacing": 0,
+          "textAlign": "right",
+          "color": {
+            "hex": "#000000",
+            "opacity": 1
+          }
+        },
+        "layout": null,
+        "fill": {
+          "hex": "#000000",
+          "opacity": 1
+        },
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 4,
+        "parentId": "102:6",
+        "source": "figma"
+      },
+      "domNode": {
+        "id": "dom-node-6",
+        "name": "li#dom-node-6",
+        "type": "text",
+        "domTag": "li",
+        "x": 1031.265625,
+        "y": 20,
+        "w": 88.28125,
+        "h": 28,
+        "text": "Reviews",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "lineHeight": null,
+          "letterSpacing": null,
+          "textAlign": "right",
+          "color": {
+            "hex": "#000000",
+            "opacity": 1
+          }
+        },
+        "layout": null,
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 4,
+        "parentId": "dom-node-3",
+        "source": "dom"
+      },
+      "iou": 0,
+      "score": 0.8805308560053086,
+      "matchedBy": "text-anchor",
+      "visualScore": 0.7815,
+      "pixelChangePct": 0.2185
+    },
+    {
+      "figmaNode": {
+        "id": "102:7",
+        "name": "Home",
+        "type": "text",
+        "figmaType": "TEXT",
+        "x": 761,
+        "y": 53,
+        "w": 77,
+        "h": 29,
+        "text": "Home",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "lineHeight": 27.43199920654297,
+          "letterSpacing": 0,
+          "textAlign": "right",
+          "color": {
+            "hex": "#000000",
+            "opacity": 1
+          }
+        },
+        "layout": null,
+        "fill": {
+          "hex": "#000000",
+          "opacity": 1
+        },
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 4,
+        "parentId": "102:6",
+        "source": "figma"
+      },
+      "domNode": {
+        "id": "dom-node-4",
+        "name": "li#dom-node-4",
+        "type": "text",
+        "domTag": "li",
+        "x": 797.9375,
+        "y": 20,
+        "w": 63.75,
+        "h": 28,
+        "text": "Home",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "lineHeight": null,
+          "letterSpacing": null,
+          "textAlign": "right",
+          "color": {
+            "hex": "#000000",
+            "opacity": 1
+          }
+        },
+        "layout": null,
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 4,
+        "parentId": "dom-node-3",
+        "source": "dom"
+      },
+      "iou": 0,
+      "score": 0.87490882567469,
+      "matchedBy": "text-anchor",
+      "visualScore": 0.7967,
+      "pixelChangePct": 0.2033
+    },
+    {
+      "figmaNode": {
+        "id": "5:62",
+        "name": "Vanilla Strawberry",
+        "type": "text",
+        "figmaType": "TEXT",
+        "x": 623,
+        "y": 1787,
+        "w": 224,
+        "h": 31,
+        "text": "Vanilla Strawberry",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 27,
+          "fontWeight": 400,
+          "lineHeight": 30.861000061035156,
+          "letterSpacing": 0,
+          "textAlign": "center",
+          "color": {
+            "hex": "#000000",
+            "opacity": 1
+          }
+        },
+        "layout": null,
+        "fill": {
+          "hex": "#000000",
+          "opacity": 1
+        },
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 2,
+        "parentId": "4:30",
+        "source": "figma"
+      },
+      "domNode": {
+        "id": "dom-node-42",
+        "name": "p#dom-node-42",
+        "type": "text",
+        "domTag": "p",
+        "x": 637.03125,
+        "y": 1657.703125,
+        "w": 165.921875,
+        "h": 23,
+        "text": "Vanilla Strawberry",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 20,
+          "fontWeight": 400,
+          "lineHeight": null,
+          "letterSpacing": null,
+          "textAlign": "center",
+          "color": {
+            "hex": "#000000",
+            "opacity": 1
+          }
+        },
+        "layout": null,
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 4,
+        "parentId": "dom-node-40",
+        "source": "dom"
+      },
+      "iou": 0,
+      "score": 0.8566293929712461,
+      "matchedBy": "text-anchor",
+      "visualScore": 0.8331,
+      "pixelChangePct": 0.1669
+    },
+    {
+      "figmaNode": {
+        "id": "4:56",
+        "name": "Oreo Cake",
+        "type": "text",
+        "figmaType": "TEXT",
+        "x": 662,
+        "y": 1407,
+        "w": 138,
+        "h": 31,
+        "text": "Oreo Cake",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 27,
+          "fontWeight": 400,
+          "lineHeight": 30.861000061035156,
+          "letterSpacing": 0,
+          "textAlign": "center",
+          "color": {
+            "hex": "#000000",
+            "opacity": 1
+          }
+        },
+        "layout": null,
+        "fill": {
+          "hex": "#000000",
+          "opacity": 1
+        },
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 2,
+        "parentId": "4:30",
+        "source": "figma"
+      },
+      "domNode": {
+        "id": "dom-node-33",
+        "name": "p#dom-node-33",
+        "type": "text",
+        "domTag": "p",
+        "x": 674.0625,
+        "y": 1343.703125,
+        "w": 91.875,
+        "h": 23,
+        "text": "Oreo Cake",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 20,
+          "fontWeight": 400,
+          "lineHeight": null,
+          "letterSpacing": null,
+          "textAlign": "center",
+          "color": {
+            "hex": "#000000",
+            "opacity": 1
+          }
+        },
+        "layout": null,
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 4,
+        "parentId": "dom-node-31",
+        "source": "dom"
+      },
+      "iou": 0,
+      "score": 0.8208647450110864,
+      "matchedBy": "text-anchor",
+      "visualScore": 0.759,
+      "pixelChangePct": 0.241
+    },
+    {
+      "figmaNode": {
+        "id": "composite:5:76",
+        "name": "back button",
+        "type": "composite",
+        "x": 656,
+        "y": 1838,
+        "w": 180,
+        "h": 50,
+        "text": "Back",
+        "fill": {
+          "hex": "#f87700",
+          "opacity": 1
+        },
+        "borderRadius": 10,
+        "opacity": 1,
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 27,
+          "fontWeight": 400,
+          "lineHeight": 30.861000061035156,
+          "letterSpacing": 0,
+          "textAlign": "center",
+          "color": {
+            "hex": "#000000",
+            "opacity": 1
+          }
+        },
+        "depth": 3,
+        "parentId": "5:90",
+        "source": "figma",
+        "sourceIds": [
+          "5:76",
+          "5:77"
+        ],
+        "sourceNodes": [
+          {
+            "id": "5:76",
+            "name": "back button",
+            "type": "container",
+            "figmaType": "RECTANGLE",
+            "x": 656,
+            "y": 1838,
+            "w": 180,
+            "h": 50,
+            "text": "",
+            "typography": null,
+            "layout": null,
+            "fill": {
+              "hex": "#f87700",
+              "opacity": 1
+            },
+            "borderRadius": 10,
+            "opacity": 1,
+            "depth": 3,
+            "parentId": "5:90",
+            "source": "figma"
+          },
+          {
+            "id": "5:77",
+            "name": "Back",
+            "type": "text",
+            "figmaType": "TEXT",
+            "x": 716,
+            "y": 1851,
+            "w": 59,
+            "h": 31,
+            "text": "Back",
+            "typography": {
+              "fontFamily": "Alice",
+              "fontSize": 27,
+              "fontWeight": 400,
+              "lineHeight": 30.861000061035156,
+              "letterSpacing": 0,
+              "textAlign": "center",
+              "color": {
+                "hex": "#000000",
+                "opacity": 1
+              }
+            },
+            "layout": null,
+            "fill": {
+              "hex": "#000000",
+              "opacity": 1
+            },
+            "borderRadius": null,
+            "opacity": 1,
+            "depth": 3,
+            "parentId": "5:90",
+            "source": "figma"
+          }
+        ]
+      },
+      "domNode": {
+        "id": "dom-node-46",
+        "name": "button#dom-node-46",
+        "type": "text",
+        "domTag": "button",
+        "x": 630,
+        "y": 1720.703125,
+        "w": 180,
+        "h": 50,
+        "text": "Back",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 18,
+          "fontWeight": 400,
+          "lineHeight": null,
+          "letterSpacing": null,
+          "textAlign": "center",
+          "color": {
+            "hex": "#ffffff",
+            "opacity": 1
+          }
+        },
+        "layout": null,
+        "fill": {
+          "hex": "#f87700",
+          "opacity": 1
+        },
+        "borderRadius": 10,
+        "opacity": 1,
+        "depth": 2,
+        "parentId": "dom-node-26",
+        "source": "dom"
+      },
+      "iou": 0,
+      "score": 0.8151357466063349,
+      "matchedBy": "text-anchor",
+      "visualScore": 0.964,
+      "pixelChangePct": 0.036
+    },
+    {
+      "figmaNode": {
+        "id": "4:55",
+        "name": "Chocolate Cake",
+        "type": "text",
+        "figmaType": "TEXT",
+        "x": 141,
+        "y": 1407,
+        "w": 206,
+        "h": 31,
+        "text": "Chocolate Cake",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 27,
+          "fontWeight": 400,
+          "lineHeight": 30.861000061035156,
+          "letterSpacing": 0,
+          "textAlign": "center",
+          "color": {
+            "hex": "#000000",
+            "opacity": 1
+          }
+        },
+        "layout": null,
+        "fill": {
+          "hex": "#000000",
+          "opacity": 1
+        },
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 2,
+        "parentId": "4:30",
+        "source": "figma"
+      },
+      "domNode": {
+        "id": "dom-node-30",
+        "name": "p#dom-node-30",
+        "type": "text",
+        "domTag": "p",
+        "x": 235.640625,
+        "y": 1343.703125,
+        "w": 136.703125,
+        "h": 23,
+        "text": "Chocolate Cake",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 20,
+          "fontWeight": 400,
+          "lineHeight": null,
+          "letterSpacing": null,
+          "textAlign": "center",
+          "color": {
+            "hex": "#000000",
+            "opacity": 1
+          }
+        },
+        "layout": null,
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 4,
+        "parentId": "dom-node-28",
+        "source": "dom"
+      },
+      "iou": 0,
+      "score": 0.8044236602628918,
+      "matchedBy": "text-anchor",
+      "visualScore": 0.7811,
+      "pixelChangePct": 0.2189
+    },
+    {
+      "figmaNode": {
+        "id": "5:61",
+        "name": "Black Forest",
+        "type": "text",
+        "figmaType": "TEXT",
+        "x": 170,
+        "y": 1787,
+        "w": 147,
+        "h": 31,
+        "text": "Black Forest",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 27,
+          "fontWeight": 400,
+          "lineHeight": 30.861000061035156,
+          "letterSpacing": 0,
+          "textAlign": "center",
+          "color": {
+            "hex": "#000000",
+            "opacity": 1
+          }
+        },
+        "layout": null,
+        "fill": {
+          "hex": "#000000",
+          "opacity": 1
+        },
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 2,
+        "parentId": "4:30",
+        "source": "figma"
+      },
+      "domNode": {
+        "id": "dom-node-39",
+        "name": "p#dom-node-39",
+        "type": "text",
+        "domTag": "p",
+        "x": 249.75,
+        "y": 1657.703125,
+        "w": 108.484375,
+        "h": 23,
+        "text": "Black Forest",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 20,
+          "fontWeight": 400,
+          "lineHeight": null,
+          "letterSpacing": null,
+          "textAlign": "center",
+          "color": {
+            "hex": "#000000",
+            "opacity": 1
+          }
+        },
+        "layout": null,
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 4,
+        "parentId": "dom-node-37",
+        "source": "dom"
+      },
+      "iou": 0,
+      "score": 0.7661766032290069,
+      "matchedBy": "text-anchor",
+      "visualScore": 0.8409,
+      "pixelChangePct": 0.1591
+    },
+    {
+      "figmaNode": {
+        "id": "4:57",
+        "name": "Pinata Cake",
+        "type": "text",
+        "figmaType": "TEXT",
+        "x": 1112,
+        "y": 1407,
+        "w": 158,
+        "h": 31,
+        "text": "Pinata Cake",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 27,
+          "fontWeight": 400,
+          "lineHeight": 30.861000061035156,
+          "letterSpacing": 0,
+          "textAlign": "center",
+          "color": {
+            "hex": "#000000",
+            "opacity": 1
+          }
+        },
+        "layout": null,
+        "fill": {
+          "hex": "#000000",
+          "opacity": 1
+        },
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 2,
+        "parentId": "4:30",
+        "source": "figma"
+      },
+      "domNode": {
+        "id": "dom-node-35",
+        "name": "img#dom-node-35",
+        "type": "image",
+        "domTag": "img",
+        "x": 1028.5,
+        "y": 1092.703125,
+        "w": 215,
+        "h": 241,
+        "text": "Pinata Cake",
+        "typography": null,
+        "layout": null,
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 4,
+        "parentId": "dom-node-34",
+        "source": "dom"
+      },
+      "iou": 0,
+      "score": 0.4589668615984405,
+      "matchedBy": "text-anchor",
+      "visualScore": 0.0176,
+      "pixelChangePct": 0.9824
+    },
+    {
+      "figmaNode": {
+        "id": "5:63",
+        "name": "Red Velvet",
+        "type": "text",
+        "figmaType": "TEXT",
+        "x": 1128,
+        "y": 1787,
+        "w": 126,
+        "h": 31,
+        "text": "Red Velvet",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 27,
+          "fontWeight": 400,
+          "lineHeight": 30.861000061035156,
+          "letterSpacing": 0,
+          "textAlign": "center",
+          "color": {
+            "hex": "#000000",
+            "opacity": 1
+          }
+        },
+        "layout": null,
+        "fill": {
+          "hex": "#000000",
+          "opacity": 1
+        },
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 2,
+        "parentId": "4:30",
+        "source": "figma"
+      },
+      "domNode": {
+        "id": "dom-node-44",
+        "name": "img#dom-node-44",
+        "type": "image",
+        "domTag": "img",
+        "x": 1028.5,
+        "y": 1406.703125,
+        "w": 215,
+        "h": 241,
+        "text": "Red Velvet",
+        "typography": null,
+        "layout": null,
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 4,
+        "parentId": "dom-node-43",
+        "source": "dom"
+      },
+      "iou": 0,
+      "score": 0.4462577962577962,
+      "matchedBy": "text-anchor",
+      "visualScore": 0.0722,
+      "pixelChangePct": 0.9278
+    },
+    {
+      "figmaNode": {
+        "id": "102:10",
+        "name": "Menu",
+        "type": "text",
+        "figmaType": "TEXT",
+        "x": 1174,
+        "y": 53,
+        "w": 74,
+        "h": 29,
+        "text": "Menu",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "lineHeight": 27.43199920654297,
+          "letterSpacing": 0,
+          "textAlign": "right",
+          "color": {
+            "hex": "#000000",
+            "opacity": 1
+          }
+        },
+        "layout": null,
+        "fill": {
+          "hex": "#000000",
+          "opacity": 1
+        },
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 4,
+        "parentId": "102:6",
+        "source": "figma"
+      },
+      "domNode": {
+        "id": "dom-node-7",
+        "name": "li#dom-node-7",
+        "type": "text",
+        "domTag": "li",
+        "x": 1159.546875,
+        "y": 20,
+        "w": 60.5625,
+        "h": 28,
+        "text": "Menu",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "lineHeight": null,
+          "letterSpacing": null,
+          "textAlign": "right",
+          "color": {
+            "hex": "#000000",
+            "opacity": 1
+          }
+        },
+        "layout": null,
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 4,
+        "parentId": "dom-node-3",
+        "source": "dom"
+      },
+      "iou": 0,
+      "score": 0.8324500971559795,
+      "matchedBy": "text-anchor",
+      "visualScore": 0.7512,
+      "pixelChangePct": 0.2488
+    },
+    {
+      "figmaNode": {
+        "id": "102:11",
+        "name": "Contact",
+        "type": "text",
+        "figmaType": "TEXT",
+        "x": 1288,
+        "y": 53,
+        "w": 102,
+        "h": 29,
+        "text": "Contact",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "lineHeight": 27.43199920654297,
+          "letterSpacing": 0,
+          "textAlign": "right",
+          "color": {
+            "hex": "#000000",
+            "opacity": 1
+          }
+        },
+        "layout": null,
+        "fill": {
+          "hex": "#000000",
+          "opacity": 1
+        },
+        "borderRadius": null,
+        "opacity": 1,
+        "depth": 4,
+        "parentId": "102:6",
+        "source": "figma"
+      },
+      "domNode": {
+        "id": "dom-node-8",
+        "name": "li#dom-node-8",
+        "type": "text",
+        "domTag": "li",
+        "x": 1260.109375,
+        "y": 20,
+        "w": 83.890625,
+        "h": 28,
+        "text": "Contact",
+        "typography": {
+          "fontFamily": "Alice",
+          "fontSize": 24,
+          "fontWeight": 400,
+          "lineHeight": null,
+          "letterSpacing": null,
+          "textAlign": "right",
+          "color": {
+            "hex": "#000000",
+            "opacity": 1
+          }
+        },
+        "layout": null,
+        "fill": {
+          "hex": null,
+          "opacity": 1
+        },
+        "borderRadius": 0,
+        "opacity": 1,
+        "depth": 4,
+        "parentId": "dom-node-3",
+        "source": "dom"
+      },
+      "iou": 0,
+      "score": 0.8008961866955371,
+      "matchedBy": "text-anchor",
+      "visualScore": 0.7948,
+      "pixelChangePct": 0.2052
+    }
+  ]
+}

@@ -1,16 +1,33 @@
 /**
- * AI Reasoning Layer
+ * aiReasoning.js  (updated — visual context in prompts)
+ * ─────────────────────────────────────────────────────────────────────────────
+ * Changes from original:
+ *   - buildPrompt() now includes visualScore + pixelChangePct per node
+ *   - AI can comment on rendering artifacts, anti-aliasing, image mismatches
+ *   - "hiddenIssues" (good semantic score but bad visual) are flagged to the AI
+ *   - All original logic preserved — backward compatible when visual data is absent
  */
+
+'use strict';
 
 const BATCH_SIZE = 15;
 
 // ─── Prompt Builder ───────────────────────────────────────────────────────────
 
-function buildPrompt(diffs, systemicIssues) {
+function buildPrompt(diffs, systemicIssues, visualDrift = null) {
   const systemicContext = systemicIssues.length > 0
     ? `\nSYSTEMIC PATTERNS DETECTED (same property failing on 3+ nodes — likely a global CSS issue):\n${
         systemicIssues.map(s =>
           `- "${s.property}" fails on ${s.count} nodes: ${s.affectedNodes.join(', ')}`
+        ).join('\n')
+      }\n`
+    : '';
+
+  // Flag nodes where visual score contradicts semantic score
+  const hiddenIssuesContext = (visualDrift?.hiddenIssues?.length > 0)
+    ? `\nVISUAL-ONLY ISSUES (semantic score OK but pixel diff is high — rendering artifacts):\n${
+        visualDrift.hiddenIssues.map(h =>
+          `- "${h.figmaName}": semantic=${(h.semanticScore * 100).toFixed(0)}% but ${h.pixelChangePct}% pixels differ`
         ).join('\n')
       }\n`
     : '';
@@ -22,11 +39,19 @@ function buildPrompt(diffs, systemicIssues) {
       } [${iss.severity}]`
     ).join('\n');
 
+    // Visual context lines — only added when data exists
+    const visualLines = (d.visualScore != null)
+      ? `  Visual fidelity: ${(d.visualScore * 100).toFixed(1)}% (${d.pixelChangePct != null ? d.pixelChangePct + '% pixels differ' : 'n/a'})\n` +
+        (d.pixelChangePct > 25 && d.overallScore > 0.80
+          ? `  ⚠️  Visual-semantic mismatch: semantic looks OK but ${d.pixelChangePct}% of pixels differ — likely a rendering artifact\n`
+          : '')
+      : '';
+
     return `Node ${i + 1}: "${d.figmaName}" <${d.domTag}>${
       d.isComposite ? ' (composite: merged Figma container+text)' : ''
     }
-  Overall fidelity: ${(d.overallScore * 100).toFixed(1)}%
-  Issues:
+  Semantic fidelity: ${(d.overallScore * 100).toFixed(1)}%  |  Final fidelity: ${d.finalScore != null ? (d.finalScore * 100).toFixed(1) + '%' : 'same as semantic'}
+${visualLines}  Issues:
 ${issueLines}`;
   }).join('\n\n');
 
@@ -36,21 +61,25 @@ CONTEXT:
 - Figma uses absolute coordinates and design-intent styles
 - The DOM uses computed CSS which may inherit, override, or normalize values
 - "composite" nodes = a Figma filled-rect + text label merged into one DOM element (e.g. a button)
-- textColor mismatches on buttons are often intentional CSS
+- textColor mismatches on buttons are often intentional CSS (e.g. white text on orange button)
 - backgroundColor on Figma text nodes is often the text fill, not a background
+- Visual fidelity % = pixel-level comparison of screenshots (when available)
+- A high pixel diff (>25%) with a good semantic score means a rendering artifact the JSON missed
+- Anti-aliasing causes ~1–5% pixel diff — this is normal and should be classified as "intentional"
 
-${systemicContext}
+${systemicContext}${hiddenIssuesContext}
 
 For each node below, return a JSON object with exactly these fields:
 {
   "nodeIndex": <number, 1-based>,
   "severity": "critical" | "moderate" | "minor" | "intentional",
-  "issue": "<one sentence>",
+  "issue": "<one sentence describing the problem>",
   "fix": "<one CSS fix or 'No fix needed'>",
-  "isIntentional": <boolean>
+  "isIntentional": <boolean>,
+  "visualNote": "<optional: comment on pixel diff if provided, else empty string>"
 }
 
-Return ONLY a JSON array.
+Return ONLY a JSON array. No markdown, no explanation.
 
 NODES TO ANALYZE:
 ${nodeList}`;
@@ -58,84 +87,86 @@ ${nodeList}`;
 
 // ─── API Call ─────────────────────────────────────────────────────────────────
 
-async function callClaudeAPI(prompt) {
+async function callLLMAPI(prompt) {
   const key = process.env.GROQ_API_KEY?.trim();
-
-  if (!key) {
-    throw new Error("❌ GROQ_API_KEY missing or invalid");
-  }
+  if (!key) throw new Error('❌ GROQ_API_KEY missing or invalid');
 
   const response = await fetch('https://api.groq.com/openai/v1/chat/completions', {
     method: 'POST',
     headers: {
       'Authorization': `Bearer ${key}`,
-      'Content-Type': 'application/json'
+      'Content-Type': 'application/json',
     },
     body: JSON.stringify({
-      model: "meta-llama/llama-4-scout-17b-16e-instruct",
-      messages: [{ role: "user", content: prompt }],
-      temperature: 0.1
-    })
+      model: 'meta-llama/llama-4-scout-17b-16e-instruct',
+      messages: [{ role: 'user', content: prompt }],
+      temperature: 0.1,
+    }),
   });
 
   if (!response.ok) {
     const err = await response.text();
-    console.error("❌ API ERROR:", err);
+    console.error('❌ API ERROR:', err);
     throw new Error(`API error ${response.status}`);
   }
 
-  const data = await response.json();
-  const text = data.choices?.[0]?.message?.content ?? '';
+  const data  = await response.json();
+  const text  = data.choices?.[0]?.message?.content ?? '';
+  const match = text.match(/\[[\s\S]*\]/);
 
-  const clean = text.replace(/```json|```/g, '').trim();
+  if (!match) {
+    console.error('❌ No JSON array found in AI response:', text);
+    throw new Error('Invalid JSON from AI');
+  }
 
   try {
-    const parsed = JSON.parse(clean);
-    if (!Array.isArray(parsed)) {
-      throw new Error("AI response is not an array");
-    }
+    const parsed = JSON.parse(match[0]);
+    if (!Array.isArray(parsed)) throw new Error('AI response is not an array');
     return parsed;
   } catch (e) {
-    console.error("❌ Failed to parse AI response:", clean);
-    throw new Error("Invalid JSON from AI");
+    console.error('❌ Failed to parse AI response:', match[0]);
+    throw new Error('Invalid JSON from AI');
   }
 }
 
 // ─── Batch Processor ─────────────────────────────────────────────────────────
 
-async function processBatch(batch, systemicIssues, onProgress) {
-  const prompt = buildPrompt(batch, systemicIssues);
-  const results = await callClaudeAPI(prompt);
+async function processBatch(batch, systemicIssues, visualDrift) {
+  const prompt = buildPrompt(batch, systemicIssues, visualDrift);
+  const results = await callLLMAPI(prompt);
 
   return results.map((aiResult) => {
     if (!aiResult || typeof aiResult.nodeIndex !== 'number') {
-      console.warn("⚠️ Invalid AI result:", aiResult);
+      console.warn('⚠️ Invalid AI result:', aiResult);
       return null;
     }
 
     const original = batch[aiResult.nodeIndex - 1];
-
     if (!original) {
-      console.warn("⚠️ No matching original for index:", aiResult.nodeIndex);
+      console.warn('⚠️ No matching original for index:', aiResult.nodeIndex);
       return null;
     }
 
     return {
-      figmaName: original.figmaName,
-      domTag: original.domTag,
-      isComposite: original.isComposite ?? false,
+      figmaName:    original.figmaName,
+      domTag:       original.domTag,
+      isComposite:  original.isComposite ?? false,
       overallScore: original.overallScore,
+      finalScore:   original.finalScore ?? original.overallScore,
+      visualScore:  original.visualScore ?? null,
+      pixelChangePct: original.pixelChangePct ?? null,
 
       rawIssues: original.issues,
 
       ai: {
-        severity: aiResult.severity,
-        issue: aiResult.issue,
-        fix: aiResult.fix,
+        severity:      aiResult.severity,
+        issue:         aiResult.issue,
+        fix:           aiResult.fix,
         isIntentional: aiResult.isIntentional ?? false,
+        visualNote:    aiResult.visualNote ?? '',
       },
     };
-  }).filter(Boolean); // remove nulls
+  }).filter(Boolean);
 }
 
 // ─── Public API ───────────────────────────────────────────────────────────────
@@ -143,7 +174,7 @@ async function processBatch(batch, systemicIssues, onProgress) {
 async function reasonAboutDiffs(aggregatorReport, onProgress) {
   const diffsWithIssues = aggregatorReport.diffsForAI ?? [];
 
-  if (diffsWithIssues.length === 0) {
+  if (!diffsWithIssues.length) {
     return {
       ...aggregatorReport,
       aiAnnotations: [],
@@ -152,23 +183,20 @@ async function reasonAboutDiffs(aggregatorReport, onProgress) {
   }
 
   const systemicIssues = aggregatorReport.issues?.systemic ?? [];
-  const annotations = [];
+  const visualDrift    = aggregatorReport.visualDrift ?? null;
+  const annotations    = [];
 
   for (let i = 0; i < diffsWithIssues.length; i += BATCH_SIZE) {
     const batch = diffsWithIssues.slice(i, i + BATCH_SIZE);
-    const batchResults = await processBatch(batch, systemicIssues, onProgress);
-
+    const batchResults = await processBatch(batch, systemicIssues, visualDrift);
     annotations.push(...batchResults);
 
     if (onProgress) {
-      onProgress(
-        Math.min(i + BATCH_SIZE, diffsWithIssues.length),
-        diffsWithIssues.length
-      );
+      onProgress(Math.min(i + BATCH_SIZE, diffsWithIssues.length), diffsWithIssues.length);
     }
   }
 
-  const realIssues = annotations.filter(a => !a.ai.isIntentional);
+  const realIssues      = annotations.filter(a => !a.ai.isIntentional);
   const intentionalOnes = annotations.filter(a => a.ai.isIntentional);
 
   const severityOrder = { critical: 0, moderate: 1, minor: 2, intentional: 3 };
@@ -176,19 +204,24 @@ async function reasonAboutDiffs(aggregatorReport, onProgress) {
   const fixList = realIssues
     .sort((a, b) => (severityOrder[a.ai.severity] ?? 9) - (severityOrder[b.ai.severity] ?? 9))
     .map((a, i) => ({
-      rank: i + 1,
-      figmaName: a.figmaName,
-      domTag: a.domTag,
-      severity: a.ai.severity,
-      issue: a.ai.issue,
-      fix: a.ai.fix,
+      rank:           i + 1,
+      figmaName:      a.figmaName,
+      domTag:         a.domTag,
+      severity:       a.ai.severity,
+      issue:          a.ai.issue,
+      fix:            a.ai.fix,
+      visualNote:     a.ai.visualNote || null,
+      semanticScore:  a.overallScore,
+      finalScore:     a.finalScore,
+      pixelChangePct: a.pixelChangePct,
     }));
 
   return {
-    grade: aggregatorReport.grade,
-    label: aggregatorReport.label,
+    grade:  aggregatorReport.grade,
+    label:  aggregatorReport.label,
     scores: aggregatorReport.scores,
     coverage: aggregatorReport.coverage,
+    visualDrift: aggregatorReport.visualDrift,
 
     issues: {
       ...aggregatorReport.issues,
@@ -200,12 +233,12 @@ async function reasonAboutDiffs(aggregatorReport, onProgress) {
 
     intentionalPatterns: intentionalOnes.map(a => ({
       figmaName: a.figmaName,
-      domTag: a.domTag,
-      note: a.ai.issue,
+      domTag:    a.domTag,
+      note:      a.ai.issue,
     })),
 
     aiAnnotations: annotations,
-    aiProcessed: annotations.length,
+    aiProcessed:   annotations.length,
   };
 }
 

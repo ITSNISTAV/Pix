@@ -8,10 +8,10 @@
       "matchedBy": "iou",
       "isComposite": false,
       "scores": {
-        "overall": 0.4687,
+        "overall": 0.5737,
         "geometry": 0.4882,
         "typography": 0.5833,
-        "color": 0.15,
+        "color": 0.57,
         "spacing": 0.7
       },
       "issues": [
@@ -44,13 +44,6 @@
           "severity": "critical"
         },
         {
-          "property": "backgroundColor",
-          "figmaVal": "#000000",
-          "domVal": "#f87700",
-          "delta": null,
-          "severity": "critical"
-        },
-        {
           "property": "borderRadius",
           "figmaVal": "0px",
           "domVal": "10px",
@@ -61,6 +54,13 @@
           "property": "textAlign",
           "figmaVal": "left",
           "domVal": "center",
+          "delta": null,
+          "severity": "minor"
+        },
+        {
+          "property": "backgroundColor",
+          "figmaVal": "none",
+          "domVal": "#f87700",
           "delta": null,
           "severity": "minor"
         },
@@ -89,10 +89,10 @@
       "matchedBy": "text-anchor",
       "isComposite": false,
       "scores": {
-        "overall": 0.5367,
+        "overall": 0.6117,
         "geometry": 0.1468,
         "typography": 0.5,
-        "color": 0.7,
+        "color": 1,
         "spacing": 0
       },
       "issues": [
@@ -118,13 +118,6 @@
           "severity": "moderate"
         },
         {
-          "property": "backgroundColor",
-          "figmaVal": "#000000",
-          "domVal": "none",
-          "delta": null,
-          "severity": "moderate"
-        },
-        {
           "property": "position",
           "figmaVal": "x:1128 y:1787",
           "domVal": "x:1028.5 y:1406.7",
@@ -132,7 +125,7 @@
           "severity": "info"
         }
       ],
-      "issueCount": 4
+      "issueCount": 3
     },
     {
       "figmaId": "4:57",
@@ -142,10 +135,10 @@
       "matchedBy": "text-anchor",
       "isComposite": false,
       "scores": {
-        "overall": 0.5799,
+        "overall": 0.6549,
         "geometry": 0.3196,
         "typography": 0.5,
-        "color": 0.7,
+        "color": 1,
         "spacing": 0
       },
       "issues": [
@@ -171,13 +164,6 @@
           "severity": "moderate"
         },
         {
-          "property": "backgroundColor",
-          "figmaVal": "#000000",
-          "domVal": "none",
-          "delta": null,
-          "severity": "moderate"
-        },
-        {
           "property": "position",
           "figmaVal": "x:1112 y:1407",
           "domVal": "x:1028.5 y:1092.7",
@@ -185,219 +171,7 @@
           "severity": "info"
         }
       ],
-      "issueCount": 4
-    },
-    {
-      "figmaId": "4:55",
-      "domId": "dom-node-30",
-      "figmaName": "Chocolate Cake",
-      "domTag": "p",
-      "matchedBy": "text-anchor",
-      "isComposite": false,
-      "scores": {
-        "overall": 0.8189,
-        "geometry": 0.7028,
-        "typography": 0.9093,
-        "color": 0.7,
-        "spacing": 0
-      },
-      "issues": [
-        {
-          "property": "width",
-          "figmaVal": 206,
-          "domVal": 136.703125,
-          "delta": 69.296875,
-          "severity": "critical"
-        },
-        {
-          "property": "height",
-          "figmaVal": 31,
-          "domVal": 23,
-          "delta": 8,
-          "severity": "moderate"
-        },
-        {
-          "property": "fontSize",
-          "figmaVal": "27px",
-          "domVal": "20px",
-          "delta": 7,
-          "severity": "moderate"
-        },
-        {
-          "property": "backgroundColor",
-          "figmaVal": "#000000",
-          "domVal": "none",
-          "delta": null,
-          "severity": "moderate"
-        },
-        {
-          "property": "position",
-          "figmaVal": "x:141 y:1407",
-          "domVal": "x:235.6 y:1343.7",
-          "delta": "dx:-94.6 dy:63.3",
-          "severity": "info"
-        }
-      ],
-      "issueCount": 4
-    },
-    {
-      "figmaId": "4:56",
-      "domId": "dom-node-33",
-      "figmaName": "Oreo Cake",
-      "domTag": "p",
-      "matchedBy": "text-anchor",
-      "isComposite": false,
-      "scores": {
-        "overall": 0.8192,
-        "geometry": 0.7038,
-        "typography": 0.9093,
-        "color": 0.7,
-        "spacing": 0
-      },
-      "issues": [
-        {
-          "property": "width",
-          "figmaVal": 138,
-          "domVal": 91.875,
-          "delta": 46.125,
-          "severity": "critical"
-        },
-        {
-          "property": "height",
-          "figmaVal": 31,
-          "domVal": 23,
-          "delta": 8,
-          "severity": "moderate"
-        },
-        {
-          "property": "fontSize",
-          "figmaVal": "27px",
-          "domVal": "20px",
-          "delta": 7,
-          "severity": "moderate"
-        },
-        {
-          "property": "backgroundColor",
-          "figmaVal": "#000000",
-          "domVal": "none",
-          "delta": null,
-          "severity": "moderate"
-        },
-        {
-          "property": "position",
-          "figmaVal": "x:662 y:1407",
-          "domVal": "x:674.1 y:1343.7",
-          "delta": "dx:-12.1 dy:63.3",
-          "severity": "info"
-        }
-      ],
-      "issueCount": 4
-    },
-    {
-      "figmaId": "5:61",
-      "domId": "dom-node-39",
-      "figmaName": "Black Forest",
-      "domTag": "p",
-      "matchedBy": "text-anchor",
-      "isComposite": false,
-      "scores": {
-        "overall": 0.8282,
-        "geometry": 0.74,
-        "typography": 0.9093,
-        "color": 0.7,
-        "spacing": 0
-      },
-      "issues": [
-        {
-          "property": "width",
-          "figmaVal": 147,
-          "domVal": 108.484375,
-          "delta": 38.515625,
-          "severity": "moderate"
-        },
-        {
-          "property": "height",
-          "figmaVal": 31,
-          "domVal": 23,
-          "delta": 8,
-          "severity": "moderate"
-        },
-        {
-          "property": "fontSize",
-          "figmaVal": "27px",
-          "domVal": "20px",
-          "delta": 7,
-          "severity": "moderate"
-        },
-        {
-          "property": "backgroundColor",
-          "figmaVal": "#000000",
-          "domVal": "none",
-          "delta": null,
-          "severity": "moderate"
-        },
-        {
-          "property": "position",
-          "figmaVal": "x:170 y:1787",
-          "domVal": "x:249.8 y:1657.7",
-          "delta": "dx:-79.8 dy:129.3",
-          "severity": "info"
-        }
-      ],
-      "issueCount": 4
-    },
-    {
-      "figmaId": "5:62",
-      "domId": "dom-node-42",
-      "figmaName": "Vanilla Strawberry",
-      "domTag": "p",
-      "matchedBy": "text-anchor",
-      "isComposite": false,
-      "scores": {
-        "overall": 0.8286,
-        "geometry": 0.7413,
-        "typography": 0.9093,
-        "color": 0.7,
-        "spacing": 0
-      },
-      "issues": [
-        {
-          "property": "width",
-          "figmaVal": 224,
-          "domVal": 165.921875,
-          "delta": 58.078125,
-          "severity": "moderate"
-        },
-        {
-          "property": "height",
-          "figmaVal": 31,
-          "domVal": 23,
-          "delta": 8,
-          "severity": "moderate"
-        },
-        {
-          "property": "fontSize",
-          "figmaVal": "27px",
-          "domVal": "20px",
-          "delta": 7,
-          "severity": "moderate"
-        },
-        {
-          "property": "backgroundColor",
-          "figmaVal": "#000000",
-          "domVal": "none",
-          "delta": null,
-          "severity": "moderate"
-        },
-        {
-          "property": "position",
-          "figmaVal": "x:623 y:1787",
-          "domVal": "x:637.0 y:1657.7",
-          "delta": "dx:-14.0 dy:129.3",
-          "severity": "info"
-        }
-      ],
-      "issueCount": 4
+      "issueCount": 3
     },
     {
       "figmaId": "102:5",
@@ -471,199 +245,188 @@
       "issueCount": 2
     },
     {
-      "figmaId": "102:10",
-      "domId": "dom-node-7",
-      "figmaName": "Menu",
-      "domTag": "li",
+      "figmaId": "4:55",
+      "domId": "dom-node-30",
+      "figmaName": "Chocolate Cake",
+      "domTag": "p",
       "matchedBy": "text-anchor",
       "isComposite": false,
       "scores": {
-        "overall": 0.9023,
-        "geometry": 0.9092,
-        "typography": 1,
-        "color": 0.7,
+        "overall": 0.8939,
+        "geometry": 0.7028,
+        "typography": 0.9093,
+        "color": 1,
         "spacing": 0
       },
       "issues": [
         {
           "property": "width",
-          "figmaVal": 74,
-          "domVal": 60.5625,
-          "delta": 13.4375,
+          "figmaVal": 206,
+          "domVal": 136.703125,
+          "delta": 69.296875,
+          "severity": "critical"
+        },
+        {
+          "property": "height",
+          "figmaVal": 31,
+          "domVal": 23,
+          "delta": 8,
           "severity": "moderate"
         },
         {
-          "property": "backgroundColor",
-          "figmaVal": "#000000",
-          "domVal": "none",
-          "delta": null,
+          "property": "fontSize",
+          "figmaVal": "27px",
+          "domVal": "20px",
+          "delta": 7,
           "severity": "moderate"
         },
         {
           "property": "position",
-          "figmaVal": "x:1174 y:53",
-          "domVal": "x:1159.5 y:20.0",
-          "delta": "dx:14.5 dy:33.0",
+          "figmaVal": "x:141 y:1407",
+          "domVal": "x:235.6 y:1343.7",
+          "delta": "dx:-94.6 dy:63.3",
           "severity": "info"
         }
       ],
-      "issueCount": 2
+      "issueCount": 3
     },
     {
-      "figmaId": "102:8",
-      "domId": "dom-node-5",
-      "figmaName": "Services",
-      "domTag": "li",
+      "figmaId": "4:56",
+      "domId": "dom-node-33",
+      "figmaName": "Oreo Cake",
+      "domTag": "p",
       "matchedBy": "text-anchor",
       "isComposite": false,
       "scores": {
-        "overall": 0.9027,
-        "geometry": 0.9109,
-        "typography": 1,
-        "color": 0.7,
+        "overall": 0.8942,
+        "geometry": 0.7038,
+        "typography": 0.9093,
+        "color": 1,
         "spacing": 0
       },
       "issues": [
         {
           "property": "width",
-          "figmaVal": 109,
-          "domVal": 89.578125,
-          "delta": 19.421875,
+          "figmaVal": 138,
+          "domVal": 91.875,
+          "delta": 46.125,
+          "severity": "critical"
+        },
+        {
+          "property": "height",
+          "figmaVal": 31,
+          "domVal": 23,
+          "delta": 8,
           "severity": "moderate"
         },
         {
-          "property": "backgroundColor",
-          "figmaVal": "#000000",
-          "domVal": "none",
-          "delta": null,
+          "property": "fontSize",
+          "figmaVal": "27px",
+          "domVal": "20px",
+          "delta": 7,
           "severity": "moderate"
         },
         {
           "property": "position",
-          "figmaVal": "x:878 y:53",
-          "domVal": "x:901.7 y:20.0",
-          "delta": "dx:-23.7 dy:33.0",
+          "figmaVal": "x:662 y:1407",
+          "domVal": "x:674.1 y:1343.7",
+          "delta": "dx:-12.1 dy:63.3",
           "severity": "info"
         }
       ],
-      "issueCount": 2
+      "issueCount": 3
     },
     {
-      "figmaId": "102:11",
-      "domId": "dom-node-8",
-      "figmaName": "Contact",
-      "domTag": "li",
+      "figmaId": "5:61",
+      "domId": "dom-node-39",
+      "figmaName": "Black Forest",
+      "domTag": "p",
       "matchedBy": "text-anchor",
       "isComposite": false,
       "scores": {
-        "overall": 0.9028,
-        "geometry": 0.9112,
-        "typography": 1,
-        "color": 0.7,
+        "overall": 0.9032,
+        "geometry": 0.74,
+        "typography": 0.9093,
+        "color": 1,
         "spacing": 0
       },
       "issues": [
         {
           "property": "width",
-          "figmaVal": 102,
-          "domVal": 83.890625,
-          "delta": 18.109375,
+          "figmaVal": 147,
+          "domVal": 108.484375,
+          "delta": 38.515625,
           "severity": "moderate"
         },
         {
-          "property": "backgroundColor",
-          "figmaVal": "#000000",
-          "domVal": "none",
-          "delta": null,
+          "property": "height",
+          "figmaVal": 31,
+          "domVal": 23,
+          "delta": 8,
+          "severity": "moderate"
+        },
+        {
+          "property": "fontSize",
+          "figmaVal": "27px",
+          "domVal": "20px",
+          "delta": 7,
           "severity": "moderate"
         },
         {
           "property": "position",
-          "figmaVal": "x:1288 y:53",
-          "domVal": "x:1260.1 y:20.0",
-          "delta": "dx:27.9 dy:33.0",
+          "figmaVal": "x:170 y:1787",
+          "domVal": "x:249.8 y:1657.7",
+          "delta": "dx:-79.8 dy:129.3",
           "severity": "info"
         }
       ],
-      "issueCount": 2
+      "issueCount": 3
     },
     {
-      "figmaId": "102:9",
-      "domId": "dom-node-6",
-      "figmaName": "Reviews",
-      "domTag": "li",
+      "figmaId": "5:62",
+      "domId": "dom-node-42",
+      "figmaName": "Vanilla Strawberry",
+      "domTag": "p",
       "matchedBy": "text-anchor",
       "isComposite": false,
       "scores": {
-        "overall": 0.9031,
-        "geometry": 0.9125,
-        "typography": 1,
-        "color": 0.7,
+        "overall": 0.9036,
+        "geometry": 0.7413,
+        "typography": 0.9093,
+        "color": 1,
         "spacing": 0
       },
       "issues": [
         {
           "property": "width",
-          "figmaVal": 107,
-          "domVal": 88.28125,
-          "delta": 18.71875,
+          "figmaVal": 224,
+          "domVal": 165.921875,
+          "delta": 58.078125,
           "severity": "moderate"
         },
         {
-          "property": "backgroundColor",
-          "figmaVal": "#000000",
-          "domVal": "none",
-          "delta": null,
+          "property": "height",
+          "figmaVal": 31,
+          "domVal": 23,
+          "delta": 8,
           "severity": "moderate"
         },
         {
-          "property": "position",
-          "figmaVal": "x:1027 y:53",
-          "domVal": "x:1031.3 y:20.0",
-          "delta": "dx:-4.3 dy:33.0",
-          "severity": "info"
-        }
-      ],
-      "issueCount": 2
-    },
-    {
-      "figmaId": "102:7",
-      "domId": "dom-node-4",
-      "figmaName": "Home",
-      "domTag": "li",
-      "matchedBy": "text-anchor",
-      "isComposite": false,
-      "scores": {
-        "overall": 0.9035,
-        "geometry": 0.914,
-        "typography": 1,
-        "color": 0.7,
-        "spacing": 0
-      },
-      "issues": [
-        {
-          "property": "width",
-          "figmaVal": 77,
-          "domVal": 63.75,
-          "delta": 13.25,
-          "severity": "moderate"
-        },
-        {
-          "property": "backgroundColor",
-          "figmaVal": "#000000",
-          "domVal": "none",
-          "delta": null,
+          "property": "fontSize",
+          "figmaVal": "27px",
+          "domVal": "20px",
+          "delta": 7,
           "severity": "moderate"
         },
         {
           "property": "position",
-          "figmaVal": "x:761 y:53",
-          "domVal": "x:797.9 y:20.0",
-          "delta": "dx:-36.9 dy:33.0",
+          "figmaVal": "x:623 y:1787",
+          "domVal": "x:637.0 y:1657.7",
+          "delta": "dx:-14.0 dy:129.3",
           "severity": "info"
         }
       ],
-      "issueCount": 2
+      "issueCount": 3
     },
     {
       "figmaId": "102:2",
@@ -710,70 +473,6 @@
         }
       ],
       "issueCount": 3
-    },
-    {
-      "figmaId": "3:14",
-      "domId": "dom-node-15",
-      "figmaName": "We are not just a bakery, we are not just bakers. In fact, we are just like you, a bunch of food lovers fascinated with sweet indulgence, who dreamt of creating an appetizing fairy land of divine delicacies that relishes the utmost desires.",
-      "domTag": "p",
-      "matchedBy": "iou",
-      "isComposite": false,
-      "scores": {
-        "overall": 0.925,
-        "geometry": 1,
-        "typography": 1,
-        "color": 0.7,
-        "spacing": 0
-      },
-      "issues": [
-        {
-          "property": "backgroundColor",
-          "figmaVal": "#000000",
-          "domVal": "none",
-          "delta": null,
-          "severity": "moderate"
-        },
-        {
-          "property": "position",
-          "figmaVal": "x:52 y:179",
-          "domVal": "x:96.0 y:208.0",
-          "delta": "dx:-44.0 dy:-29.0",
-          "severity": "info"
-        }
-      ],
-      "issueCount": 1
-    },
-    {
-      "figmaId": "4:25",
-      "domId": "dom-node-16",
-      "figmaName": "Kindling it in the oven with our warmth and finally crafting the intricate creations in the form of some lip-smacking cakes, which are out of this world! The only additives you’ll find in our products are an extra pinch of love, care and devotion!",
-      "domTag": "p",
-      "matchedBy": "iou",
-      "isComposite": false,
-      "scores": {
-        "overall": 0.925,
-        "geometry": 1,
-        "typography": 1,
-        "color": 0.7,
-        "spacing": 0
-      },
-      "issues": [
-        {
-          "property": "backgroundColor",
-          "figmaVal": "#000000",
-          "domVal": "none",
-          "delta": null,
-          "severity": "moderate"
-        },
-        {
-          "property": "position",
-          "figmaVal": "x:52 y:450",
-          "domVal": "x:96.0 y:479.0",
-          "delta": "dx:-44.0 dy:-29.0",
-          "severity": "info"
-        }
-      ],
-      "issueCount": 1
     },
     {
       "figmaId": "4:53",
@@ -1120,6 +819,166 @@
       "issueCount": 2
     },
     {
+      "figmaId": "102:10",
+      "domId": "dom-node-7",
+      "figmaName": "Menu",
+      "domTag": "li",
+      "matchedBy": "text-anchor",
+      "isComposite": false,
+      "scores": {
+        "overall": 0.9773,
+        "geometry": 0.9092,
+        "typography": 1,
+        "color": 1,
+        "spacing": 0
+      },
+      "issues": [
+        {
+          "property": "width",
+          "figmaVal": 74,
+          "domVal": 60.5625,
+          "delta": 13.4375,
+          "severity": "moderate"
+        },
+        {
+          "property": "position",
+          "figmaVal": "x:1174 y:53",
+          "domVal": "x:1159.5 y:20.0",
+          "delta": "dx:14.5 dy:33.0",
+          "severity": "info"
+        }
+      ],
+      "issueCount": 1
+    },
+    {
+      "figmaId": "102:8",
+      "domId": "dom-node-5",
+      "figmaName": "Services",
+      "domTag": "li",
+      "matchedBy": "text-anchor",
+      "isComposite": false,
+      "scores": {
+        "overall": 0.9777,
+        "geometry": 0.9109,
+        "typography": 1,
+        "color": 1,
+        "spacing": 0
+      },
+      "issues": [
+        {
+          "property": "width",
+          "figmaVal": 109,
+          "domVal": 89.578125,
+          "delta": 19.421875,
+          "severity": "moderate"
+        },
+        {
+          "property": "position",
+          "figmaVal": "x:878 y:53",
+          "domVal": "x:901.7 y:20.0",
+          "delta": "dx:-23.7 dy:33.0",
+          "severity": "info"
+        }
+      ],
+      "issueCount": 1
+    },
+    {
+      "figmaId": "102:11",
+      "domId": "dom-node-8",
+      "figmaName": "Contact",
+      "domTag": "li",
+      "matchedBy": "text-anchor",
+      "isComposite": false,
+      "scores": {
+        "overall": 0.9778,
+        "geometry": 0.9112,
+        "typography": 1,
+        "color": 1,
+        "spacing": 0
+      },
+      "issues": [
+        {
+          "property": "width",
+          "figmaVal": 102,
+          "domVal": 83.890625,
+          "delta": 18.109375,
+          "severity": "moderate"
+        },
+        {
+          "property": "position",
+          "figmaVal": "x:1288 y:53",
+          "domVal": "x:1260.1 y:20.0",
+          "delta": "dx:27.9 dy:33.0",
+          "severity": "info"
+        }
+      ],
+      "issueCount": 1
+    },
+    {
+      "figmaId": "102:9",
+      "domId": "dom-node-6",
+      "figmaName": "Reviews",
+      "domTag": "li",
+      "matchedBy": "text-anchor",
+      "isComposite": false,
+      "scores": {
+        "overall": 0.9781,
+        "geometry": 0.9125,
+        "typography": 1,
+        "color": 1,
+        "spacing": 0
+      },
+      "issues": [
+        {
+          "property": "width",
+          "figmaVal": 107,
+          "domVal": 88.28125,
+          "delta": 18.71875,
+          "severity": "moderate"
+        },
+        {
+          "property": "position",
+          "figmaVal": "x:1027 y:53",
+          "domVal": "x:1031.3 y:20.0",
+          "delta": "dx:-4.3 dy:33.0",
+          "severity": "info"
+        }
+      ],
+      "issueCount": 1
+    },
+    {
+      "figmaId": "102:7",
+      "domId": "dom-node-4",
+      "figmaName": "Home",
+      "domTag": "li",
+      "matchedBy": "text-anchor",
+      "isComposite": false,
+      "scores": {
+        "overall": 0.9785,
+        "geometry": 0.914,
+        "typography": 1,
+        "color": 1,
+        "spacing": 0
+      },
+      "issues": [
+        {
+          "property": "width",
+          "figmaVal": 77,
+          "domVal": 63.75,
+          "delta": 13.25,
+          "severity": "moderate"
+        },
+        {
+          "property": "position",
+          "figmaVal": "x:761 y:53",
+          "domVal": "x:797.9 y:20.0",
+          "delta": "dx:-36.9 dy:33.0",
+          "severity": "info"
+        }
+      ],
+      "issueCount": 1
+    },
+    {
       "figmaId": "102:3",
       "domId": "dom-node-18",
       "figmaName": "Frame 2",
@@ -1177,6 +1036,31 @@
       "issueCount": 1
     },
     {
+      "figmaId": "3:14",
+      "domId": "dom-node-15",
+      "figmaName": "We are not just a bakery, we are not just bakers. In fact, we are just like you, a bunch of food lovers fascinated with sweet indulgence, who dreamt of creating an appetizing fairy land of divine delicacies that relishes the utmost desires.",
+      "domTag": "p",
+      "matchedBy": "iou",
+      "isComposite": false,
+      "scores": {
+        "overall": 1,
+        "geometry": 1,
+        "typography": 1,
+        "color": 1,
+        "spacing": 0
+      },
+      "issues": [
+        {
+          "property": "position",
+          "figmaVal": "x:52 y:179",
+          "domVal": "x:96.0 y:208.0",
+          "delta": "dx:-44.0 dy:-29.0",
+          "severity": "info"
+        }
+      ],
+      "issueCount": 0
+    },
+    {
       "figmaId": "102:4",
       "domId": "dom-node-20",
       "figmaName": "cake shop 1",
@@ -1196,6 +1080,31 @@
           "figmaVal": "x:761 y:127",
           "domVal": "x:714.0 y:111.0",
           "delta": "dx:47.0 dy:16.0",
+          "severity": "info"
+        }
+      ],
+      "issueCount": 0
+    },
+    {
+      "figmaId": "4:25",
+      "domId": "dom-node-16",
+      "figmaName": "Kindling it in the oven with our warmth and finally crafting the intricate creations in the form of some lip-smacking cakes, which are out of this world! The only additives you’ll find in our products are an extra pinch of love, care and devotion!",
+      "domTag": "p",
+      "matchedBy": "iou",
+      "isComposite": false,
+      "scores": {
+        "overall": 1,
+        "geometry": 1,
+        "typography": 1,
+        "color": 1,
+        "spacing": 0
+      },
+      "issues": [
+        {
+          "property": "position",
+          "figmaVal": "x:52 y:450",
+          "domVal": "x:96.0 y:479.0",
+          "delta": "dx:-44.0 dy:-29.0",
           "severity": "info"
         }
       ],

@@ -6,6 +6,7 @@
       "pageFidelity": 0.8788,
       "coverage": 0.8788,
       "matchedQuality": 0.8787,
+      "visualEnabled": false,
       "byBucket": {
         "geometry": 0.8207,
         "typography": 0.445,
@@ -133,6 +134,9 @@
         "figmaName": "Learn More",
         "domTag": "button",
         "overallScore": 0.4687,
+        "finalScore": 0.4687,
+        "visualScore": null,
+        "pixelChangePct": null,
         "issueCount": 8,
         "topIssue": {
           "property": "width",
@@ -146,6 +150,9 @@
         "figmaName": "Red Velvet",
         "domTag": "img",
         "overallScore": 0.5367,
+        "finalScore": 0.5367,
+        "visualScore": null,
+        "pixelChangePct": null,
         "issueCount": 4,
         "topIssue": {
           "property": "width",
@@ -159,6 +166,9 @@
         "figmaName": "Pinata Cake",
         "domTag": "img",
         "overallScore": 0.5799,
+        "finalScore": 0.5799,
+        "visualScore": null,
+        "pixelChangePct": null,
         "issueCount": 4,
         "topIssue": {
           "property": "width",
@@ -172,6 +182,9 @@
         "figmaName": "Chocolate Cake",
         "domTag": "p",
         "overallScore": 0.8189,
+        "finalScore": 0.8189,
+        "visualScore": null,
+        "pixelChangePct": null,
         "issueCount": 4,
         "topIssue": {
           "property": "width",
@@ -185,6 +198,9 @@
         "figmaName": "Oreo Cake",
         "domTag": "p",
         "overallScore": 0.8192,
+        "finalScore": 0.8192,
+        "visualScore": null,
+        "pixelChangePct": null,
         "issueCount": 4,
         "topIssue": {
           "property": "width",
@@ -195,12 +211,19 @@
         }
       }
     ],
+    "visualDrift": {
+      "available": false,
+      "message": "No visual scores computed — screenshots not provided"
+    },
     "diffsForAI": [
       {
         "figmaName": "Learn More",
         "domTag": "button",
         "isComposite": false,
         "overallScore": 0.4687,
+        "visualScore": null,
+        "finalScore": 0.4687,
+        "pixelChangePct": null,
         "issues": [
           {
             "property": "width",
@@ -265,6 +288,9 @@
         "domTag": "img",
         "isComposite": false,
         "overallScore": 0.5367,
+        "visualScore": null,
+        "finalScore": 0.5367,
+        "pixelChangePct": null,
         "issues": [
           {
             "property": "width",
@@ -301,6 +327,9 @@
         "domTag": "img",
         "isComposite": false,
         "overallScore": 0.5799,
+        "visualScore": null,
+        "finalScore": 0.5799,
+        "pixelChangePct": null,
         "issues": [
           {
             "property": "width",
@@ -337,6 +366,9 @@
         "domTag": "p",
         "isComposite": false,
         "overallScore": 0.8189,
+        "visualScore": null,
+        "finalScore": 0.8189,
+        "pixelChangePct": null,
         "issues": [
           {
             "property": "width",
@@ -373,6 +405,9 @@
         "domTag": "p",
         "isComposite": false,
         "overallScore": 0.8192,
+        "visualScore": null,
+        "finalScore": 0.8192,
+        "pixelChangePct": null,
         "issues": [
           {
             "property": "width",
@@ -409,6 +444,9 @@
         "domTag": "p",
         "isComposite": false,
         "overallScore": 0.8282,
+        "visualScore": null,
+        "finalScore": 0.8282,
+        "pixelChangePct": null,
         "issues": [
           {
             "property": "width",
@@ -445,6 +483,9 @@
         "domTag": "p",
         "isComposite": false,
         "overallScore": 0.8286,
+        "visualScore": null,
+        "finalScore": 0.8286,
+        "pixelChangePct": null,
         "issues": [
           {
             "property": "width",
@@ -481,6 +522,9 @@
         "domTag": "div",
         "isComposite": false,
         "overallScore": 0.875,
+        "visualScore": null,
+        "finalScore": 0.875,
+        "pixelChangePct": null,
         "issues": [
           {
             "property": "width",
@@ -496,6 +540,9 @@
         "domTag": "button",
         "isComposite": true,
         "overallScore": 0.8892,
+        "visualScore": null,
+        "finalScore": 0.8892,
+        "pixelChangePct": null,
         "issues": [
           {
             "property": "fontSize",
@@ -518,6 +565,9 @@
         "domTag": "li",
         "isComposite": false,
         "overallScore": 0.9023,
+        "visualScore": null,
+        "finalScore": 0.9023,
+        "pixelChangePct": null,
         "issues": [
           {
             "property": "width",
@@ -540,6 +590,9 @@
         "domTag": "li",
         "isComposite": false,
         "overallScore": 0.9027,
+        "visualScore": null,
+        "finalScore": 0.9027,
+        "pixelChangePct": null,
         "issues": [
           {
             "property": "width",
@@ -562,6 +615,9 @@
         "domTag": "li",
         "isComposite": false,
         "overallScore": 0.9028,
+        "visualScore": null,
+        "finalScore": 0.9028,
+        "pixelChangePct": null,
         "issues": [
           {
             "property": "width",
@@ -584,6 +640,9 @@
         "domTag": "li",
         "isComposite": false,
         "overallScore": 0.9031,
+        "visualScore": null,
+        "finalScore": 0.9031,
+        "pixelChangePct": null,
         "issues": [
           {
             "property": "width",
@@ -606,6 +665,9 @@
         "domTag": "li",
         "isComposite": false,
         "overallScore": 0.9035,
+        "visualScore": null,
+        "finalScore": 0.9035,
+        "pixelChangePct": null,
         "issues": [
           {
             "property": "width",
@@ -628,6 +690,9 @@
         "domTag": "section",
         "isComposite": false,
         "overallScore": 0.9048,
+        "visualScore": null,
+        "finalScore": 0.9048,
+        "pixelChangePct": null,
         "issues": [
           {
             "property": "width",
@@ -657,6 +722,9 @@
         "domTag": "p",
         "isComposite": false,
         "overallScore": 0.925,
+        "visualScore": null,
+        "finalScore": 0.925,
+        "pixelChangePct": null,
         "issues": [
           {
             "property": "backgroundColor",
@@ -672,6 +740,9 @@
         "domTag": "p",
         "isComposite": false,
         "overallScore": 0.925,
+        "visualScore": null,
+        "finalScore": 0.925,
+        "pixelChangePct": null,
         "issues": [
           {
             "property": "backgroundColor",
@@ -687,6 +758,9 @@
         "domTag": "div",
         "isComposite": false,
         "overallScore": 0.9379,
+        "visualScore": null,
+        "finalScore": 0.9379,
+        "pixelChangePct": null,
         "issues": [
           {
             "property": "height",
@@ -709,6 +783,9 @@
         "domTag": "div",
         "isComposite": false,
         "overallScore": 0.9379,
+        "visualScore": null,
+        "finalScore": 0.9379,
+        "pixelChangePct": null,
         "issues": [
           {
             "property": "height",
@@ -731,6 +808,9 @@
         "domTag": "div",
         "isComposite": false,
         "overallScore": 0.9379,
+        "visualScore": null,
+        "finalScore": 0.9379,
+        "pixelChangePct": null,
         "issues": [
           {
             "property": "height",
@@ -753,6 +833,9 @@
         "domTag": "div",
         "isComposite": false,
         "overallScore": 0.9379,
+        "visualScore": null,
+        "finalScore": 0.9379,
+        "pixelChangePct": null,
         "issues": [
           {
             "property": "height",
@@ -775,6 +858,9 @@
         "domTag": "div",
         "isComposite": false,
         "overallScore": 0.9379,
+        "visualScore": null,
+        "finalScore": 0.9379,
+        "pixelChangePct": null,
         "issues": [
           {
             "property": "height",
@@ -797,6 +883,9 @@
         "domTag": "div",
         "isComposite": false,
         "overallScore": 0.9379,
+        "visualScore": null,
+        "finalScore": 0.9379,
+        "pixelChangePct": null,
         "issues": [
           {
             "property": "height",
@@ -819,6 +908,9 @@
         "domTag": "section",
         "isComposite": false,
         "overallScore": 0.9469,
+        "visualScore": null,
+        "finalScore": 0.9469,
+        "pixelChangePct": null,
         "issues": [
           {
             "property": "height",
@@ -834,6 +926,9 @@
         "domTag": "div",
         "isComposite": false,
         "overallScore": 0.9474,
+        "visualScore": null,
+        "finalScore": 0.9474,
+        "pixelChangePct": null,
         "issues": [
           {
             "property": "height",
@@ -856,6 +951,9 @@
         "domTag": "section",
         "isComposite": false,
         "overallScore": 0.9633,
+        "visualScore": null,
+        "finalScore": 0.9633,
+        "pixelChangePct": null,
         "issues": [
           {
             "property": "width",
@@ -878,6 +976,9 @@
         "domTag": "div",
         "isComposite": false,
         "overallScore": 0.9846,
+        "visualScore": null,
+        "finalScore": 0.9846,
+        "pixelChangePct": null,
         "issues": [
           {
             "property": "width",
@@ -893,6 +994,9 @@
         "domTag": "body",
         "isComposite": false,
         "overallScore": 0.9909,
+        "visualScore": null,
+        "finalScore": 0.9909,
+        "pixelChangePct": null,
         "issues": [
           {
             "property": "height",

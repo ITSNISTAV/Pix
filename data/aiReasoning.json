@@ -1,0 +1,1527 @@
+{
+  "aiReason": {
+    "grade": "B",
+    "label": "Good — minor drift, easily fixable",
+    "scores": {
+      "pageFidelity": 0.8788,
+      "coverage": 0.8788,
+      "matchedQuality": 0.8787,
+      "byBucket": {
+        "geometry": 0.8207,
+        "typography": 0.445,
+        "color": 0.8362,
+        "spacing": 0.2172
+      }
+    },
+    "coverage": {
+      "figmaTotal": 34,
+      "domTotal": 47,
+      "matched": 29,
+      "unmatchedFigma": 3,
+      "unmatchedDom": 18,
+      "wrappersSkipped": 1,
+      "coveragePct": 87.9
+    },
+    "issues": {
+      "total": 69,
+      "critical": 16,
+      "moderate": 41,
+      "minor": 12,
+      "systemic": [
+        {
+          "property": "height",
+          "count": 18,
+          "severity": "critical",
+          "affectedNodes": [
+            "Learn More",
+            "Red Velvet",
+            "Pinata Cake",
+            "Chocolate Cake",
+            "Oreo Cake",
+            "Black Forest",
+            "Vanilla Strawberry",
+            "Desktop - 2",
+            "New_Oreo-Cake-1 1",
+            "chocolate-cake 1",
+            "WhatsAppImage2022-05-18at2.13 1",
+            "Funfetti-cake-recipe-new-500x500 1",
+            "black-forest-cake-thumb 1",
+            "valentine-s-heart-red-velvet-cake-1-kg_1 1",
+            "Cake-banner 1",
+            "Frame 1",
+            "Desktop - 2",
+            "Frame 4"
+          ]
+        },
+        {
+          "property": "width",
+          "count": 16,
+          "severity": "critical",
+          "affectedNodes": [
+            "Learn More",
+            "Red Velvet",
+            "Pinata Cake",
+            "Chocolate Cake",
+            "Oreo Cake",
+            "Black Forest",
+            "Vanilla Strawberry",
+            "shop 1",
+            "Menu",
+            "Services",
+            "Contact",
+            "Reviews",
+            "Home",
+            "Desktop - 2",
+            "Desktop - 2",
+            "Frame 2"
+          ]
+        },
+        {
+          "property": "backgroundColor",
+          "count": 14,
+          "severity": "critical",
+          "affectedNodes": [
+            "Learn More",
+            "Red Velvet",
+            "Pinata Cake",
+            "Chocolate Cake",
+            "Oreo Cake",
+            "Black Forest",
+            "Vanilla Strawberry",
+            "Menu",
+            "Services",
+            "Contact",
+            "Reviews",
+            "Home",
+            "We are not just a bakery, we are not just bakers. In fact, we are just like you, a bunch of food lovers fascinated with sweet indulgence, who dreamt of creating an appetizing fairy land of divine delicacies that relishes the utmost desires.",
+            "Kindling it in the oven with our warmth and finally crafting the intricate creations in the form of some lip-smacking cakes, which are out of this world! The only additives you’ll find in our products are an extra pinch of love, care and devotion!"
+          ]
+        },
+        {
+          "property": "layout",
+          "count": 9,
+          "severity": "minor",
+          "affectedNodes": [
+            "Learn More",
+            "Desktop - 2",
+            "New_Oreo-Cake-1 1",
+            "chocolate-cake 1",
+            "WhatsAppImage2022-05-18at2.13 1",
+            "Funfetti-cake-recipe-new-500x500 1",
+            "black-forest-cake-thumb 1",
+            "valentine-s-heart-red-velvet-cake-1-kg_1 1",
+            "Frame 1"
+          ]
+        },
+        {
+          "property": "fontSize",
+          "count": 6,
+          "severity": "critical",
+          "affectedNodes": [
+            "Learn More",
+            "Chocolate Cake",
+            "Oreo Cake",
+            "Black Forest",
+            "Vanilla Strawberry",
+            "back button"
+          ]
+        }
+      ],
+      "intentionalPatterns": 0,
+      "realIssues": 36
+    },
+    "fixList": [
+      {
+        "rank": 1,
+        "figmaName": "Learn More",
+        "domTag": "button",
+        "severity": "critical",
+        "issue": "Multiple critical issues with button 'Learn More', including width, height, font size, text color, background color, and border radius mismatches.",
+        "fix": "Adjust CSS to match Figma design: width=154, height=34, fontSize=30px, textColor=#000000, backgroundColor=#000000, borderRadius=0px"
+      },
+      {
+        "rank": 2,
+        "figmaName": "Red Velvet",
+        "domTag": "img",
+        "severity": "critical",
+        "issue": "Critical width and height mismatches for image 'Red Velvet'.",
+        "fix": "Adjust CSS to match Figma design: width=126, height=31"
+      },
+      {
+        "rank": 3,
+        "figmaName": "Pinata Cake",
+        "domTag": "img",
+        "severity": "critical",
+        "issue": "Critical width and height mismatches for image 'Pinata Cake'.",
+        "fix": "Adjust CSS to match Figma design: width=158, height=31"
+      },
+      {
+        "rank": 4,
+        "figmaName": "shop 1",
+        "domTag": "div",
+        "severity": "critical",
+        "issue": "Critical width mismatch for div 'shop 1'.",
+        "fix": "Adjust CSS to match Figma design: width=218"
+      },
+      {
+        "rank": 5,
+        "figmaName": "back button",
+        "domTag": "button",
+        "severity": "critical",
+        "issue": "Critical font size and text color mismatches for composite button 'back button'.",
+        "fix": "Adjust CSS to match Figma design: fontSize=27px, textColor=#000000"
+      },
+      {
+        "rank": 6,
+        "figmaName": "Cake-banner 1",
+        "domTag": "section",
+        "severity": "critical",
+        "issue": "height mismatch: Figma=243, DOM=139.703125 (delta: 103.296875)",
+        "fix": "Set height to 243px on DOM element"
+      },
+      {
+        "rank": 7,
+        "figmaName": "Chocolate Cake",
+        "domTag": "p",
+        "severity": "moderate",
+        "issue": "Moderate width, height, font size, and background color mismatches for paragraph 'Chocolate Cake'.",
+        "fix": "Adjust CSS to match Figma design: width=206, height=31, fontSize=27px, backgroundColor=#000000"
+      },
+      {
+        "rank": 8,
+        "figmaName": "Oreo Cake",
+        "domTag": "p",
+        "severity": "moderate",
+        "issue": "Moderate width, height, font size, and background color mismatches for paragraph 'Oreo Cake'.",
+        "fix": "Adjust CSS to match Figma design: width=138, height=31, fontSize=27px, backgroundColor=#000000"
+      },
+      {
+        "rank": 9,
+        "figmaName": "Black Forest",
+        "domTag": "p",
+        "severity": "moderate",
+        "issue": "Moderate width, height, font size, and background color mismatches for paragraph 'Black Forest'.",
+        "fix": "Adjust CSS to match Figma design: width=147, height=31, fontSize=27px, backgroundColor=#000000"
+      },
+      {
+        "rank": 10,
+        "figmaName": "Vanilla Strawberry",
+        "domTag": "p",
+        "severity": "moderate",
+        "issue": "Moderate width, height, font size, and background color mismatches for paragraph 'Vanilla Strawberry'.",
+        "fix": "Adjust CSS to match Figma design: width=224, height=31, fontSize=27px, backgroundColor=#000000"
+      },
+      {
+        "rank": 11,
+        "figmaName": "Menu",
+        "domTag": "li",
+        "severity": "moderate",
+        "issue": "Moderate width and background color mismatches for list item 'Menu'.",
+        "fix": "Adjust CSS to match Figma design: width=74, backgroundColor=#000000"
+      },
+      {
+        "rank": 12,
+        "figmaName": "Services",
+        "domTag": "li",
+        "severity": "moderate",
+        "issue": "Moderate width and background color mismatches for list item 'Services'.",
+        "fix": "Adjust CSS to match Figma design: width=109, backgroundColor=#000000"
+      },
+      {
+        "rank": 13,
+        "figmaName": "Contact",
+        "domTag": "li",
+        "severity": "moderate",
+        "issue": "Moderate width and background color mismatches for list item 'Contact'.",
+        "fix": "Adjust CSS to match Figma design: width=102, backgroundColor=#000000"
+      },
+      {
+        "rank": 14,
+        "figmaName": "Reviews",
+        "domTag": "li",
+        "severity": "moderate",
+        "issue": "Moderate width and background color mismatches for list item 'Reviews'.",
+        "fix": "Adjust CSS to match Figma design: width=107, backgroundColor=#000000"
+      },
+      {
+        "rank": 15,
+        "figmaName": "Home",
+        "domTag": "li",
+        "severity": "moderate",
+        "issue": "Moderate width and background color mismatches for list item 'Home'.",
+        "fix": "Adjust CSS to match Figma design: width=77, backgroundColor=#000000"
+      },
+      {
+        "rank": 16,
+        "figmaName": "Desktop - 2",
+        "domTag": "section",
+        "severity": "moderate",
+        "issue": "Moderate width, height, and layout mismatches for section 'Desktop - 2'.",
+        "fix": "Adjust CSS to match Figma design: width=1440, height=1024, layout=block"
+      },
+      {
+        "rank": 17,
+        "figmaName": "We are not just a bakery, we are not just bakers. In fact, we are just like you, a bunch of food lovers fascinated with sweet indulgence, who dreamt of creating an appetizing fairy land of divine delicacies that relishes the utmost desires.",
+        "domTag": "p",
+        "severity": "moderate",
+        "issue": "backgroundColor mismatch: Figma=#000000, DOM=none",
+        "fix": "Add background-color: #000000 to DOM element"
+      },
+      {
+        "rank": 18,
+        "figmaName": "Kindling it in the oven with our warmth and finally crafting the intricate creations in the form of some lip-smacking cakes, which are out of this world! The only additives you’ll find in our products are an extra pinch of love, care and devotion!",
+        "domTag": "p",
+        "severity": "moderate",
+        "issue": "backgroundColor mismatch: Figma=#000000, DOM=none",
+        "fix": "Add background-color: #000000 to DOM element"
+      },
+      {
+        "rank": 19,
+        "figmaName": "New_Oreo-Cake-1 1",
+        "domTag": "div",
+        "severity": "moderate",
+        "issue": "height mismatch: Figma=241, DOM=274 (delta: -33)",
+        "fix": "Set height to 241px on DOM element"
+      },
+      {
+        "rank": 20,
+        "figmaName": "chocolate-cake 1",
+        "domTag": "div",
+        "severity": "moderate",
+        "issue": "height mismatch: Figma=241, DOM=274 (delta: -33)",
+        "fix": "Set height to 241px on DOM element"
+      },
+      {
+        "rank": 21,
+        "figmaName": "WhatsAppImage2022-05-18at2.13 1",
+        "domTag": "div",
+        "severity": "moderate",
+        "issue": "height mismatch: Figma=241, DOM=274 (delta: -33)",
+        "fix": "Set height to 241px on DOM element"
+      },
+      {
+        "rank": 22,
+        "figmaName": "Funfetti-cake-recipe-new-500x500 1",
+        "domTag": "div",
+        "severity": "moderate",
+        "issue": "height mismatch: Figma=241, DOM=274 (delta: -33)",
+        "fix": "Set height to 241px on DOM element"
+      },
+      {
+        "rank": 23,
+        "figmaName": "black-forest-cake-thumb 1",
+        "domTag": "div",
+        "severity": "moderate",
+        "issue": "height mismatch: Figma=241, DOM=274 (delta: -33)",
+        "fix": "Set height to 241px on DOM element"
+      },
+      {
+        "rank": 24,
+        "figmaName": "valentine-s-heart-red-velvet-cake-1-kg_1 1",
+        "domTag": "div",
+        "severity": "moderate",
+        "issue": "height mismatch: Figma=241, DOM=274 (delta: -33)",
+        "fix": "Set height to 241px on DOM element"
+      },
+      {
+        "rank": 25,
+        "figmaName": "Desktop - 2",
+        "domTag": "section",
+        "severity": "moderate",
+        "issue": "width mismatch: Figma=1440, DOM=1248 (delta: 192)",
+        "fix": "Set width to 1440px on DOM element"
+      },
+      {
+        "rank": 26,
+        "figmaName": "Desktop - 2",
+        "domTag": "section",
+        "severity": "moderate",
+        "issue": "height mismatch: Figma=1024, DOM=860 (delta: 164)",
+        "fix": "Set height to 1024px on DOM element"
+      },
+      {
+        "rank": 27,
+        "figmaName": "Frame 2",
+        "domTag": "div",
+        "severity": "moderate",
+        "issue": "width mismatch: Figma=738, DOM=647 (delta: 91)",
+        "fix": "Set width to 738px on DOM element"
+      },
+      {
+        "rank": 28,
+        "figmaName": "New_Oreo-Cake-1 1",
+        "domTag": "div",
+        "severity": "minor",
+        "issue": "layout mismatch: Figma=block, DOM=flex",
+        "fix": "Set display to block on DOM element"
+      },
+      {
+        "rank": 29,
+        "figmaName": "chocolate-cake 1",
+        "domTag": "div",
+        "severity": "minor",
+        "issue": "layout mismatch: Figma=block, DOM=flex",
+        "fix": "Set display to block on DOM element"
+      },
+      {
+        "rank": 30,
+        "figmaName": "WhatsAppImage2022-05-18at2.13 1",
+        "domTag": "div",
+        "severity": "minor",
+        "issue": "layout mismatch: Figma=block, DOM=flex",
+        "fix": "Set display to block on DOM element"
+      },
+      {
+        "rank": 31,
+        "figmaName": "Funfetti-cake-recipe-new-500x500 1",
+        "domTag": "div",
+        "severity": "minor",
+        "issue": "layout mismatch: Figma=block, DOM=flex",
+        "fix": "Set display to block on DOM element"
+      },
+      {
+        "rank": 32,
+        "figmaName": "black-forest-cake-thumb 1",
+        "domTag": "div",
+        "severity": "minor",
+        "issue": "layout mismatch: Figma=block, DOM=flex",
+        "fix": "Set display to block on DOM element"
+      },
+      {
+        "rank": 33,
+        "figmaName": "valentine-s-heart-red-velvet-cake-1-kg_1 1",
+        "domTag": "div",
+        "severity": "minor",
+        "issue": "layout mismatch: Figma=block, DOM=flex",
+        "fix": "Set display to block on DOM element"
+      },
+      {
+        "rank": 34,
+        "figmaName": "Frame 1",
+        "domTag": "div",
+        "severity": "minor",
+        "issue": "height mismatch: Figma=645, DOM=606 (delta: 39)",
+        "fix": "Set height to 645px on DOM element"
+      },
+      {
+        "rank": 35,
+        "figmaName": "Frame 1",
+        "domTag": "div",
+        "severity": "minor",
+        "issue": "layout mismatch: Figma=block, DOM=flex",
+        "fix": "Set display to block on DOM element"
+      },
+      {
+        "rank": 36,
+        "figmaName": "Frame 4",
+        "domTag": "body",
+        "severity": "minor",
+        "issue": "height mismatch: Figma=2048, DOM=1899.703125 (delta: 148.296875)",
+        "fix": "Set height to 2048px on DOM element"
+      }
+    ],
+    "intentionalPatterns": [],
+    "aiAnnotations": [
+      {
+        "figmaName": "Learn More",
+        "domTag": "button",
+        "isComposite": false,
+        "overallScore": 0.4687,
+        "rawIssues": [
+          {
+            "property": "width",
+            "figmaVal": 154,
+            "domVal": 212,
+            "delta": -58,
+            "severity": "critical"
+          },
+          {
+            "property": "height",
+            "figmaVal": 34,
+            "domVal": 56,
+            "delta": -22,
+            "severity": "critical"
+          },
+          {
+            "property": "fontSize",
+            "figmaVal": "30px",
+            "domVal": "20px",
+            "delta": 10,
+            "severity": "critical"
+          },
+          {
+            "property": "textColor",
+            "figmaVal": "#000000",
+            "domVal": "#ffffff",
+            "delta": null,
+            "severity": "critical"
+          },
+          {
+            "property": "backgroundColor",
+            "figmaVal": "#000000",
+            "domVal": "#f87700",
+            "delta": null,
+            "severity": "critical"
+          },
+          {
+            "property": "borderRadius",
+            "figmaVal": "0px",
+            "domVal": "10px",
+            "delta": -10,
+            "severity": "critical"
+          },
+          {
+            "property": "textAlign",
+            "figmaVal": "left",
+            "domVal": "center",
+            "delta": null,
+            "severity": "minor"
+          },
+          {
+            "property": "layout",
+            "figmaVal": "block",
+            "domVal": "flex",
+            "delta": null,
+            "severity": "minor"
+          }
+        ],
+        "ai": {
+          "severity": "critical",
+          "issue": "Multiple critical issues with button 'Learn More', including width, height, font size, text color, background color, and border radius mismatches.",
+          "fix": "Adjust CSS to match Figma design: width=154, height=34, fontSize=30px, textColor=#000000, backgroundColor=#000000, borderRadius=0px",
+          "isIntentional": false
+        }
+      },
+      {
+        "figmaName": "Red Velvet",
+        "domTag": "img",
+        "isComposite": false,
+        "overallScore": 0.5367,
+        "rawIssues": [
+          {
+            "property": "width",
+            "figmaVal": 126,
+            "domVal": 215,
+            "delta": -89,
+            "severity": "critical"
+          },
+          {
+            "property": "height",
+            "figmaVal": 31,
+            "domVal": 241,
+            "delta": -210,
+            "severity": "critical"
+          },
+          {
+            "property": "typography",
+            "figmaVal": "present",
+            "domVal": "missing",
+            "delta": null,
+            "severity": "moderate"
+          },
+          {
+            "property": "backgroundColor",
+            "figmaVal": "#000000",
+            "domVal": "none",
+            "delta": null,
+            "severity": "moderate"
+          }
+        ],
+        "ai": {
+          "severity": "critical",
+          "issue": "Critical width and height mismatches for image 'Red Velvet'.",
+          "fix": "Adjust CSS to match Figma design: width=126, height=31",
+          "isIntentional": false
+        }
+      },
+      {
+        "figmaName": "Pinata Cake",
+        "domTag": "img",
+        "isComposite": false,
+        "overallScore": 0.5799,
+        "rawIssues": [
+          {
+            "property": "width",
+            "figmaVal": 158,
+            "domVal": 215,
+            "delta": -57,
+            "severity": "critical"
+          },
+          {
+            "property": "height",
+            "figmaVal": 31,
+            "domVal": 241,
+            "delta": -210,
+            "severity": "critical"
+          },
+          {
+            "property": "typography",
+            "figmaVal": "present",
+            "domVal": "missing",
+            "delta": null,
+            "severity": "moderate"
+          },
+          {
+            "property": "backgroundColor",
+            "figmaVal": "#000000",
+            "domVal": "none",
+            "delta": null,
+            "severity": "moderate"
+          }
+        ],
+        "ai": {
+          "severity": "critical",
+          "issue": "Critical width and height mismatches for image 'Pinata Cake'.",
+          "fix": "Adjust CSS to match Figma design: width=158, height=31",
+          "isIntentional": false
+        }
+      },
+      {
+        "figmaName": "Chocolate Cake",
+        "domTag": "p",
+        "isComposite": false,
+        "overallScore": 0.8189,
+        "rawIssues": [
+          {
+            "property": "width",
+            "figmaVal": 206,
+            "domVal": 136.703125,
+            "delta": 69.296875,
+            "severity": "critical"
+          },
+          {
+            "property": "height",
+            "figmaVal": 31,
+            "domVal": 23,
+            "delta": 8,
+            "severity": "moderate"
+          },
+          {
+            "property": "fontSize",
+            "figmaVal": "27px",
+            "domVal": "20px",
+            "delta": 7,
+            "severity": "moderate"
+          },
+          {
+            "property": "backgroundColor",
+            "figmaVal": "#000000",
+            "domVal": "none",
+            "delta": null,
+            "severity": "moderate"
+          }
+        ],
+        "ai": {
+          "severity": "moderate",
+          "issue": "Moderate width, height, font size, and background color mismatches for paragraph 'Chocolate Cake'.",
+          "fix": "Adjust CSS to match Figma design: width=206, height=31, fontSize=27px, backgroundColor=#000000",
+          "isIntentional": false
+        }
+      },
+      {
+        "figmaName": "Oreo Cake",
+        "domTag": "p",
+        "isComposite": false,
+        "overallScore": 0.8192,
+        "rawIssues": [
+          {
+            "property": "width",
+            "figmaVal": 138,
+            "domVal": 91.875,
+            "delta": 46.125,
+            "severity": "critical"
+          },
+          {
+            "property": "height",
+            "figmaVal": 31,
+            "domVal": 23,
+            "delta": 8,
+            "severity": "moderate"
+          },
+          {
+            "property": "fontSize",
+            "figmaVal": "27px",
+            "domVal": "20px",
+            "delta": 7,
+            "severity": "moderate"
+          },
+          {
+            "property": "backgroundColor",
+            "figmaVal": "#000000",
+            "domVal": "none",
+            "delta": null,
+            "severity": "moderate"
+          }
+        ],
+        "ai": {
+          "severity": "moderate",
+          "issue": "Moderate width, height, font size, and background color mismatches for paragraph 'Oreo Cake'.",
+          "fix": "Adjust CSS to match Figma design: width=138, height=31, fontSize=27px, backgroundColor=#000000",
+          "isIntentional": false
+        }
+      },
+      {
+        "figmaName": "Black Forest",
+        "domTag": "p",
+        "isComposite": false,
+        "overallScore": 0.8282,
+        "rawIssues": [
+          {
+            "property": "width",
+            "figmaVal": 147,
+            "domVal": 108.484375,
+            "delta": 38.515625,
+            "severity": "moderate"
+          },
+          {
+            "property": "height",
+            "figmaVal": 31,
+            "domVal": 23,
+            "delta": 8,
+            "severity": "moderate"
+          },
+          {
+            "property": "fontSize",
+            "figmaVal": "27px",
+            "domVal": "20px",
+            "delta": 7,
+            "severity": "moderate"
+          },
+          {
+            "property": "backgroundColor",
+            "figmaVal": "#000000",
+            "domVal": "none",
+            "delta": null,
+            "severity": "moderate"
+          }
+        ],
+        "ai": {
+          "severity": "moderate",
+          "issue": "Moderate width, height, font size, and background color mismatches for paragraph 'Black Forest'.",
+          "fix": "Adjust CSS to match Figma design: width=147, height=31, fontSize=27px, backgroundColor=#000000",
+          "isIntentional": false
+        }
+      },
+      {
+        "figmaName": "Vanilla Strawberry",
+        "domTag": "p",
+        "isComposite": false,
+        "overallScore": 0.8286,
+        "rawIssues": [
+          {
+            "property": "width",
+            "figmaVal": 224,
+            "domVal": 165.921875,
+            "delta": 58.078125,
+            "severity": "moderate"
+          },
+          {
+            "property": "height",
+            "figmaVal": 31,
+            "domVal": 23,
+            "delta": 8,
+            "severity": "moderate"
+          },
+          {
+            "property": "fontSize",
+            "figmaVal": "27px",
+            "domVal": "20px",
+            "delta": 7,
+            "severity": "moderate"
+          },
+          {
+            "property": "backgroundColor",
+            "figmaVal": "#000000",
+            "domVal": "none",
+            "delta": null,
+            "severity": "moderate"
+          }
+        ],
+        "ai": {
+          "severity": "moderate",
+          "issue": "Moderate width, height, font size, and background color mismatches for paragraph 'Vanilla Strawberry'.",
+          "fix": "Adjust CSS to match Figma design: width=224, height=31, fontSize=27px, backgroundColor=#000000",
+          "isIntentional": false
+        }
+      },
+      {
+        "figmaName": "shop 1",
+        "domTag": "div",
+        "isComposite": false,
+        "overallScore": 0.875,
+        "rawIssues": [
+          {
+            "property": "width",
+            "figmaVal": 218,
+            "domVal": 630,
+            "delta": -412,
+            "severity": "critical"
+          }
+        ],
+        "ai": {
+          "severity": "critical",
+          "issue": "Critical width mismatch for div 'shop 1'.",
+          "fix": "Adjust CSS to match Figma design: width=218",
+          "isIntentional": false
+        }
+      },
+      {
+        "figmaName": "back button",
+        "domTag": "button",
+        "isComposite": true,
+        "overallScore": 0.8892,
+        "rawIssues": [
+          {
+            "property": "fontSize",
+            "figmaVal": "27px",
+            "domVal": "18px",
+            "delta": 9,
+            "severity": "critical"
+          },
+          {
+            "property": "textColor",
+            "figmaVal": "#000000",
+            "domVal": "#ffffff",
+            "delta": null,
+            "severity": "critical"
+          }
+        ],
+        "ai": {
+          "severity": "critical",
+          "issue": "Critical font size and text color mismatches for composite button 'back button'.",
+          "fix": "Adjust CSS to match Figma design: fontSize=27px, textColor=#000000",
+          "isIntentional": false
+        }
+      },
+      {
+        "figmaName": "Menu",
+        "domTag": "li",
+        "isComposite": false,
+        "overallScore": 0.9023,
+        "rawIssues": [
+          {
+            "property": "width",
+            "figmaVal": 74,
+            "domVal": 60.5625,
+            "delta": 13.4375,
+            "severity": "moderate"
+          },
+          {
+            "property": "backgroundColor",
+            "figmaVal": "#000000",
+            "domVal": "none",
+            "delta": null,
+            "severity": "moderate"
+          }
+        ],
+        "ai": {
+          "severity": "moderate",
+          "issue": "Moderate width and background color mismatches for list item 'Menu'.",
+          "fix": "Adjust CSS to match Figma design: width=74, backgroundColor=#000000",
+          "isIntentional": false
+        }
+      },
+      {
+        "figmaName": "Services",
+        "domTag": "li",
+        "isComposite": false,
+        "overallScore": 0.9027,
+        "rawIssues": [
+          {
+            "property": "width",
+            "figmaVal": 109,
+            "domVal": 89.578125,
+            "delta": 19.421875,
+            "severity": "moderate"
+          },
+          {
+            "property": "backgroundColor",
+            "figmaVal": "#000000",
+            "domVal": "none",
+            "delta": null,
+            "severity": "moderate"
+          }
+        ],
+        "ai": {
+          "severity": "moderate",
+          "issue": "Moderate width and background color mismatches for list item 'Services'.",
+          "fix": "Adjust CSS to match Figma design: width=109, backgroundColor=#000000",
+          "isIntentional": false
+        }
+      },
+      {
+        "figmaName": "Contact",
+        "domTag": "li",
+        "isComposite": false,
+        "overallScore": 0.9028,
+        "rawIssues": [
+          {
+            "property": "width",
+            "figmaVal": 102,
+            "domVal": 83.890625,
+            "delta": 18.109375,
+            "severity": "moderate"
+          },
+          {
+            "property": "backgroundColor",
+            "figmaVal": "#000000",
+            "domVal": "none",
+            "delta": null,
+            "severity": "moderate"
+          }
+        ],
+        "ai": {
+          "severity": "moderate",
+          "issue": "Moderate width and background color mismatches for list item 'Contact'.",
+          "fix": "Adjust CSS to match Figma design: width=102, backgroundColor=#000000",
+          "isIntentional": false
+        }
+      },
+      {
+        "figmaName": "Reviews",
+        "domTag": "li",
+        "isComposite": false,
+        "overallScore": 0.9031,
+        "rawIssues": [
+          {
+            "property": "width",
+            "figmaVal": 107,
+            "domVal": 88.28125,
+            "delta": 18.71875,
+            "severity": "moderate"
+          },
+          {
+            "property": "backgroundColor",
+            "figmaVal": "#000000",
+            "domVal": "none",
+            "delta": null,
+            "severity": "moderate"
+          }
+        ],
+        "ai": {
+          "severity": "moderate",
+          "issue": "Moderate width and background color mismatches for list item 'Reviews'.",
+          "fix": "Adjust CSS to match Figma design: width=107, backgroundColor=#000000",
+          "isIntentional": false
+        }
+      },
+      {
+        "figmaName": "Home",
+        "domTag": "li",
+        "isComposite": false,
+        "overallScore": 0.9035,
+        "rawIssues": [
+          {
+            "property": "width",
+            "figmaVal": 77,
+            "domVal": 63.75,
+            "delta": 13.25,
+            "severity": "moderate"
+          },
+          {
+            "property": "backgroundColor",
+            "figmaVal": "#000000",
+            "domVal": "none",
+            "delta": null,
+            "severity": "moderate"
+          }
+        ],
+        "ai": {
+          "severity": "moderate",
+          "issue": "Moderate width and background color mismatches for list item 'Home'.",
+          "fix": "Adjust CSS to match Figma design: width=77, backgroundColor=#000000",
+          "isIntentional": false
+        }
+      },
+      {
+        "figmaName": "Desktop - 2",
+        "domTag": "section",
+        "isComposite": false,
+        "overallScore": 0.9048,
+        "rawIssues": [
+          {
+            "property": "width",
+            "figmaVal": 1440,
+            "domVal": 1248,
+            "delta": 192,
+            "severity": "moderate"
+          },
+          {
+            "property": "height",
+            "figmaVal": 1024,
+            "domVal": 749,
+            "delta": 275,
+            "severity": "moderate"
+          },
+          {
+            "property": "layout",
+            "figmaVal": "block",
+            "domVal": "flex",
+            "delta": null,
+            "severity": "minor"
+          }
+        ],
+        "ai": {
+          "severity": "moderate",
+          "issue": "Moderate width, height, and layout mismatches for section 'Desktop - 2'.",
+          "fix": "Adjust CSS to match Figma design: width=1440, height=1024, layout=block",
+          "isIntentional": false
+        }
+      },
+      {
+        "figmaName": "We are not just a bakery, we are not just bakers. In fact, we are just like you, a bunch of food lovers fascinated with sweet indulgence, who dreamt of creating an appetizing fairy land of divine delicacies that relishes the utmost desires.",
+        "domTag": "p",
+        "isComposite": false,
+        "overallScore": 0.925,
+        "rawIssues": [
+          {
+            "property": "backgroundColor",
+            "figmaVal": "#000000",
+            "domVal": "none",
+            "delta": null,
+            "severity": "moderate"
+          }
+        ],
+        "ai": {
+          "severity": "moderate",
+          "issue": "backgroundColor mismatch: Figma=#000000, DOM=none",
+          "fix": "Add background-color: #000000 to DOM element",
+          "isIntentional": false
+        }
+      },
+      {
+        "figmaName": "Kindling it in the oven with our warmth and finally crafting the intricate creations in the form of some lip-smacking cakes, which are out of this world! The only additives you’ll find in our products are an extra pinch of love, care and devotion!",
+        "domTag": "p",
+        "isComposite": false,
+        "overallScore": 0.925,
+        "rawIssues": [
+          {
+            "property": "backgroundColor",
+            "figmaVal": "#000000",
+            "domVal": "none",
+            "delta": null,
+            "severity": "moderate"
+          }
+        ],
+        "ai": {
+          "severity": "moderate",
+          "issue": "backgroundColor mismatch: Figma=#000000, DOM=none",
+          "fix": "Add background-color: #000000 to DOM element",
+          "isIntentional": false
+        }
+      },
+      {
+        "figmaName": "New_Oreo-Cake-1 1",
+        "domTag": "div",
+        "isComposite": false,
+        "overallScore": 0.9379,
+        "rawIssues": [
+          {
+            "property": "height",
+            "figmaVal": 241,
+            "domVal": 274,
+            "delta": -33,
+            "severity": "moderate"
+          },
+          {
+            "property": "layout",
+            "figmaVal": "block",
+            "domVal": "flex",
+            "delta": null,
+            "severity": "minor"
+          }
+        ],
+        "ai": {
+          "severity": "moderate",
+          "issue": "height mismatch: Figma=241, DOM=274 (delta: -33)",
+          "fix": "Set height to 241px on DOM element",
+          "isIntentional": false
+        }
+      },
+      {
+        "figmaName": "New_Oreo-Cake-1 1",
+        "domTag": "div",
+        "isComposite": false,
+        "overallScore": 0.9379,
+        "rawIssues": [
+          {
+            "property": "height",
+            "figmaVal": 241,
+            "domVal": 274,
+            "delta": -33,
+            "severity": "moderate"
+          },
+          {
+            "property": "layout",
+            "figmaVal": "block",
+            "domVal": "flex",
+            "delta": null,
+            "severity": "minor"
+          }
+        ],
+        "ai": {
+          "severity": "minor",
+          "issue": "layout mismatch: Figma=block, DOM=flex",
+          "fix": "Set display to block on DOM element",
+          "isIntentional": false
+        }
+      },
+      {
+        "figmaName": "chocolate-cake 1",
+        "domTag": "div",
+        "isComposite": false,
+        "overallScore": 0.9379,
+        "rawIssues": [
+          {
+            "property": "height",
+            "figmaVal": 241,
+            "domVal": 274,
+            "delta": -33,
+            "severity": "moderate"
+          },
+          {
+            "property": "layout",
+            "figmaVal": "block",
+            "domVal": "flex",
+            "delta": null,
+            "severity": "minor"
+          }
+        ],
+        "ai": {
+          "severity": "moderate",
+          "issue": "height mismatch: Figma=241, DOM=274 (delta: -33)",
+          "fix": "Set height to 241px on DOM element",
+          "isIntentional": false
+        }
+      },
+      {
+        "figmaName": "chocolate-cake 1",
+        "domTag": "div",
+        "isComposite": false,
+        "overallScore": 0.9379,
+        "rawIssues": [
+          {
+            "property": "height",
+            "figmaVal": 241,
+            "domVal": 274,
+            "delta": -33,
+            "severity": "moderate"
+          },
+          {
+            "property": "layout",
+            "figmaVal": "block",
+            "domVal": "flex",
+            "delta": null,
+            "severity": "minor"
+          }
+        ],
+        "ai": {
+          "severity": "minor",
+          "issue": "layout mismatch: Figma=block, DOM=flex",
+          "fix": "Set display to block on DOM element",
+          "isIntentional": false
+        }
+      },
+      {
+        "figmaName": "WhatsAppImage2022-05-18at2.13 1",
+        "domTag": "div",
+        "isComposite": false,
+        "overallScore": 0.9379,
+        "rawIssues": [
+          {
+            "property": "height",
+            "figmaVal": 241,
+            "domVal": 274,
+            "delta": -33,
+            "severity": "moderate"
+          },
+          {
+            "property": "layout",
+            "figmaVal": "block",
+            "domVal": "flex",
+            "delta": null,
+            "severity": "minor"
+          }
+        ],
+        "ai": {
+          "severity": "moderate",
+          "issue": "height mismatch: Figma=241, DOM=274 (delta: -33)",
+          "fix": "Set height to 241px on DOM element",
+          "isIntentional": false
+        }
+      },
+      {
+        "figmaName": "WhatsAppImage2022-05-18at2.13 1",
+        "domTag": "div",
+        "isComposite": false,
+        "overallScore": 0.9379,
+        "rawIssues": [
+          {
+            "property": "height",
+            "figmaVal": 241,
+            "domVal": 274,
+            "delta": -33,
+            "severity": "moderate"
+          },
+          {
+            "property": "layout",
+            "figmaVal": "block",
+            "domVal": "flex",
+            "delta": null,
+            "severity": "minor"
+          }
+        ],
+        "ai": {
+          "severity": "minor",
+          "issue": "layout mismatch: Figma=block, DOM=flex",
+          "fix": "Set display to block on DOM element",
+          "isIntentional": false
+        }
+      },
+      {
+        "figmaName": "Funfetti-cake-recipe-new-500x500 1",
+        "domTag": "div",
+        "isComposite": false,
+        "overallScore": 0.9379,
+        "rawIssues": [
+          {
+            "property": "height",
+            "figmaVal": 241,
+            "domVal": 274,
+            "delta": -33,
+            "severity": "moderate"
+          },
+          {
+            "property": "layout",
+            "figmaVal": "block",
+            "domVal": "flex",
+            "delta": null,
+            "severity": "minor"
+          }
+        ],
+        "ai": {
+          "severity": "moderate",
+          "issue": "height mismatch: Figma=241, DOM=274 (delta: -33)",
+          "fix": "Set height to 241px on DOM element",
+          "isIntentional": false
+        }
+      },
+      {
+        "figmaName": "Funfetti-cake-recipe-new-500x500 1",
+        "domTag": "div",
+        "isComposite": false,
+        "overallScore": 0.9379,
+        "rawIssues": [
+          {
+            "property": "height",
+            "figmaVal": 241,
+            "domVal": 274,
+            "delta": -33,
+            "severity": "moderate"
+          },
+          {
+            "property": "layout",
+            "figmaVal": "block",
+            "domVal": "flex",
+            "delta": null,
+            "severity": "minor"
+          }
+        ],
+        "ai": {
+          "severity": "minor",
+          "issue": "layout mismatch: Figma=block, DOM=flex",
+          "fix": "Set display to block on DOM element",
+          "isIntentional": false
+        }
+      },
+      {
+        "figmaName": "black-forest-cake-thumb 1",
+        "domTag": "div",
+        "isComposite": false,
+        "overallScore": 0.9379,
+        "rawIssues": [
+          {
+            "property": "height",
+            "figmaVal": 241,
+            "domVal": 274,
+            "delta": -33,
+            "severity": "moderate"
+          },
+          {
+            "property": "layout",
+            "figmaVal": "block",
+            "domVal": "flex",
+            "delta": null,
+            "severity": "minor"
+          }
+        ],
+        "ai": {
+          "severity": "moderate",
+          "issue": "height mismatch: Figma=241, DOM=274 (delta: -33)",
+          "fix": "Set height to 241px on DOM element",
+          "isIntentional": false
+        }
+      },
+      {
+        "figmaName": "black-forest-cake-thumb 1",
+        "domTag": "div",
+        "isComposite": false,
+        "overallScore": 0.9379,
+        "rawIssues": [
+          {
+            "property": "height",
+            "figmaVal": 241,
+            "domVal": 274,
+            "delta": -33,
+            "severity": "moderate"
+          },
+          {
+            "property": "layout",
+            "figmaVal": "block",
+            "domVal": "flex",
+            "delta": null,
+            "severity": "minor"
+          }
+        ],
+        "ai": {
+          "severity": "minor",
+          "issue": "layout mismatch: Figma=block, DOM=flex",
+          "fix": "Set display to block on DOM element",
+          "isIntentional": false
+        }
+      },
+      {
+        "figmaName": "valentine-s-heart-red-velvet-cake-1-kg_1 1",
+        "domTag": "div",
+        "isComposite": false,
+        "overallScore": 0.9379,
+        "rawIssues": [
+          {
+            "property": "height",
+            "figmaVal": 241,
+            "domVal": 274,
+            "delta": -33,
+            "severity": "moderate"
+          },
+          {
+            "property": "layout",
+            "figmaVal": "block",
+            "domVal": "flex",
+            "delta": null,
+            "severity": "minor"
+          }
+        ],
+        "ai": {
+          "severity": "moderate",
+          "issue": "height mismatch: Figma=241, DOM=274 (delta: -33)",
+          "fix": "Set height to 241px on DOM element",
+          "isIntentional": false
+        }
+      },
+      {
+        "figmaName": "valentine-s-heart-red-velvet-cake-1-kg_1 1",
+        "domTag": "div",
+        "isComposite": false,
+        "overallScore": 0.9379,
+        "rawIssues": [
+          {
+            "property": "height",
+            "figmaVal": 241,
+            "domVal": 274,
+            "delta": -33,
+            "severity": "moderate"
+          },
+          {
+            "property": "layout",
+            "figmaVal": "block",
+            "domVal": "flex",
+            "delta": null,
+            "severity": "minor"
+          }
+        ],
+        "ai": {
+          "severity": "minor",
+          "issue": "layout mismatch: Figma=block, DOM=flex",
+          "fix": "Set display to block on DOM element",
+          "isIntentional": false
+        }
+      },
+      {
+        "figmaName": "Cake-banner 1",
+        "domTag": "section",
+        "isComposite": false,
+        "overallScore": 0.9469,
+        "rawIssues": [
+          {
+            "property": "height",
+            "figmaVal": 243,
+            "domVal": 139.703125,
+            "delta": 103.296875,
+            "severity": "critical"
+          }
+        ],
+        "ai": {
+          "severity": "critical",
+          "issue": "height mismatch: Figma=243, DOM=139.703125 (delta: 103.296875)",
+          "fix": "Set height to 243px on DOM element",
+          "isIntentional": false
+        }
+      },
+      {
+        "figmaName": "Frame 1",
+        "domTag": "div",
+        "isComposite": false,
+        "overallScore": 0.9474,
+        "rawIssues": [
+          {
+            "property": "height",
+            "figmaVal": 645,
+            "domVal": 606,
+            "delta": 39,
+            "severity": "minor"
+          },
+          {
+            "property": "layout",
+            "figmaVal": "block",
+            "domVal": "flex",
+            "delta": null,
+            "severity": "minor"
+          }
+        ],
+        "ai": {
+          "severity": "minor",
+          "issue": "height mismatch: Figma=645, DOM=606 (delta: 39)",
+          "fix": "Set height to 645px on DOM element",
+          "isIntentional": false
+        }
+      },
+      {
+        "figmaName": "Frame 1",
+        "domTag": "div",
+        "isComposite": false,
+        "overallScore": 0.9474,
+        "rawIssues": [
+          {
+            "property": "height",
+            "figmaVal": 645,
+            "domVal": 606,
+            "delta": 39,
+            "severity": "minor"
+          },
+          {
+            "property": "layout",
+            "figmaVal": "block",
+            "domVal": "flex",
+            "delta": null,
+            "severity": "minor"
+          }
+        ],
+        "ai": {
+          "severity": "minor",
+          "issue": "layout mismatch: Figma=block, DOM=flex",
+          "fix": "Set display to block on DOM element",
+          "isIntentional": false
+        }
+      },
+      {
+        "figmaName": "Desktop - 2",
+        "domTag": "section",
+        "isComposite": false,
+        "overallScore": 0.9633,
+        "rawIssues": [
+          {
+            "property": "width",
+            "figmaVal": 1440,
+            "domVal": 1248,
+            "delta": 192,
+            "severity": "moderate"
+          },
+          {
+            "property": "height",
+            "figmaVal": 1024,
+            "domVal": 860,
+            "delta": 164,
+            "severity": "moderate"
+          }
+        ],
+        "ai": {
+          "severity": "moderate",
+          "issue": "width mismatch: Figma=1440, DOM=1248 (delta: 192)",
+          "fix": "Set width to 1440px on DOM element",
+          "isIntentional": false
+        }
+      },
+      {
+        "figmaName": "Desktop - 2",
+        "domTag": "section",
+        "isComposite": false,
+        "overallScore": 0.9633,
+        "rawIssues": [
+          {
+            "property": "width",
+            "figmaVal": 1440,
+            "domVal": 1248,
+            "delta": 192,
+            "severity": "moderate"
+          },
+          {
+            "property": "height",
+            "figmaVal": 1024,
+            "domVal": 860,
+            "delta": 164,
+            "severity": "moderate"
+          }
+        ],
+        "ai": {
+          "severity": "moderate",
+          "issue": "height mismatch: Figma=1024, DOM=860 (delta: 164)",
+          "fix": "Set height to 1024px on DOM element",
+          "isIntentional": false
+        }
+      },
+      {
+        "figmaName": "Frame 2",
+        "domTag": "div",
+        "isComposite": false,
+        "overallScore": 0.9846,
+        "rawIssues": [
+          {
+            "property": "width",
+            "figmaVal": 738,
+            "domVal": 647,
+            "delta": 91,
+            "severity": "moderate"
+          }
+        ],
+        "ai": {
+          "severity": "moderate",
+          "issue": "width mismatch: Figma=738, DOM=647 (delta: 91)",
+          "fix": "Set width to 738px on DOM element",
+          "isIntentional": false
+        }
+      },
+      {
+        "figmaName": "Frame 4",
+        "domTag": "body",
+        "isComposite": false,
+        "overallScore": 0.9909,
+        "rawIssues": [
+          {
+            "property": "height",
+            "figmaVal": 2048,
+            "domVal": 1899.703125,
+            "delta": 148.296875,
+            "severity": "minor"
+          }
+        ],
+        "ai": {
+          "severity": "minor",
+          "issue": "height mismatch: Figma=2048, DOM=1899.703125 (delta: 148.296875)",
+          "fix": "Set height to 2048px on DOM element",
+          "isIntentional": false
+        }
+      }
+    ],
+    "aiProcessed": 36
+  }
+}
